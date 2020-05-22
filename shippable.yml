@@ -1,9 +1,12 @@
-language: node_js
-
-node_js:
-  - 12.16
+language: python
 
 build:
   cache: true
-  cache_dir_list:
-    - $SHIPPABLE_BUILD_DIR/node_modules
+  pre_ci_boot:
+    options: "-v /app:/app"
+  ci:
+    - pip install -U docker-compose
+    - docker-compose -f docker-compose.yml build
+    - docker-compose -f docker-compose.yml run app sh -c "npm test"
+    - sleep 10
+    - docker-compose down
