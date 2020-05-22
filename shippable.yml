@@ -1,0 +1,12 @@
+language: python
+
+build:
+  cache: true
+  pre_ci_boot:
+    options: "-v /app:/app"
+  ci:
+    - pip install -U docker-compose
+    - docker-compose -f docker-compose.yml build
+    - docker-compose -f docker-compose.yml run app sh -c "npm test"
+    - sleep 10
+    - docker-compose down

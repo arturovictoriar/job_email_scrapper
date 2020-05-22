@@ -16,6 +16,13 @@ class MejorEmpleo {
     this.browser = await puppeteer.launch({
       devtools: showDevTools,
       headless: !showBrowser,
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--headless',
+        '--disable-gpu',
+        '--disable-dev-shm-usage',
+      ],
     });
     this.page = await this.browser.newPage();
     this.page.setViewport({ width: 1366, height: 768 });
