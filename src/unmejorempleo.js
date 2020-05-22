@@ -53,15 +53,18 @@ class MejorEmpleo {
   }
 
   async getBasicInfoCandidate() {
-    await this.page.waitForSelector('body > div.container.resultados > div > div > section > article > table tr');
+    await this.page.waitForSelector(
+      'body > div.container.resultados > div > div > section > article > table tr'
+    );
     const result = await this.page.evaluate(() => {
-      const rows = document.querySelectorAll('body > div.container.resultados > div > div > section > article > table tr');
-      return Array.from(rows, row => {
-        let rowId = row.getAttribute('id');
+      const rows = document.querySelectorAll(
+        'body > div.container.resultados > div > div > section > article > table tr'
+      );
+      return Array.from(rows, (row) => {
+        const rowId = row.getAttribute('id');
         const columns = row.querySelectorAll('td');
         return Array.from(columns, (column) => {
           if (column.hasAttribute('nowrap')) {
-            console.log(rowId);
             return `body > div.container.resultados > div > div > section > article > table tr#${rowId} > td:nth-child(7) > a:nth-child(1)`;
           }
           return column.innerText;
@@ -71,7 +74,7 @@ class MejorEmpleo {
     return result;
   }
 
-  async curriculumSelectors(result) {
+  static async curriculumSelectors(result) {
     const allCurriculumSelectors = [];
     result.forEach((item) => {
       if (item.length) {
@@ -95,22 +98,22 @@ class MejorEmpleo {
 
     const email = await this.page.evaluate((selectorCorreo) => {
       const sel = document.querySelectorAll(selectorCorreo);
-      console.log(sel);
       for (let i = 0; i < sel.length; i++) {
         if (sel[i].firstElementChild.innerText === 'Correo:') {
-
           return sel[i].innerHTML.split(';')[1];
         }
       }
+      return '';
     }, selectorCorreo);
 
     await this.page.waitForSelector(selectorClose);
-    await this.page.click(selectorClose).then(() => {emails.push(email)});
+    await this.page.click(selectorClose).then(() => {
+      emails.push(email);
+    });
     await this.page.waitFor(1000);
-    
-    return await this.getEmail(allCurriculumSelectors, emails, index + 1,);
-  }
 
+    return this.getEmail(allCurriculumSelectors, emails, index + 1);
+  }
 }
 
 module.exports = { MejorEmpleo };
