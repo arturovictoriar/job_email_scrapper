@@ -1,0 +1,9 @@
+language: node_js
+
+node_js:
+  - 12.16
+
+build:
+  cache: true
+  cache_dir_list:
+    - $SHIPPABLE_BUILD_DIR/node_modules
