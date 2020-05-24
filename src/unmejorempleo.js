@@ -171,6 +171,69 @@ class MejorEmpleo {
 
     return this.getEmails(allCurriculumSelectors, emails, index + 1);
   }
+
+  async getBasicInfoCandidate() {
+    await this.page.waitForSelector(
+      'body > div.container.resultados > div > div > section > article > table tr'
+    );
+    const result = await this.page.evaluate(() => {
+      const rows = document.querySelectorAll(
+        'body > div.container.resultados > div > div > section > article > table tr'
+      );
+      return Array.from(rows, (row) => {
+        const rowId = row.getAttribute('id');
+        const columns = row.querySelectorAll('td');
+        return Array.from(columns, (column) => {
+          if (column.hasAttribute('nowrap')) {
+            return `body > div.container.resultados > div > div > section > article > table tr#${rowId} > td:nth-child(7) > a:nth-child(1)`;
+          }
+          return column.innerText;
+        });
+      });
+    });
+    return result;
+  }
+
+  static async curriculumSelectors(result) {
+    const allCurriculumSelectors = [];
+    result.forEach((item) => {
+      if (item.length) {
+        allCurriculumSelectors.push(item[item.length - 1]);
+      }
+    });
+    return allCurriculumSelectors;
+  }
+
+  async getEmail(allCurriculumSelectors, emails, index) {
+    if (index >= allCurriculumSelectors.length) {
+      return emails;
+    }
+
+    const modal = allCurriculumSelectors[index];
+    const selectorClose = '#modal_perfil > div > div > div.modal-footer > button';
+    const selectorCorreo = '#modal_perfil > div > div > div.modal-body div.dato_borde';
+    await this.page.waitForSelector(modal);
+    await this.page.click(modal);
+    await this.page.waitForSelector(selectorCorreo, { visible: true });
+
+    const email = await this.page.evaluate((selectorCorreo) => {
+      const sel = document.querySelectorAll(selectorCorreo);
+      for (let i = 0; i < sel.length; i++) {
+        if (sel[i].firstElementChild.innerText === 'Correo:') {
+          return sel[i].innerHTML.split(';')[1];
+        }
+      }
+      return '';
+    }, selectorCorreo);
+
+    await this.page.waitForSelector(selectorClose);
+    await this.page.click(selectorClose).then(() => {
+      emails.push(email);
+    });
+    await this.page.waitFor(1000);
+
+    return this.getEmail(allCurriculumSelectors, emails, index + 1);
+  }
 }
 
 module.exports = { MejorEmpleo };
