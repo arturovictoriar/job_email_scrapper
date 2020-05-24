@@ -14,10 +14,18 @@ class MejorEmpleo {
     this.page = null;
   }
 
-  async startBrowser(showBrowser = false, showDevTools = false) {
+  async startBrowser(showBrowser = false, showDevTools = false, isDeploy = true) {
+    const options = [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--headless',
+      '--disable-gpu',
+      '--disable-dev-shm-usage',
+    ];
     this.browser = await puppeteer.launch({
       devtools: showDevTools,
       headless: !showBrowser,
+      args: isDeploy ? options : [],
     });
     this.page = await this.browser.newPage();
     this.page.setViewport({ width: 1366, height: 768 });
@@ -59,9 +67,7 @@ class MejorEmpleo {
     const jobOffers = {};
     for (let index = 1; index <= nameJobs.length; index++) {
       jobOffers[nameJobs[index - 1]] = [
-        'body > div.container > div > div > section > article > div.row.padd_arriba > div > table > tbody' +
-          ` > tr:nth-child(${index}) ` +
-          '> td:nth-child(6) > a:nth-child(1)',
+        `body > div.container > div > div > section > article > div.row.padd_arriba > div > table > tbody > tr:nth-child(${index}) > td:nth-child(6) > a:nth-child(1)`,
       ];
     }
     return jobOffers;
@@ -170,38 +176,6 @@ class MejorEmpleo {
     await this.goBackCandidate();
 
     return this.getEmails(allCurriculumSelectors, emails, index + 1);
-  }
-
-  async getBasicInfoCandidate() {
-    await this.page.waitForSelector(
-      'body > div.container.resultados > div > div > section > article > table tr'
-    );
-    const result = await this.page.evaluate(() => {
-      const rows = document.querySelectorAll(
-        'body > div.container.resultados > div > div > section > article > table tr'
-      );
-      return Array.from(rows, (row) => {
-        const rowId = row.getAttribute('id');
-        const columns = row.querySelectorAll('td');
-        return Array.from(columns, (column) => {
-          if (column.hasAttribute('nowrap')) {
-            return `body > div.container.resultados > div > div > section > article > table tr#${rowId} > td:nth-child(7) > a:nth-child(1)`;
-          }
-          return column.innerText;
-        });
-      });
-    });
-    return result;
-  }
-
-  static async curriculumSelectors(result) {
-    const allCurriculumSelectors = [];
-    result.forEach((item) => {
-      if (item.length) {
-        allCurriculumSelectors.push(item[item.length - 1]);
-      }
-    });
-    return allCurriculumSelectors;
   }
 
   async getEmail(allCurriculumSelectors, emails, index) {

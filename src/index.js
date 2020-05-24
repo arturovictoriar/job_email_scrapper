@@ -4,7 +4,7 @@ const C = require('./constants');
 (async () => {
   for (let i = 0; i < 2; i++) {
     const miEmpleo = new unmejorempleo.MejorEmpleo();
-    await miEmpleo.startBrowser(true, true);
+    await miEmpleo.startBrowser(true, true, false);
     await miEmpleo.login(C.username, C.password);
     const isAvailable = await miEmpleo.gotoVacantesPublicadas();
     if (!isAvailable) {
