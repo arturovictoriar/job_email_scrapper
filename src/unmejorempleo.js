@@ -101,7 +101,8 @@ class MejorEmpleo {
   }
 
   async returnVacantesAplicadas() {
-    await this.page.click(RETURN_VACANTES);
+    await this.page.waitForSelector(RETURN_VACANTES);
+    await this.page.goBack();
   }
 
   async getBasicInfoCandidate() {
@@ -178,35 +179,58 @@ class MejorEmpleo {
     return this.getEmails(allCurriculumSelectors, emails, index + 1);
   }
 
-  async getEmail(allCurriculumSelectors, emails, index) {
-    if (index >= allCurriculumSelectors.length) {
-      return emails;
-    }
+  async getPagesVacancies() {
+    const selectorPagesVacancies =
+      'body > div.container > div.white-container > div > section > article > div:nth-child(6) > div > ul > li';
 
-    const modal = allCurriculumSelectors[index];
-    const selectorClose = '#modal_perfil > div > div > div.modal-footer > button';
-    const selectorCorreo = '#modal_perfil > div > div > div.modal-body div.dato_borde';
-    await this.page.waitForSelector(modal);
-    await this.page.click(modal);
-    await this.page.waitForSelector(selectorCorreo, { visible: true });
-
-    const email = await this.page.evaluate((selectorCorreo) => {
-      const sel = document.querySelectorAll(selectorCorreo);
-      for (let i = 0; i < sel.length; i++) {
-        if (sel[i].firstElementChild.innerText === 'Correo:') {
-          return sel[i].innerHTML.split(';')[1];
+    const pages = await this.page.evaluate((selectorPagesVacancies) => {
+      const pagesVacancies = document.querySelectorAll(selectorPagesVacancies);
+      if (pagesVacancies) {
+        let currentPage = '';
+        let currentPageChild = 1;
+        for (const nextPage of pagesVacancies) {
+          if (nextPage && nextPage.className === 'active') {
+            currentPage = nextPage.querySelector('a').innerText;
+            break;
+          }
+          currentPageChild++;
+        }
+        if (pagesVacancies[currentPageChild]) {
+          const nextPage = pagesVacancies[currentPageChild].innerText;
+          if (parseInt(currentPage, 10) + 1 === parseInt(nextPage, 10)) {
+            return currentPageChild + 1;
+          }
         }
       }
-      return '';
-    }, selectorCorreo);
+      return undefined;
+    }, selectorPagesVacancies);
+    return pages;
+  }
 
-    await this.page.waitForSelector(selectorClose);
-    await this.page.click(selectorClose).then(() => {
-      emails.push(email);
+  async changePageVacancies(nextPage) {
+    const selectorNextPage = `body > div.container > div.white-container > div > section > article > div:nth-child(6) > div > ul > li:nth-child(${nextPage}) > a`;
+    console.log(selectorNextPage);
+    let isDead = false;
+    await this.page.click(selectorNextPage);
+    await this.page.waitForSelector(REVIEW_APLICACIONES).catch(() => {
+      isDead = true;
     });
-    await this.page.waitFor(1000);
+    if (isDead) {
+      return undefined;
+    }
+    return 'Ok';
+  }
 
-    return this.getEmail(allCurriculumSelectors, emails, index + 1);
+  async morePageVacancies() {
+    const nextPageChild = await this.getPagesVacancies();
+    let changePageOk;
+    if (nextPageChild) {
+      changePageOk = await this.changePageVacancies(nextPageChild);
+    }
+    if (changePageOk) {
+      return true;
+    }
+    return false;
   }
 }
 
