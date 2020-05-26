@@ -1,4 +1,5 @@
-const puppeteer = require('puppeteer');
+// eslint-disable-next-line import/no-extraneous-dependencies
+const chromeLambda = require('chrome-aws-lambda');
 
 const BASE_URL = 'https://www.unmejorempleo.com.co/';
 const VACANTES_PUBLICADAS =
@@ -14,18 +15,12 @@ class MejorEmpleo {
     this.page = null;
   }
 
-  async startBrowser(showBrowser = false, showDevTools = false, isDeploy = true) {
-    const options = [
-      '--no-sandbox',
-      '--disable-setuid-sandbox',
-      '--headless',
-      '--disable-gpu',
-      '--disable-dev-shm-usage',
-    ];
-    this.browser = await puppeteer.launch({
+  async startBrowser(showBrowser = false, showDevTools = false) {
+    this.browser = await chromeLambda.puppeteer.launch({
       devtools: showDevTools,
       headless: !showBrowser,
-      args: isDeploy ? options : [],
+      args: chromeLambda.args,
+      executablePath: await chromeLambda.executablePath,
     });
     this.page = await this.browser.newPage();
     this.page.setViewport({ width: 1366, height: 768 });
