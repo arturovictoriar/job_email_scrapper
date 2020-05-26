@@ -15,7 +15,10 @@
     "no-plusplus": "off",
     "no-await-in-loop": "off",
     "no-shadow": "off",
-    "no-restricted-syntax": "off"
+    "no-restricted-syntax": "off",
+    "node/no-unpublished-require": ["error", {
+          "allowModules": ["chrome-aws-lambda"]
+    }]
   },
   "env": {
     "browser": true,

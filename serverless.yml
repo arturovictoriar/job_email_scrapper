@@ -1,0 +1,20 @@
+# serverless.yml
+
+service: emailScrapper
+
+provider:
+  name: aws
+  region: us-east-1
+  versionFunctions: false
+  layers:
+    # https://github.com/shelfio/chrome-aws-lambda-layer
+    - arn:aws:lambda:${self:provider.region}:764866452798:layer:chrome-aws-lambda:10
+  # function parameters
+  runtime: nodejs12.x
+  memorySize: 2048 # recommended
+  timeout: 30
+
+functions:
+  unMejorEmpleoScrapper:
+    handler: src/index.handler
+    timeout: 900
