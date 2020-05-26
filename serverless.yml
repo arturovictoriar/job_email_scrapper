@@ -1,6 +1,11 @@
+
 # serverless.yml
 
 service: emailScrapper
+
+app: email-scrapper
+org: sebas119
+
 
 provider:
   name: aws
@@ -13,6 +18,7 @@ provider:
   runtime: nodejs12.x
   memorySize: 2048 # recommended
   timeout: 30
+  cfnRole: arn:aws:iam::880273245765:role/sebas119-sls
 
 functions:
   unMejorEmpleoScrapper:
