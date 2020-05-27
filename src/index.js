@@ -3,7 +3,7 @@ const C = require('./constants');
 
 const main = async () => {
   const miEmpleo = new unmejorempleo.MejorEmpleo();
-  await miEmpleo.startBrowser(true);
+  await miEmpleo.startBrowser(true, true, true);
   await miEmpleo.login(C.username, C.password);
   const isAvailable = await miEmpleo.gotoVacantesPublicadas();
   if (!isAvailable) {
@@ -53,7 +53,4 @@ const main = async () => {
   return allEmailsInfo;
 };
 
-exports.handler = async () => {
-  const data = await main();
-  return { data };
-};
+main();
