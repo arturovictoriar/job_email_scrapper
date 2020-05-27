@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
-const chromeLambda = require('chrome-aws-lambda');
+const puppeteer = require('puppeteer');
 
 const BASE_URL = 'https://www.unmejorempleo.com.co/';
 const VACANTES_PUBLICADAS =
@@ -15,12 +14,18 @@ class MejorEmpleo {
     this.page = null;
   }
 
-  async startBrowser(showBrowser = false, showDevTools = false) {
-    this.browser = await chromeLambda.puppeteer.launch({
+  async startBrowser(showBrowser = false, showDevTools = false, isDeploy = true) {
+    const options = [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--headless',
+      '--disable-gpu',
+      '--disable-dev-shm-usage',
+    ];
+    this.browser = await puppeteer.launch({
       devtools: showDevTools,
       headless: !showBrowser,
-      args: chromeLambda.args,
-      executablePath: await chromeLambda.executablePath,
+      args: isDeploy ? options : [],
     });
     this.page = await this.browser.newPage();
     this.page.setViewport({ width: 1366, height: 768 });
@@ -204,7 +209,6 @@ class MejorEmpleo {
 
   async changePageVacancies(nextPage) {
     const selectorNextPage = `body > div.container > div.white-container > div > section > article > div:nth-child(6) > div > ul > li:nth-child(${nextPage}) > a`;
-    console.log(selectorNextPage);
     let isDead = false;
     await this.page.click(selectorNextPage);
     await this.page.waitForSelector(REVIEW_APLICACIONES).catch(() => {
