@@ -57,4 +57,5 @@ const main = async () => {
 
 module.exports = { main };
 
-main();
+// Comment this in production
+// main();
