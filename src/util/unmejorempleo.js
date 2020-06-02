@@ -12,6 +12,7 @@ class MejorEmpleo {
   constructor() {
     this.browser = null;
     this.page = null;
+    this.pageCurriculum = null;
   }
 
   async startBrowser(showBrowser = false, showDevTools = false, isDeploy = true) {
@@ -158,7 +159,9 @@ class MejorEmpleo {
         const columns = row.querySelectorAll('td');
         return Array.from(columns, (column) => {
           if (column.hasAttribute('nowrap')) {
-            return `body > div.container.resultados > div > div > section > article > table tr#${rowId} > td:nth-child(7) > a:nth-child(1)`;
+            const SelectorHref = `body > div.container.resultados > div > div > section > article > table tr#${rowId} > td:nth-child(7) > a:nth-child(1)`;
+            const href = document.querySelector(SelectorHref).getAttribute('href');
+            return `https://www.unmejorempleo.com.co/${href}`;
           }
           return column.innerText;
         });
@@ -178,16 +181,18 @@ class MejorEmpleo {
   }
 
   async gotoCurriculum(allCurriculumSelectors, index) {
-    const candidateCurrriculumSelector = allCurriculumSelectors[index].email;
-    const selectorCorreo = '#modal_perfil > div > div > div.modal-body div.dato_borde';
-    await this.page.waitForSelector(candidateCurrriculumSelector);
-    await this.page.click(candidateCurrriculumSelector);
-    await this.page.waitForSelector(selectorCorreo, { visible: true });
+    const candidateCurrriculumLink = allCurriculumSelectors[index].email;
+    const selectorCorreo = 'body > div > div:nth-child(2) > div.col-xs-12.col-md-6.text-left > h4';
+    this.pageCurriculum = await this.browser.newPage();
+    await this.pageCurriculum.goto(candidateCurrriculumLink);
+    await this.pageCurriculum.waitFor(1000);
+    await this.pageCurriculum.bringToFront();
+    await this.pageCurriculum.waitForSelector(selectorCorreo);
   }
 
   async getOneEmail() {
-    const selectorCorreo = '#modal_perfil > div > div > div.modal-body div.dato_borde';
-    const email = await this.page.evaluate((selectorCorreo) => {
+    const selectorCorreo = 'body > div > div > div > div.dato_borde';
+    const email = await this.pageCurriculum.evaluate((selectorCorreo) => {
       const sel = document.querySelectorAll(selectorCorreo);
       for (let i = 0; i < sel.length; i++) {
         if (sel[i].firstElementChild.innerText === 'Correo:') {
@@ -200,10 +205,7 @@ class MejorEmpleo {
   }
 
   async goBackCandidate() {
-    const selectorClose = '#modal_perfil > div > div > div.modal-footer > button';
-    await this.page.waitForSelector(selectorClose);
-    await this.page.click(selectorClose);
-    await this.page.waitFor(1000);
+    await this.pageCurriculum.close();
   }
 
   async getEmails(allCurriculumSelectors, emails, index) {

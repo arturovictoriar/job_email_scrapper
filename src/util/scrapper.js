@@ -58,4 +58,4 @@ const main = async () => {
 module.exports = { main };
 
 // Comment this in production
-// main();
+main();
