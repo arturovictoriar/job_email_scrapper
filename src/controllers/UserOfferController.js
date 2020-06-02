@@ -21,7 +21,7 @@ exports.findByUserAndOffer = (objUser, objOffer) => {
   });
 };
 
-exports.findAll = () => {
+exports.findAllUserOffer = () => {
   return UserOffer.findAll().then((userOffer) => {
     console.log(`>> get all users: ${JSON.stringify(userOffer, null, 4)}`);
     return userOffer;

@@ -62,7 +62,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/userofferall', (req, res) => {
-  controllers.UserOffer.findAll().then((usersData) => {
+  controllers.UserOffer.findAllUserOffer().then((usersData) => {
     res.send(usersData);
   });
 });

@@ -1,6 +1,7 @@
 const db = require('../models');
 
 const JobOffer = db.job_offers;
+const User = db.users;
 
 exports.createJobOffer = (jobProviderId, joboffer) => {
   return JobOffer.create({
@@ -47,7 +48,7 @@ exports.getOfferByName = (offerName) => {
 };
 
 exports.getAllJobOffers = () => {
-  return JobOffer.findAll()
+  return JobOffer.findAll({ include: [User] })
     .then((allOffers) => {
       console.log(`>> get allOffers: ${JSON.stringify(allOffers, null, 4)}`);
       return allOffers;
