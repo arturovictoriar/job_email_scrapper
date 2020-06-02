@@ -91,16 +91,18 @@ class MejorEmpleo {
       );
       const namesJobs = {};
       for (const [index, row] of rows.entries()) {
-        namesJobs[
-          row.querySelector('td:nth-child(1) > strong').innerText
-        ] = `body > div.container > div.white-container > div > section > article > div.row.padd_arriba > div > table > tbody > tr:nth-child(${
+        const jobSelector = `body > div.container > div.white-container > div > section > article > div.row.padd_arriba > div > table > tbody > tr:nth-child(${
           index + 1
         }) > td:nth-child(6) > a:nth-child(2)`;
+        namesJobs[
+          row.querySelector('td:nth-child(1) > strong').innerText
+        ] = `https://www.unmejorempleo.com.co/${document.querySelector(jobSelector).getAttribute('href')}`;
       }
       return namesJobs;
     });
-    const JobsandCompanyNames = await this.getNameCompany(result);
-    return JobsandCompanyNames;
+    // const JobsandCompanyNames = await this.getNameCompany(result);
+    // return JobsandCompanyNames;
+    return result;
   }
 
   static async appendSelectorNameJobs(nameJobsDic) {
