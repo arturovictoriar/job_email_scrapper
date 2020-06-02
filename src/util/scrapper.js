@@ -21,14 +21,16 @@ const main = async () => {
     let allEmails = JSON.parse(JSON.stringify(JobOffers));
     for (const jobOffer in JobOffers) {
       if (jobOffer) {
-        allEmails[jobOffer].shift();
+        allEmails[jobOffer].emails.shift();
         let noExitVacante = false;
-        const isAlive = await miEmpleo.gotoReviewApplication(JobOffers[jobOffer]).catch(() => {
-          noExitVacante = true;
-        });
+        const isAlive = await miEmpleo
+          .gotoReviewApplication(JobOffers[jobOffer].emails)
+          .catch(() => {
+            noExitVacante = true;
+          });
         if (noExitVacante) {
           await miEmpleo.returnVacantesAplicadas();
-          await miEmpleo.gotoReviewApplication(JobOffers[jobOffer]);
+          await miEmpleo.gotoReviewApplication(JobOffers[jobOffer].emails);
         }
         if (!isAlive) {
           await miEmpleo.returnVacantesAplicadas();
@@ -40,7 +42,7 @@ const main = async () => {
           basicInfoCandidate
         );
         const emailOnejob = await miEmpleo.getEmails(allCurriculumSelector, [], 0);
-        allEmails[jobOffer].push(...emailOnejob);
+        allEmails[jobOffer].emails.push(...emailOnejob);
         await miEmpleo.returnVacantesAplicadas();
       }
     }
@@ -49,8 +51,10 @@ const main = async () => {
     existMorePages = await miEmpleo.morePageVacancies();
   } while (existMorePages);
 
-  console.log(allEmailsInfo);
+  console.log(JSON.stringify(allEmailsInfo));
   return allEmailsInfo;
 };
 
 module.exports = { main };
+
+main();

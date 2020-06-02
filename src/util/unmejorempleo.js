@@ -28,6 +28,8 @@ class MejorEmpleo {
       args: isDeploy ? options : [],
     });
     this.page = await this.browser.newPage();
+    const pageList = await this.browser.pages();
+    pageList[0].close();
     this.page.setViewport({ width: 1366, height: 768 });
   }
 
@@ -49,26 +51,67 @@ class MejorEmpleo {
     );
   }
 
+  async getNameCompany(result) {
+    for (const key in result) {
+      if (key) {
+        await this.page.click(result[key]);
+        await this.page.waitFor(1000);
+        const pageList = await this.browser.pages();
+        await this.page.waitFor(1000);
+        await pageList[pageList.length - 1].bringToFront();
+        await pageList[pageList.length - 1].waitForSelector(
+          'body > div.container.detalle > div > div:nth-child(2) > section > article > h4:nth-child(8)'
+        );
+        const selectorCompany =
+          'body > div.container.detalle > div > div:nth-child(2) > section > article';
+        const company = await pageList[pageList.length - 1].evaluate((selectorCompany) => {
+          const infoJob = document.querySelector(selectorCompany).innerText.split('\n');
+          if (infoJob[13] === 'Descripción de la Plaza') {
+            return infoJob[14];
+          }
+          let index = 1;
+          while (infoJob[13 + index] !== 'Descripción de la Plaza') {
+            index++;
+          }
+          return infoJob[13 + index + 1];
+        }, selectorCompany);
+        // eslint-disable-next-line no-param-reassign
+        result[key] = company;
+        pageList[pageList.length - 1].close();
+      }
+    }
+    return result;
+  }
+
   async getNamesJobs() {
     const result = await this.page.evaluate(() => {
       const rows = document.querySelectorAll(
         'body > div.container > div > div > section > article > div.row.padd_arriba > div > table > tbody > tr'
       );
-      const namesJobs = [];
-      for (const row of rows) {
-        namesJobs.push(row.querySelector('td:nth-child(1) > strong').innerText);
+      const namesJobs = {};
+      for (const [index, row] of rows.entries()) {
+        namesJobs[
+          row.querySelector('td:nth-child(1) > strong').innerText
+        ] = `body > div.container > div.white-container > div > section > article > div.row.padd_arriba > div > table > tbody > tr:nth-child(${
+          index + 1
+        }) > td:nth-child(6) > a:nth-child(2)`;
       }
       return namesJobs;
     });
-    return result;
+    const JobsandCompanyNames = await this.getNameCompany(result);
+    return JobsandCompanyNames;
   }
 
-  static async appendSelectorNameJobs(nameJobs) {
+  static async appendSelectorNameJobs(nameJobsDic) {
+    const nameJobs = Object.keys(nameJobsDic);
     const jobOffers = {};
     for (let index = 1; index <= nameJobs.length; index++) {
-      jobOffers[nameJobs[index - 1]] = [
-        `body > div.container > div > div > section > article > div.row.padd_arriba > div > table > tbody > tr:nth-child(${index}) > td:nth-child(6) > a:nth-child(1)`,
-      ];
+      jobOffers[nameJobs[index - 1]] = {
+        company: nameJobsDic[nameJobs[index - 1]],
+        emails: [
+          `body > div.container > div > div > section > article > div.row.padd_arriba > div > table > tbody > tr:nth-child(${index}) > td:nth-child(6) > a:nth-child(1)`,
+        ],
+      };
     }
     return jobOffers;
   }
