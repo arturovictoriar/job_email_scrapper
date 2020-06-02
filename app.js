@@ -1,6 +1,7 @@
 const express = require('express');
 const db = require('./src/models');
 const controllers = require('./src/controllers');
+// eslint-disable-next-line node/no-unpublished-require
 const data = require('./data.json');
 /* const unmejorempleo = require('./src/util/scrapper'); */
 

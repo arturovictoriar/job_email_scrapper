@@ -44,9 +44,13 @@ exports.createBulkUserOffer = (userOfferArray) => {
 exports.LoadUsers = async (jobOffer, allData) => {
   const users = [];
   const usersOffers = [];
-  for (const userData of allData[jobOffer.name]) {
+  for (const userData of allData[jobOffer.name].emails) {
     users.push({ name: userData.name, email: userData.email });
-    usersOffers.push({ userEmail: userData.email, jobOfferId: jobOffer.id });
+    usersOffers.push({
+      userEmail: userData.email,
+      jobOfferId: jobOffer.id,
+      company: allData[jobOffer.name].company,
+    });
   }
   await this.createBulkUser(users);
   await this.createBulkUserOffer(usersOffers);

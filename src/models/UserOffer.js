@@ -5,6 +5,10 @@ module.exports = (sequelize, DataTypes) => {
       defaultValue: null,
       allowNull: true,
     },
+    company: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
   });
   return UserOffer;
 };
