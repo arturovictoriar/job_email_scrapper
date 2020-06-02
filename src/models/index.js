@@ -22,8 +22,17 @@ db.sequelize = sequelize;
 db.users = require('./User')(sequelize, Sequelize);
 db.job_providers = require('./JobProvider')(sequelize, Sequelize);
 db.job_offers = require('./JobOffer')(sequelize, Sequelize);
+db.user_offer = require('./UserOffer')(sequelize, Sequelize);
 
-db.job_providers.hasMany(db.users);
-db.job_offers.hasMany(db.users);
+/* db.users.belongsToMany(db.job_providers, { through: 'user_providers' });
+db.job_providers.belongsToMany(db.users, { through: 'user_providers' }); */
+
+db.users.belongsToMany(db.job_offers, { through: db.user_offer });
+db.job_offers.belongsToMany(db.users, { through: db.user_offer });
+
+db.job_providers.hasMany(db.job_offers);
+db.job_offers.belongsTo(db.job_providers);
+// db.job_providers.hasMany(db.users);
+// db.job_offers.hasMany(db.users);
 
 module.exports = db;

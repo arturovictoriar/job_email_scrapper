@@ -1,14 +1,14 @@
 const db = require('../models');
 
+const Offer = db.job_offers;
 const User = db.users;
+const UserOffer = db.user_offer;
 
-exports.createUser = (jobOfferId, jobProviderId, user) => {
+exports.createUser = (user) => {
   return User.create({
     name: user.name,
     email: user.email,
     sentEmail: user.sentEmail,
-    jobProviderId,
-    jobOfferId,
   })
     .then((user) => {
       console.log(`>> Created user: ${JSON.stringify(user, null, 4)}`);
@@ -20,38 +20,57 @@ exports.createUser = (jobOfferId, jobProviderId, user) => {
 };
 
 exports.createBulkUser = (userArray) => {
-  return User.bulkCreate(userArray)
+  return User.bulkCreate(userArray, { ignoreDuplicates: true })
     .then((user) => {
       console.log(`>> Created user: ${JSON.stringify(user, null, 4)}`);
       return user;
     })
     .catch((err) => {
-      console.log('>> Error while creating tutorial: ', err);
+      console.log('>> Error while creating userArray: ', err);
     });
 };
 
-exports.LoadUsers = (jobOffer, jobProvider, allData) => {
-  const arr = [];
-  for (const userData of allData[jobOffer.name]) {
-    arr.push({
-      ...userData,
-      jobProviderId: jobProvider.id,
-      jobOfferId: jobOffer.id,
+exports.createBulkUserOffer = (userOfferArray) => {
+  return UserOffer.bulkCreate(userOfferArray)
+    .then((user) => {
+      console.log(`>> Created userOfferArray: ${JSON.stringify(user, null, 4)}`);
+      return user;
+    })
+    .catch((err) => {
+      console.log('>> Error while creating userOfferArray: ', err);
     });
+};
+
+exports.LoadUsers = async (jobOffer, allData) => {
+  const users = [];
+  const usersOffers = [];
+  for (const userData of allData[jobOffer.name]) {
+    users.push({ name: userData.name, email: userData.email });
+    usersOffers.push({ userEmail: userData.email, jobOfferId: jobOffer.id });
   }
-  if (arr.length) {
-    return this.createBulkUser(arr);
-  }
+  await this.createBulkUser(users);
+  await this.createBulkUserOffer(usersOffers);
   return 'OK';
 };
 
 exports.getAllUsers = () => {
-  return User.findAll()
+  return User.findAll({ include: [Offer] })
     .then((allusers) => {
       console.log(`>> get allusers: ${JSON.stringify(allusers, null, 4)}`);
       return allusers;
     })
     .catch((err) => {
       console.log('>> Error getAllUsers: ', err);
+    });
+};
+
+exports.findByEmail = (email) => {
+  return User.findOne({ where: { email } })
+    .then((allusers) => {
+      console.log(`>> Search by email: ${JSON.stringify(allusers, null, 4)}`);
+      return allusers;
+    })
+    .catch((err) => {
+      console.log('>> Error findByEmail: ', err);
     });
 };
