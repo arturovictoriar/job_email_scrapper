@@ -2,9 +2,9 @@ const db = require('../models');
 
 const JobProvider = db.job_providers;
 
-exports.createJobProvider = (jobprovider) => {
+exports.createJobProvider = (name) => {
   return JobProvider.create({
-    name: jobprovider.name,
+    name,
   })
     .then((jobprovider) => {
       console.log(`>> Created jobprovider: ${JSON.stringify(jobprovider, null, 4)}`);
@@ -23,5 +23,16 @@ exports.getProviderByName = (providerName) => {
     })
     .catch((err) => {
       console.log('>> Error while creating tutorial: ', err);
+    });
+};
+
+exports.createBulkJobProvider = (providerArray) => {
+  return JobProvider.bulkCreate(providerArray, { ignoreDuplicates: true })
+    .then((user) => {
+      console.log(`>> Created user: ${JSON.stringify(user, null, 4)}`);
+      return user;
+    })
+    .catch((err) => {
+      console.log('>> Error while creating providerArray: ', err);
     });
 };

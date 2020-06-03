@@ -23,16 +23,19 @@ db.users = require('./User')(sequelize, Sequelize);
 db.job_providers = require('./JobProvider')(sequelize, Sequelize);
 db.job_offers = require('./JobOffer')(sequelize, Sequelize);
 db.user_offer = require('./UserOffer')(sequelize, Sequelize);
-
-/* db.users.belongsToMany(db.job_providers, { through: 'user_providers' });
-db.job_providers.belongsToMany(db.users, { through: 'user_providers' }); */
+db.job_account = require('./JobAccount')(sequelize, Sequelize);
 
 db.users.belongsToMany(db.job_offers, { through: db.user_offer });
 db.job_offers.belongsToMany(db.users, { through: db.user_offer });
 
-db.job_providers.hasMany(db.job_offers);
+db.job_providers.hasMany(db.job_offers, {
+  foreignKey: { name: 'jobProviderId', allowNull: false },
+});
 db.job_offers.belongsTo(db.job_providers);
-// db.job_providers.hasMany(db.users);
-// db.job_offers.hasMany(db.users);
+
+db.job_account.hasMany(db.job_offers, {
+  foreignKey: { name: 'jobAccountEmailId', allowNull: false },
+});
+db.job_offers.belongsTo(db.job_account);
 
 module.exports = db;

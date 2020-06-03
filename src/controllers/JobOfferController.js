@@ -3,10 +3,11 @@ const db = require('../models');
 const JobOffer = db.job_offers;
 const User = db.users;
 
-exports.createJobOffer = (jobProviderId, joboffer) => {
+exports.createJobOffer = (joboffer) => {
   return JobOffer.create({
     name: joboffer.name,
-    jobProviderId,
+    jobProviderId: joboffer.jobProviderId,
+    jobAccountEmailId: joboffer.jobAccountEmailId,
   })
     .then((joboffer) => {
       console.log(`>> Created joboffer: ${JSON.stringify(joboffer, null, 4)}`);
@@ -28,23 +29,37 @@ exports.createJobOfferBulk = (jobsArrays) => {
     });
 };
 
-exports.LoadJobOffers = (jobProviderId, objsJobOffer) => {
-  const arr = [];
+exports.LoadJobOffers = async (jobProvider, jobAccount, objsJobOffer) => {
+  const newJobOffers = [];
   for (const data of objsJobOffer) {
-    arr.push({ name: data, jobProviderId });
+    const jobOffer = {
+      name: data,
+      jobProviderId: jobProvider.id,
+      jobAccountEmailId: jobAccount.emailId,
+    };
+    const jobOfferFound = await this.getOfferByIds(jobOffer);
+    if (jobOfferFound === null) {
+      newJobOffers.push(jobOffer);
+    }
   }
-  return this.createJobOfferBulk(arr);
+  return this.createJobOfferBulk(newJobOffers);
 };
 
-exports.getOfferByName = (offerName) => {
-  return JobOffer.findOne({ where: { name: offerName } });
-  /* .then((offerName) => {
+exports.getOfferByIds = (jobOffer) => {
+  return JobOffer.findOne({
+    where: {
+      name: jobOffer.name,
+      jobAccountEmailId: jobOffer.jobAccountEmailId,
+      jobProviderId: jobOffer.jobProviderId,
+    },
+  })
+    .then((offerName) => {
       console.log(`>> get offerName: ${JSON.stringify(offerName, null, 4)}`);
       return offerName;
     })
     .catch((err) => {
       console.log('>> Error while creating tutorial: ', err);
-    }); */
+    });
 };
 
 exports.getAllJobOffers = () => {

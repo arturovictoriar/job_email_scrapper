@@ -1,8 +1,8 @@
 const db = require('../models');
+const UserOfferController = require('./UserOfferController');
 
 const Offer = db.job_offers;
 const User = db.users;
-const UserOffer = db.user_offer;
 
 exports.createUser = (user) => {
   return User.create({
@@ -20,7 +20,7 @@ exports.createUser = (user) => {
 };
 
 exports.createBulkUser = (userArray) => {
-  return User.bulkCreate(userArray, { ignoreDuplicates: true })
+  return User.bulkCreate(userArray)
     .then((user) => {
       console.log(`>> Created user: ${JSON.stringify(user, null, 4)}`);
       return user;
@@ -30,30 +30,28 @@ exports.createBulkUser = (userArray) => {
     });
 };
 
-exports.createBulkUserOffer = (userOfferArray) => {
-  return UserOffer.bulkCreate(userOfferArray)
-    .then((user) => {
-      console.log(`>> Created userOfferArray: ${JSON.stringify(user, null, 4)}`);
-      return user;
-    })
-    .catch((err) => {
-      console.log('>> Error while creating userOfferArray: ', err);
-    });
-};
-
 exports.LoadUsers = async (jobOffer, allData) => {
-  const users = [];
-  const usersOffers = [];
+  const newUsers = [];
+  const newUserOffers = [];
   for (const userData of allData[jobOffer.name].emails) {
-    users.push({ name: userData.name, email: userData.email });
-    usersOffers.push({
+    const userObj = { name: userData.name, email: userData.email };
+    const userOffer = {
       userEmail: userData.email,
       jobOfferId: jobOffer.id,
       company: allData[jobOffer.name].company,
-    });
+    };
+    const userFound = await this.findByEmail(userObj.email);
+    const userOfferFound = await UserOfferController.findByUserAndOffer(userOffer);
+
+    if (userFound === null) {
+      newUsers.push(userObj);
+    }
+    if (userOfferFound === null) {
+      newUserOffers.push(userOffer);
+    }
   }
-  await this.createBulkUser(users);
-  await this.createBulkUserOffer(usersOffers);
+  await this.createBulkUser(newUsers);
+  await UserOfferController.createBulkUserOffer(newUserOffers);
   return 'OK';
 };
 

@@ -4,52 +4,118 @@ const controllers = require('./src/controllers');
 // eslint-disable-next-line node/no-unpublished-require
 const data = require('./data.json');
 /* const unmejorempleo = require('./src/util/scrapper'); */
+const C = require('./src/util/constants'); // Replace with environment variable
 
 const app = express();
 
+const createAllproviders = async () => {
+  const providers = [
+    { name: 'Un mejor empleo' },
+    { name: 'Jobble' },
+    { name: 'El Empleo' },
+    { name: 'Computrabajo' },
+    { name: 'Jobomas' },
+  ];
+  await controllers.JobProvider.createBulkJobProvider(providers);
+};
+
+const createJobAccount = async (emailId) => {
+  const jobAccountFound = await controllers.JobAccount.findByEmailId(emailId);
+  if (jobAccountFound === null) {
+    return controllers.JobAccount.createJobAccount(emailId);
+  }
+  return jobAccountFound;
+};
+
+const createJobOffer = async (jobOffer) => {
+  const jobOfferFound = await controllers.JobOffer.getOfferByIds(jobOffer);
+  if (jobOfferFound === null) {
+    return controllers.JobOffer.createJobOffer(jobOffer);
+  }
+  return jobOfferFound;
+};
+
+const createUser = async (user) => {
+  const userFound = await controllers.User.findByEmail(user.email);
+  if (userFound === null) {
+    return controllers.User.createUser(user);
+  }
+  return userFound;
+};
+
+const createUserOffer = async (userOffer) => {
+  const userOfferFound = await controllers.UserOffer.findByUserAndOffer(userOffer);
+  if (userOfferFound === null) {
+    return controllers.UserOffer.createUserOffer(userOffer);
+  }
+  return userOfferFound;
+};
 // eslint-disable-next-line no-unused-vars
 const fakeData = async () => {
-  const testProvider = await controllers.JobProvider.createJobProvider({
-    name: 'testprovider',
-  });
-  const testOffer = await controllers.JobOffer.createJobOffer(testProvider.id, {
+  await createAllproviders();
+  const testJobAccount = await createJobAccount(C.username);
+  const testProvider = await controllers.JobProvider.getProviderByName('Jobble');
+  const testOffer = await createJobOffer({
     name: 'Software engineer',
-  });
-  const testOffer2 = await controllers.JobOffer.createJobOffer(testProvider.id, {
-    name: 'Software engineer in nanotech',
+    jobProviderId: testProvider.id,
+    jobAccountEmailId: testJobAccount.emailId,
   });
 
-  const testUser1 = await controllers.User.createUser({
+  const testOffer2 = await controllers.JobOffer.createJobOffer({
+    name: 'Software engineer in nanotech',
+    jobProviderId: testProvider.id,
+    jobAccountEmailId: testJobAccount.emailId,
+  });
+  const testUser1 = await createUser({
     name: 'arturo victoria',
     email: 'arvichan@gmail.com',
   });
 
-  const testUser2 = await controllers.User.createUser({
+  const testUser2 = await createUser({
     name: 'sebastian lopez',
     email: 'sebas119@gmail.com',
   });
 
-  await testUser1.addJob_offers(testOffer);
-  await testUser2.addJob_offers([testOffer, testOffer2]);
-  console.log('FINISH');
+  await createUserOffer({
+    userEmail: testUser1.email,
+    jobOfferId: testOffer.id,
+    company: 'My TEST company',
+  });
+
+  await createUserOffer({
+    userEmail: testUser2.email,
+    jobOfferId: testOffer.id,
+    company: 'My TEST company',
+  });
+  await createUserOffer({
+    userEmail: testUser2.email,
+    jobOfferId: testOffer2.id,
+    company: 'My TEST company',
+  });
+
+  console.log('FINISH FAKEDATA FUNCTION');
 };
 
 // eslint-disable-next-line no-unused-vars
 const scrapperFunction = async () => {
-  await controllers.JobProvider.createJobProvider({
-    name: 'unmejorempleo',
-  });
-  const jobProvider1 = await controllers.JobProvider.getProviderByName('unmejorempleo');
-  await controllers.JobOffer.LoadJobOffers(jobProvider1.id, Object.keys(data));
+  await createAllproviders();
+  const jobProvider = await controllers.JobProvider.getProviderByName('Un mejor empleo');
+  const jobAccount = await createJobAccount(C.username);
+  await controllers.JobOffer.LoadJobOffers(jobProvider, jobAccount, Object.keys(data));
   for (const jobOfferName of Object.keys(data)) {
-    const jobOffer = await controllers.JobOffer.getOfferByName(jobOfferName);
-    await controllers.User.LoadUsers(jobOffer, data);
+    const jobOffer = await controllers.JobOffer.getOfferByIds({
+      name: jobOfferName,
+      jobAccountEmailId: jobAccount.emailId,
+      jobProviderId: jobProvider.id,
+    });
+    if (jobOffer) {
+      await controllers.User.LoadUsers(jobOffer, data);
+    }
   }
-  console.log('FINISH');
+  console.log('FINISH SCRAPPER FUNCTION');
 };
 
-// db.sequelize.sync();
-db.sequelize.sync({ force: true }).then(() => {
+db.sequelize.sync({ force: false }).then(() => {
   console.log('Drop and re-sync db.');
   // fakeData();
   scrapperFunction();
