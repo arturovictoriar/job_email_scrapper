@@ -4,7 +4,7 @@ const controllers = require('./src/controllers');
 // eslint-disable-next-line node/no-unpublished-require
 const data = require('./data.json');
 /* const unmejorempleo = require('./src/util/scrapper'); */
-const C = require('./src/util/constants'); // Replace with environment variable
+const C = require('./src/config/scrapper.config'); // Replace with environment variable
 
 const app = express();
 

@@ -1,5 +1,5 @@
 const unmejorempleo = require('./unmejorempleo');
-const C = require('./constants');
+const C = require('../config/scrapper.config');
 
 const main = async () => {
   const miEmpleo = new unmejorempleo.MejorEmpleo();
