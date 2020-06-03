@@ -31,18 +31,25 @@ exports.createJobOfferBulk = (jobsArrays) => {
 
 exports.LoadJobOffers = async (jobProvider, jobAccount, objsJobOffer) => {
   const newJobOffers = [];
+  const allCurrentJobOffers = await this.getAllByJobProviderAndJobAccount(jobProvider, jobAccount);
   for (const data of objsJobOffer) {
+    let exists = false;
     const jobOffer = {
       name: data,
       jobProviderId: jobProvider.id,
       jobAccountEmailId: jobAccount.emailId,
     };
-    const jobOfferFound = await this.getOfferByIds(jobOffer);
-    if (jobOfferFound === null) {
+    for (const offers of allCurrentJobOffers) {
+      if (offers.name === data) {
+        exists = true;
+        break;
+      }
+    }
+    if (exists === false) {
       newJobOffers.push(jobOffer);
     }
   }
-  return this.createJobOfferBulk(newJobOffers);
+  await this.createJobOfferBulk(newJobOffers);
 };
 
 exports.getOfferByIds = (jobOffer) => {
@@ -64,6 +71,22 @@ exports.getOfferByIds = (jobOffer) => {
 
 exports.getAllJobOffers = () => {
   return JobOffer.findAll({ include: [User] })
+    .then((allOffers) => {
+      console.log(`>> get allOffers: ${JSON.stringify(allOffers, null, 4)}`);
+      return allOffers;
+    })
+    .catch((err) => {
+      console.log('>> Error allOffers: ', err);
+    });
+};
+
+exports.getAllByJobProviderAndJobAccount = (jobProvider, jobAccount) => {
+  return JobOffer.findAll({
+    where: {
+      jobProviderId: jobProvider.id,
+      jobAccountEmailId: jobAccount.emailId,
+    },
+  })
     .then((allOffers) => {
       console.log(`>> get allOffers: ${JSON.stringify(allOffers, null, 4)}`);
       return allOffers;

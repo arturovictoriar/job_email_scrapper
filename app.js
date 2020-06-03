@@ -27,13 +27,13 @@ const unMejorEmpleoSave = async () => {
   console.log('FINISH SCRAPPER FUNCTION');
 };
 
-db.sequelize.sync({ force: true }).then(() => {
+db.sequelize.sync({ force: false }).then(() => {
   console.log('Drop and re-sync db.');
   unMejorEmpleoSave();
 });
 
 app.get('/', (req, res) => {
-  controllers.User.getAllUsers().then((usersData) => {
+  controllers.User.getAllUsersWithOffers().then((usersData) => {
     res.send(usersData);
   });
 });
