@@ -14,14 +14,18 @@ class SendEmail {
       if (offer) {
         const cleanData = {};
         cleanData.vacancy = offer.name;
+        cleanData.jobOfferId = offer.id;
         cleanData.companies = {};
         for (const candidate of offer.users) {
           if (candidate) {
             if (candidate.user_offer.emailSentAt === null) {
               if (!(candidate.user_offer.company in cleanData.companies)) {
-                cleanData.companies[candidate.user_offer.company] = [];
+                cleanData.companies[candidate.user_offer.company] = {
+                  emails: [],
+                  sentEmail: false,
+                };
               }
-              cleanData.companies[candidate.user_offer.company].push(candidate.email);
+              cleanData.companies[candidate.user_offer.company].emails.push(candidate.email);
             }
           }
         }
@@ -94,7 +98,9 @@ Si tienes dudas sobre como crear tu Bio dentro de Torre, en el siguiente video t
 
   // send mail with defined transport object
   async sendEmailsToAll() {
-    const info = await this.transporter.sendMail(this.mailOption);
+    const info = this.transporter.sendMail(this.mailOption).catch(() => {
+      return false;
+    });
     return info;
   }
 }
