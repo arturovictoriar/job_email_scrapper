@@ -12,6 +12,16 @@ exports.updateSentEmail = (userOffer) => {
   });
 };
 
+exports.updateSentEmailByCompany = (userOffer) => {
+  return UserOffer.update(
+    { sentEmail: Date.now() },
+    { where: { company: userOffer.company, jobOfferId: userOffer.jobOfferId } }
+  ).then((updateSentEmail) => {
+    console.log(`>> get updateSentEmailByCompany: ${JSON.stringify(updateSentEmail, null, 4)}`);
+    return updateSentEmail;
+  });
+};
+
 exports.findByUserAndOffer = (userOffer) => {
   return UserOffer.findOne({
     where: { userEmail: userOffer.userEmail, jobOfferId: userOffer.jobOfferId },
@@ -63,4 +73,23 @@ exports.createBulkUserOffer = (userOfferArray) => {
     .catch((err) => {
       console.log('>> Error while creating userOfferArray: ', err);
     });
+};
+
+exports.updateBulkByCompany = async (sentEmailObj) => {
+  const userOffer = {
+    company: null,
+    jobOfferId: null,
+  };
+  for (const offerSent of sentEmailObj) {
+    const companies = Object.keys(offerSent.companies);
+    userOffer.jobOfferId = offerSent.jobOfferId;
+    for (const company of companies) {
+      userOffer.company = company;
+      console.log(offerSent.companies[company].sentEmail);
+      if (offerSent.companies[company].sentEmail === true) {
+        this.updateSentEmailByCompany(userOffer);
+        console.log(userOffer);
+      }
+    }
+  }
 };
