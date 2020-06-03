@@ -36,3 +36,14 @@ exports.createBulkJobProvider = (providerArray) => {
       console.log('>> Error while creating providerArray: ', err);
     });
 };
+
+exports.createAllproviders = async () => {
+  const providers = [
+    { name: 'Un mejor empleo' },
+    { name: 'Jobble' },
+    { name: 'El Empleo' },
+    { name: 'Computrabajo' },
+    { name: 'Jobomas' },
+  ];
+  await this.createBulkJobProvider(providers);
+};

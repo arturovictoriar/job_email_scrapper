@@ -96,7 +96,9 @@ class MejorEmpleo {
         }) > td:nth-child(6) > a:nth-child(2)`;
         namesJobs[
           row.querySelector('td:nth-child(1) > strong').innerText
-        ] = `https://www.unmejorempleo.com.co/${document.querySelector(jobSelector).getAttribute('href')}`;
+        ] = `https://www.unmejorempleo.com.co/${document
+          .querySelector(jobSelector)
+          .getAttribute('href')}`;
       }
       return namesJobs;
     });

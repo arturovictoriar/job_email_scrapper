@@ -8,26 +8,69 @@ const C = require('./src/util/constants'); // Replace with environment variable
 
 const app = express();
 
-const createAllproviders = async () => {
-  const providers = [
-    { name: 'Un mejor empleo' },
-    { name: 'Jobble' },
-    { name: 'El Empleo' },
-    { name: 'Computrabajo' },
-    { name: 'Jobomas' },
-  ];
-  await controllers.JobProvider.createBulkJobProvider(providers);
-};
-
-const createJobAccount = async (emailId) => {
-  const jobAccountFound = await controllers.JobAccount.findByEmailId(emailId);
-  if (jobAccountFound === null) {
-    return controllers.JobAccount.createJobAccount(emailId);
+// eslint-disable-next-line no-unused-vars
+const unMejorEmpleoSave = async () => {
+  await controllers.JobProvider.createAllproviders();
+  const jobProvider = await controllers.JobProvider.getProviderByName('Un mejor empleo');
+  const jobAccount = await controllers.JobAccount.createJobAccount(C.username);
+  await controllers.JobOffer.LoadJobOffers(jobProvider, jobAccount, Object.keys(data));
+  for (const jobOfferName of Object.keys(data)) {
+    const jobOffer = await controllers.JobOffer.getOfferByIds({
+      name: jobOfferName,
+      jobAccountEmailId: jobAccount.emailId,
+      jobProviderId: jobProvider.id,
+    });
+    if (jobOffer) {
+      await controllers.User.LoadUsers(jobOffer, data);
+    }
   }
-  return jobAccountFound;
+  console.log('FINISH SCRAPPER FUNCTION');
 };
 
-const createJobOffer = async (jobOffer) => {
+db.sequelize.sync({ force: true }).then(() => {
+  console.log('Drop and re-sync db.');
+  unMejorEmpleoSave();
+});
+
+app.get('/', (req, res) => {
+  controllers.User.getAllUsers().then((usersData) => {
+    res.send(usersData);
+  });
+});
+
+app.get('/userofferall', (req, res) => {
+  controllers.UserOffer.findAllUserOffer().then((usersData) => {
+    res.send(usersData);
+  });
+});
+
+app.get('/jobofferall', (req, res) => {
+  controllers.JobOffer.getAllJobOffers().then((offerdata) => {
+    res.send(offerdata);
+  });
+});
+
+app.get('/useroffer', (req, res) => {
+  controllers.JobOffer.getOfferByName('Software engineer').then((offerObj) => {
+    controllers.UserOffer.findByUserAndOffer({ email: 'sebas119@gmail.com' }, offerObj).then(
+      (userOffer) => {
+        controllers.UserOffer.updateSentEmail(userOffer).then((last) => {
+          res.send(last);
+        });
+      }
+    );
+  });
+});
+
+app.get('/alldata', (req, res) => {
+  res.send(data);
+});
+
+const PORT = process.env.PORT || 4000;
+
+app.listen(PORT, console.log(`Server starter on port ${PORT}`));
+
+/* const createJobOffer = async (jobOffer) => {
   const jobOfferFound = await controllers.JobOffer.getOfferByIds(jobOffer);
   if (jobOfferFound === null) {
     return controllers.JobOffer.createJobOffer(jobOffer);
@@ -94,67 +137,4 @@ const fakeData = async () => {
   });
 
   console.log('FINISH FAKEDATA FUNCTION');
-};
-
-// eslint-disable-next-line no-unused-vars
-const scrapperFunction = async () => {
-  await createAllproviders();
-  const jobProvider = await controllers.JobProvider.getProviderByName('Un mejor empleo');
-  const jobAccount = await createJobAccount(C.username);
-  await controllers.JobOffer.LoadJobOffers(jobProvider, jobAccount, Object.keys(data));
-  for (const jobOfferName of Object.keys(data)) {
-    const jobOffer = await controllers.JobOffer.getOfferByIds({
-      name: jobOfferName,
-      jobAccountEmailId: jobAccount.emailId,
-      jobProviderId: jobProvider.id,
-    });
-    if (jobOffer) {
-      await controllers.User.LoadUsers(jobOffer, data);
-    }
-  }
-  console.log('FINISH SCRAPPER FUNCTION');
-};
-
-db.sequelize.sync({ force: false }).then(() => {
-  console.log('Drop and re-sync db.');
-  // fakeData();
-  scrapperFunction();
-});
-
-app.get('/', (req, res) => {
-  controllers.User.getAllUsers().then((usersData) => {
-    res.send(usersData);
-  });
-});
-
-app.get('/userofferall', (req, res) => {
-  controllers.UserOffer.findAllUserOffer().then((usersData) => {
-    res.send(usersData);
-  });
-});
-
-app.get('/jobofferall', (req, res) => {
-  controllers.JobOffer.getAllJobOffers().then((offerdata) => {
-    res.send(offerdata);
-  });
-});
-
-app.get('/useroffer', (req, res) => {
-  controllers.JobOffer.getOfferByName('Software engineer').then((offerObj) => {
-    controllers.UserOffer.findByUserAndOffer({ email: 'sebas119@gmail.com' }, offerObj).then(
-      (userOffer) => {
-        controllers.UserOffer.updateSentEmail(userOffer).then((last) => {
-          res.send(last);
-        });
-      }
-    );
-  });
-});
-
-app.get('/alldata', (req, res) => {
-  res.send(data);
-});
-
-const PORT = process.env.PORT || 4000;
-
-app.listen(PORT, console.log(`Server starter on port ${PORT}`));
+}; */

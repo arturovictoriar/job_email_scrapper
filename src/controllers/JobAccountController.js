@@ -2,7 +2,7 @@ const db = require('../models');
 
 const JobAccount = db.job_account;
 
-exports.createJobAccount = (emailId) => {
+exports.create = (emailId) => {
   return JobAccount.create({
     emailId,
   })
@@ -22,4 +22,12 @@ exports.findByEmailId = (emailId) => {
     console.log(`>> found jobAccount: ${JSON.stringify(jobAccount, null, 4)}`);
     return jobAccount;
   });
+};
+
+exports.createJobAccount = async (emailId) => {
+  const jobAccountFound = await this.findByEmailId(emailId);
+  if (jobAccountFound === null) {
+    return this.create(emailId);
+  }
+  return jobAccountFound;
 };
