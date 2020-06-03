@@ -15,7 +15,7 @@ const implementationScrapper = async () => {
 
 db.sequelize.sync({ force: true }).then(() => {
   console.log('Drop and re-sync db.');
-  implementationScrapper();
+  // implementationScrapper();
 });
 
 app.get('/', (req, res) => {

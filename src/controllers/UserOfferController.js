@@ -74,3 +74,22 @@ exports.createBulkUserOffer = (userOfferArray) => {
       console.log('>> Error while creating userOfferArray: ', err);
     });
 };
+
+exports.updateBulkByCompany = async (sentEmailObj) => {
+  const userOffer = {
+    company: null,
+    jobOfferId: null,
+  };
+  for (const offerSent of sentEmailObj) {
+    const companies = Object.keys(offerSent.companies);
+    userOffer.jobOfferId = offerSent.jobOfferId;
+    for (const company of companies) {
+      userOffer.company = company;
+      console.log(offerSent.companies[company].sentEmail);
+      if (offerSent.companies[company].sentEmail === true) {
+        this.updateSentEmailByCompany(userOffer);
+        console.log(userOffer);
+      }
+    }
+  }
+};
