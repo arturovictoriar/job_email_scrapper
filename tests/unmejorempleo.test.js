@@ -1,4 +1,4 @@
-const unmejorempleo = require('../src/unmejorempleo');
+const unmejorempleo = require('../src/util/unmejorempleo');
 
 const BASE_URL = 'https://www.unmejorempleo.com.co/';
 let browser;
