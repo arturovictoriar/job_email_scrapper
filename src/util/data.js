@@ -1,8451 +1,8450 @@
 module.exports = [
-    {
-      id: 'a9868bc0-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Software engineer specialized in nanotechnology',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'arturo victoria',
-          email: 'arvichan@hotmail.com',
-          createdAt: '2020-06-02T15:13:49.000Z',
-          updatedAt: '2020-06-02T15:13:49.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'We need a Software engineer specialized in nanotechnology.',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'arvichan@hotmail.com',
-            jobOfferId: 'a9868bc0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jean carlo guerrero izquierdo',
-          email: 'izquierdcarlo1998@hotmail.com',
-          createdAt: '2020-06-02T15:13:49.000Z',
-          updatedAt: '2020-06-02T15:13:49.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'We need a Software engineer specialized in nanotechnology.',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'izquierdcarlo1998@hotmail.com',
-            jobOfferId: 'a9868bc0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'edison hernando gomez fuquene',
-          email: 'ROLIMARTIANA@GMAIL.COM',
-          createdAt: '2020-06-02T15:13:49.000Z',
-          updatedAt: '2020-06-02T15:13:49.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'We need a Software engineer specialized in nanotechnology.',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'ROLIMARTIANA@GMAIL.COM',
-            jobOfferId: 'a9868bc0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'sebastián lópez',
-          email: 'sebas969696@gmail.com',
-          createdAt: '2020-06-02T15:13:49.000Z',
-          updatedAt: '2020-06-02T15:13:49.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'We need a Software engineer specialized in nanotechnology.',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'sebas969696@gmail.com',
-            jobOfferId: 'a9868bc0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-      ],
-    },
-    {
-      id: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Tecnólogo en construcciones civiles',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'jerzy jair dussan quiacha',
-          email: 'alidus02@gmail.com',
+  {
+    id: 'a9868bc0-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Software engineer specialized in nanotechnology',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'arturo victoria',
+        email: 'arvichan@hotmail.com',
+        createdAt: '2020-06-02T15:13:49.000Z',
+        updatedAt: '2020-06-02T15:13:49.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'We need a Software engineer specialized in nanotechnology.',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'alidus02@gmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'arvichan@hotmail.com',
+          jobOfferId: 'a9868bc0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'andres cruz',
-          email: 'amiquiron85@hotmail.com',
+      },
+      {
+        name: 'jean carlo guerrero izquierdo',
+        email: 'izquierdcarlo1998@hotmail.com',
+        createdAt: '2020-06-02T15:13:49.000Z',
+        updatedAt: '2020-06-02T15:13:49.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'We need a Software engineer specialized in nanotechnology.',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'amiquiron85@hotmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'izquierdcarlo1998@hotmail.com',
+          jobOfferId: 'a9868bc0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'antulio trujillo perez',
-          email: 'antutruper@hotmail.com',
+      },
+      {
+        name: 'edison hernando gomez fuquene',
+        email: 'ROLIMARTIANA@GMAIL.COM',
+        createdAt: '2020-06-02T15:13:49.000Z',
+        updatedAt: '2020-06-02T15:13:49.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'We need a Software engineer specialized in nanotechnology.',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'antutruper@hotmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'ROLIMARTIANA@GMAIL.COM',
+          jobOfferId: 'a9868bc0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'joe isaac sequeda larrota',
-          email: 'arq.joeisaac@gmail.com',
+      },
+      {
+        name: 'sebastián lópez',
+        email: 'sebas969696@gmail.com',
+        createdAt: '2020-06-02T15:13:49.000Z',
+        updatedAt: '2020-06-02T15:13:49.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'We need a Software engineer specialized in nanotechnology.',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'arq.joeisaac@gmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'sebas969696@gmail.com',
+          jobOfferId: 'a9868bc0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'carlos enrique rodriguez orobio',
-          email: 'cerodriguezorobio@gmail.com',
+      },
+    ],
+  },
+  {
+    id: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Tecnólogo en construcciones civiles',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'jerzy jair dussan quiacha',
+        email: 'alidus02@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'cerodriguezorobio@gmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'alidus02@gmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'christian camilo arias giron',
-          email: 'chris.camilo.arias@gmail.com',
+      },
+      {
+        name: 'andres cruz',
+        email: 'amiquiron85@hotmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'chris.camilo.arias@gmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'amiquiron85@hotmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'claudia villa',
-          email: 'clamarvil27@gmail.com',
+      },
+      {
+        name: 'antulio trujillo perez',
+        email: 'antutruper@hotmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'clamarvil27@gmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'antutruper@hotmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'felix anotonio conde ramirez',
-          email: 'condefelix3@gmail.com',
+      },
+      {
+        name: 'joe isaac sequeda larrota',
+        email: 'arq.joeisaac@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'condefelix3@gmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'arq.joeisaac@gmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'daniel suarez',
-          email: 'danielsuarezdanielospino@hotmail.com',
+      },
+      {
+        name: 'carlos enrique rodriguez orobio',
+        email: 'cerodriguezorobio@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'danielsuarezdanielospino@hotmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'cerodriguezorobio@gmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'edwin juspian',
-          email: 'ejuspian@gmail.com',
+      },
+      {
+        name: 'christian camilo arias giron',
+        email: 'chris.camilo.arias@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'ejuspian@gmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'chris.camilo.arias@gmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'erick gabriel herrera agudelo',
-          email: 'ergabherrera@gmail.com',
+      },
+      {
+        name: 'claudia villa',
+        email: 'clamarvil27@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'ergabherrera@gmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'clamarvil27@gmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'fernan alonso vallejo gaviria',
-          email: 'fernan.vallejo@hotmail.com',
+      },
+      {
+        name: 'felix anotonio conde ramirez',
+        email: 'condefelix3@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'fernan.vallejo@hotmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'condefelix3@gmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'dilan andres garcia requene',
-          email: 'garciadilan1@gmail.com',
+      },
+      {
+        name: 'daniel suarez',
+        email: 'danielsuarezdanielospino@hotmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'garciadilan1@gmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'danielsuarezdanielospino@hotmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'ivan niño',
-          email: 'idne1980@gmail.com',
+      },
+      {
+        name: 'edwin juspian',
+        email: 'ejuspian@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'idne1980@gmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'ejuspian@gmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'juan carlos hernandez charry',
-          email: 'jchernandezcharry15@gmail.com',
+      },
+      {
+        name: 'erick gabriel herrera agudelo',
+        email: 'ergabherrera@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'jchernandezcharry15@gmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'ergabherrera@gmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jhon jairo lópez ortega',
-          email: 'jhon.lopez.ortega@correounivalle.edu.co',
+      },
+      {
+        name: 'fernan alonso vallejo gaviria',
+        email: 'fernan.vallejo@hotmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'jhon.lopez.ortega@correounivalle.edu.co',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'fernan.vallejo@hotmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jose luis pimentel montaña',
-          email: 'jlcheche00@hotmail.com',
+      },
+      {
+        name: 'dilan andres garcia requene',
+        email: 'garciadilan1@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'jlcheche00@hotmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'garciadilan1@gmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jose eudes ceballos noreña',
-          email: 'joeuce1965@hotmail.com',
+      },
+      {
+        name: 'ivan niño',
+        email: 'idne1980@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'joeuce1965@hotmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'idne1980@gmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jose dagoberto villada giraldo',
-          email: 'josedagobertovg@gmail.com',
+      },
+      {
+        name: 'juan carlos hernandez charry',
+        email: 'jchernandezcharry15@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'josedagobertovg@gmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'jchernandezcharry15@gmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'juan diego gomez tovar',
-          email: 'juan.diego.gomez.tovar@gmail.com',
+      },
+      {
+        name: 'jhon jairo lópez ortega',
+        email: 'jhon.lopez.ortega@correounivalle.edu.co',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'juan.diego.gomez.tovar@gmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'jhon.lopez.ortega@correounivalle.edu.co',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'leidy yuliet mancera guerrero',
-          email: 'lady.361@hotmail.com',
+      },
+      {
+        name: 'jose luis pimentel montaña',
+        email: 'jlcheche00@hotmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'lady.361@hotmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'jlcheche00@hotmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'leidy vanessa palechor atehortua',
-          email: 'leidyp0508@gmail.com',
+      },
+      {
+        name: 'jose eudes ceballos noreña',
+        email: 'joeuce1965@hotmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'leidyp0508@gmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'joeuce1965@hotmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'lizsan estefhany orozco zambrano',
-          email: 'lizest10@hotmail.com',
+      },
+      {
+        name: 'jose dagoberto villada giraldo',
+        email: 'josedagobertovg@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'lizest10@hotmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'josedagobertovg@gmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'mario antonio de la trinidad diaz gil',
-          email: 'mariod67ve@gmail.com',
+      },
+      {
+        name: 'juan diego gomez tovar',
+        email: 'juan.diego.gomez.tovar@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'mariod67ve@gmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'juan.diego.gomez.tovar@gmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'mayerling herrera',
-          email: 'mayerlin-030@hotmail.com',
+      },
+      {
+        name: 'leidy yuliet mancera guerrero',
+        email: 'lady.361@hotmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'mayerlin-030@hotmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'lady.361@hotmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'ricardo bonilla caicedo',
-          email: 'ricardobo@unicauca.edu.co',
+      },
+      {
+        name: 'leidy vanessa palechor atehortua',
+        email: 'leidyp0508@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'ricardobo@unicauca.edu.co',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'leidyp0508@gmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'victor alfonso ramirez colorado',
-          email: 'rocker.ramirezcolorado5@gmail.com',
+      },
+      {
+        name: 'lizsan estefhany orozco zambrano',
+        email: 'lizest10@hotmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'rocker.ramirezcolorado5@gmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'lizest10@hotmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'ruben dario moreno rendon',
-          email: 'rubendario500@hotmail.com',
+      },
+      {
+        name: 'mario antonio de la trinidad diaz gil',
+        email: 'mariod67ve@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'rubendario500@hotmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'mariod67ve@gmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'pierre rincon estevez',
-          email: 'rubyrincon1928@gmail.com',
+      },
+      {
+        name: 'mayerling herrera',
+        email: 'mayerlin-030@hotmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'rubyrincon1928@gmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'mayerlin-030@hotmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'sebastian ramirez',
-          email: 'sebastian.ramirez_@hotmail.com',
+      },
+      {
+        name: 'ricardo bonilla caicedo',
+        email: 'ricardobo@unicauca.edu.co',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'sebastian.ramirez_@hotmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'ricardobo@unicauca.edu.co',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'maria victoria angel cerpa',
-          email: 'vickiii17@hotmail.com',
+      },
+      {
+        name: 'victor alfonso ramirez colorado',
+        email: 'rocker.ramirezcolorado5@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'vickiii17@hotmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'rocker.ramirezcolorado5@gmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'yamit asdrubal murillo roa',
-          email: 'yamith.roa@gmail.com',
+      },
+      {
+        name: 'ruben dario moreno rendon',
+        email: 'rubendario500@hotmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'yamith.roa@gmail.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'rubendario500@hotmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'yasay ruiz rojas',
-          email: 'yasay@outlook.com',
+      },
+      {
+        name: 'pierre rincon estevez',
+        email: 'rubyrincon1928@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'yasay@outlook.com',
-            jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'rubyrincon1928@gmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-      ],
-    },
-    {
-      id: 'a9868bc2-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Mensajero Motorizado',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'wilman castillo cortés',
-          email: 'castillowilmar58@gmail.com',
+      },
+      {
+        name: 'sebastian ramirez',
+        email: 'sebastian.ramirez_@hotmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de confección, busca de un Mensajero con sentido de la urgencia, inmediatez, que haya trabajado bajo presión, para el cargo de Mensajero motorizado',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'castillowilmar58@gmail.com',
-            jobOfferId: 'a9868bc2-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'sebastian.ramirez_@hotmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jose eduardo lenis sanches',
-          email: 'eduardolenis18@gmail.com',
+      },
+      {
+        name: 'maria victoria angel cerpa',
+        email: 'vickiii17@hotmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de confección, busca de un Mensajero con sentido de la urgencia, inmediatez, que haya trabajado bajo presión, para el cargo de Mensajero motorizado',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'eduardolenis18@gmail.com',
-            jobOfferId: 'a9868bc2-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'vickiii17@hotmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'irzain bedoya botina',
-          email: 'irzainbedoya0715@hotmail.com',
+      },
+      {
+        name: 'yamit asdrubal murillo roa',
+        email: 'yamith.roa@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de confección, busca de un Mensajero con sentido de la urgencia, inmediatez, que haya trabajado bajo presión, para el cargo de Mensajero motorizado',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'irzainbedoya0715@hotmail.com',
-            jobOfferId: 'a9868bc2-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'yamith.roa@gmail.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'leonardo vinasco',
-          email: 'leovinasco1006@hotmail.com',
+      },
+      {
+        name: 'yasay ruiz rojas',
+        email: 'yasay@outlook.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de la ciudad de Cali, requiere de forma inmediata tecnólogo en construcciones civiles con 3 años de experiencia entre, cuyas labores principales serán realizar control en obra y dar apoyo al arquitecto residente',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de confección, busca de un Mensajero con sentido de la urgencia, inmediatez, que haya trabajado bajo presión, para el cargo de Mensajero motorizado',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'leovinasco1006@hotmail.com',
-            jobOfferId: 'a9868bc2-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'yasay@outlook.com',
+          jobOfferId: 'a9868bc1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'flavio ramón hoyos arteaga',
-          email: 'ramart131066@hotmail.com',
+      },
+    ],
+  },
+  {
+    id: 'a9868bc2-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Mensajero Motorizado',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'wilman castillo cortés',
+        email: 'castillowilmar58@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de confección, busca de un Mensajero con sentido de la urgencia, inmediatez, que haya trabajado bajo presión, para el cargo de Mensajero motorizado',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de confección, busca de un Mensajero con sentido de la urgencia, inmediatez, que haya trabajado bajo presión, para el cargo de Mensajero motorizado',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'ramart131066@hotmail.com',
-            jobOfferId: 'a9868bc2-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'castillowilmar58@gmail.com',
+          jobOfferId: 'a9868bc2-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'victor eduardo delgado pulecio',
-          email: 'torvic7d1@hotmail.com',
+      },
+      {
+        name: 'jose eduardo lenis sanches',
+        email: 'eduardolenis18@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de confección, busca de un Mensajero con sentido de la urgencia, inmediatez, que haya trabajado bajo presión, para el cargo de Mensajero motorizado',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de confección, busca de un Mensajero con sentido de la urgencia, inmediatez, que haya trabajado bajo presión, para el cargo de Mensajero motorizado',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'torvic7d1@hotmail.com',
-            jobOfferId: 'a9868bc2-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'eduardolenis18@gmail.com',
+          jobOfferId: 'a9868bc2-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'andrea galvis',
-          email: 'u806828@gmail.com',
+      },
+      {
+        name: 'irzain bedoya botina',
+        email: 'irzainbedoya0715@hotmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de confección, busca de un Mensajero con sentido de la urgencia, inmediatez, que haya trabajado bajo presión, para el cargo de Mensajero motorizado',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de confección, busca de un Mensajero con sentido de la urgencia, inmediatez, que haya trabajado bajo presión, para el cargo de Mensajero motorizado',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'u806828@gmail.com',
-            jobOfferId: 'a9868bc2-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'irzainbedoya0715@hotmail.com',
+          jobOfferId: 'a9868bc2-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'yonny alexander piamba jimenez',
-          email: 'yonnyalexanderpiambajimenez@gmail.com',
+      },
+      {
+        name: 'leonardo vinasco',
+        email: 'leovinasco1006@hotmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de confección, busca de un Mensajero con sentido de la urgencia, inmediatez, que haya trabajado bajo presión, para el cargo de Mensajero motorizado',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de confección, busca de un Mensajero con sentido de la urgencia, inmediatez, que haya trabajado bajo presión, para el cargo de Mensajero motorizado',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'yonnyalexanderpiambajimenez@gmail.com',
-            jobOfferId: 'a9868bc2-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'leovinasco1006@hotmail.com',
+          jobOfferId: 'a9868bc2-a4e3-11ea-85ea-83d5a59c081e',
         },
-      ],
-    },
-    {
-      id: 'a9868bc3-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Chef',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'adriana tamayo quiceno',
-          email: 'adris.tamayo72@gmail.com',
+      },
+      {
+        name: 'flavio ramón hoyos arteaga',
+        email: 'ramart131066@hotmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de confección, busca de un Mensajero con sentido de la urgencia, inmediatez, que haya trabajado bajo presión, para el cargo de Mensajero motorizado',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante multinacional especialista en servicios de alimentación requiere para su contratación HOMBRE O MUJER CHEF, para el sector industrial en la ciudad de Cali , es indispensable que la persona cuente con disponibilidad de tiempo completo para trabaj',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'adris.tamayo72@gmail.com',
-            jobOfferId: 'a9868bc3-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'ramart131066@hotmail.com',
+          jobOfferId: 'a9868bc2-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'juan rojas',
-          email: 'david.rojas1108@gmail.com',
+      },
+      {
+        name: 'victor eduardo delgado pulecio',
+        email: 'torvic7d1@hotmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de confección, busca de un Mensajero con sentido de la urgencia, inmediatez, que haya trabajado bajo presión, para el cargo de Mensajero motorizado',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante multinacional especialista en servicios de alimentación requiere para su contratación HOMBRE O MUJER CHEF, para el sector industrial en la ciudad de Cali , es indispensable que la persona cuente con disponibilidad de tiempo completo para trabaj',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'david.rojas1108@gmail.com',
-            jobOfferId: 'a9868bc3-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'torvic7d1@hotmail.com',
+          jobOfferId: 'a9868bc2-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'emanuel orozco angel',
-          email: 'emanuelescorpion12@gmail.com',
+      },
+      {
+        name: 'andrea galvis',
+        email: 'u806828@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de confección, busca de un Mensajero con sentido de la urgencia, inmediatez, que haya trabajado bajo presión, para el cargo de Mensajero motorizado',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante multinacional especialista en servicios de alimentación requiere para su contratación HOMBRE O MUJER CHEF, para el sector industrial en la ciudad de Cali , es indispensable que la persona cuente con disponibilidad de tiempo completo para trabaj',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'emanuelescorpion12@gmail.com',
-            jobOfferId: 'a9868bc3-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'u806828@gmail.com',
+          jobOfferId: 'a9868bc2-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jairo aristizabal',
-          email: 'jaaltqm@gmail.com',
+      },
+      {
+        name: 'yonny alexander piamba jimenez',
+        email: 'yonnyalexanderpiambajimenez@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de confección, busca de un Mensajero con sentido de la urgencia, inmediatez, que haya trabajado bajo presión, para el cargo de Mensajero motorizado',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante multinacional especialista en servicios de alimentación requiere para su contratación HOMBRE O MUJER CHEF, para el sector industrial en la ciudad de Cali , es indispensable que la persona cuente con disponibilidad de tiempo completo para trabaj',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'jaaltqm@gmail.com',
-            jobOfferId: 'a9868bc3-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'yonnyalexanderpiambajimenez@gmail.com',
+          jobOfferId: 'a9868bc2-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jennifer julieth buitrago zapata',
-          email: 'JEN19902011@GMAIL.COM',
+      },
+    ],
+  },
+  {
+    id: 'a9868bc3-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Chef',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'adriana tamayo quiceno',
+        email: 'adris.tamayo72@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante multinacional especialista en servicios de alimentación requiere para su contratación HOMBRE O MUJER CHEF, para el sector industrial en la ciudad de Cali , es indispensable que la persona cuente con disponibilidad de tiempo completo para trabaj',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante multinacional especialista en servicios de alimentación requiere para su contratación HOMBRE O MUJER CHEF, para el sector industrial en la ciudad de Cali , es indispensable que la persona cuente con disponibilidad de tiempo completo para trabaj',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'JEN19902011@GMAIL.COM',
-            jobOfferId: 'a9868bc3-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'adris.tamayo72@gmail.com',
+          jobOfferId: 'a9868bc3-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'reinaldo gomez chaparro',
-          email: 'reinaldogomezch1969@gmail.com',
+      },
+      {
+        name: 'juan rojas',
+        email: 'david.rojas1108@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante multinacional especialista en servicios de alimentación requiere para su contratación HOMBRE O MUJER CHEF, para el sector industrial en la ciudad de Cali , es indispensable que la persona cuente con disponibilidad de tiempo completo para trabaj',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante multinacional especialista en servicios de alimentación requiere para su contratación HOMBRE O MUJER CHEF, para el sector industrial en la ciudad de Cali , es indispensable que la persona cuente con disponibilidad de tiempo completo para trabaj',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'reinaldogomezch1969@gmail.com',
-            jobOfferId: 'a9868bc3-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'david.rojas1108@gmail.com',
+          jobOfferId: 'a9868bc3-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'sergio andre caicedo diaz',
-          email: 'serandres745@gmail.com',
+      },
+      {
+        name: 'emanuel orozco angel',
+        email: 'emanuelescorpion12@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante multinacional especialista en servicios de alimentación requiere para su contratación HOMBRE O MUJER CHEF, para el sector industrial en la ciudad de Cali , es indispensable que la persona cuente con disponibilidad de tiempo completo para trabaj',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante multinacional especialista en servicios de alimentación requiere para su contratación HOMBRE O MUJER CHEF, para el sector industrial en la ciudad de Cali , es indispensable que la persona cuente con disponibilidad de tiempo completo para trabaj',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'serandres745@gmail.com',
-            jobOfferId: 'a9868bc3-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'emanuelescorpion12@gmail.com',
+          jobOfferId: 'a9868bc3-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'yeimmy vanessa chacua rojas',
-          email: 'vane-majo0921@hotmail.com',
+      },
+      {
+        name: 'jairo aristizabal',
+        email: 'jaaltqm@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante multinacional especialista en servicios de alimentación requiere para su contratación HOMBRE O MUJER CHEF, para el sector industrial en la ciudad de Cali , es indispensable que la persona cuente con disponibilidad de tiempo completo para trabaj',
           createdAt: '2020-06-02T15:13:50.000Z',
           updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante multinacional especialista en servicios de alimentación requiere para su contratación HOMBRE O MUJER CHEF, para el sector industrial en la ciudad de Cali , es indispensable que la persona cuente con disponibilidad de tiempo completo para trabaj',
-            createdAt: '2020-06-02T15:13:50.000Z',
-            updatedAt: '2020-06-02T15:13:50.000Z',
-            userEmail: 'vane-majo0921@hotmail.com',
-            jobOfferId: 'a9868bc3-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-      ],
-    },
-    {
-      id: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Coordinador de Operaciones exp transporte',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'agustin ramos collazos',
-          email: 'agustinrc4@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'agustinrc4@hotmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'duvier alejandro diaz',
-          email: 'alejodiaz2512@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'alejodiaz2512@gmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'andrés felipe ortiz arboleda',
-          email: 'andreso78@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'andreso78@gmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'gustavo adolfo betancur herrera',
-          email: 'betancurgustavo114@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'betancurgustavo114@gmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jorge leonardo chalare torres',
-          email: 'blumade2014@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'blumade2014@gmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'cristian a david gutierrez ospina',
-          email: 'c.gutierrez.ospina.1010@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'c.gutierrez.ospina.1010@gmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'cesar archila',
-          email: 'cesarchila75@yahoo.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'cesarchila75@yahoo.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'díana maria rico torres',
-          email: 'diana82260@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'diana82260@gmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'eduan lara moncayo',
-          email: 'eduanlara@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'eduanlara@gmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'fernando perez rosas',
-          email: 'fernandoperezrosas1971@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'fernandoperezrosas1971@gmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'german ruiz mosquera',
-          email: 'germanruiz612@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'germanruiz612@hotmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jennifer andrea aroca pilcue',
-          email: 'jennyaroca28@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'jennyaroca28@gmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'juan jose medina gutiérrez',
-          email: 'Juan.josemedina01@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'Juan.josemedina01@gmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'oneida elizabeth pantoja calderón',
-          email: 'lizapc26@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'lizapc26@hotmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'luis ricardo suárez montaña',
-          email: 'lrichard_90@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'lrichard_90@hotmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'luis carlos murcia castro',
-          email: 'luismuteky@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'luismuteky@hotmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'luis eduardo lopez valencia',
-          email: 'luis_edo1@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'luis_edo1@hotmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'leidy vanessa estupiñan quintero',
-          email: 'lvanes_160@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'lvanes_160@hotmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'maria eugenia bonilla castaño',
-          email: 'mariluz10223@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'mariluz10223@hotmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'mario alberto mendoza galindo',
-          email: 'marioalbertomendozagalindo@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'marioalbertomendozagalindo@gmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jorge humberto marroquin villaquiran',
-          email: 'marroquinvilla@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'marroquinvilla@gmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'fernando molina mondragon',
-          email: 'molfer2@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'molfer2@hotmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'mónica gálvez gonzález',
-          email: 'monicongo1980@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'monicongo1980@gmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'neried elena valencia acosta',
-          email: 'neriedvalencia@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'neriedvalencia@gmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'javier francisco pantoja támara',
-          email: 'pantoja716@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'pantoja716@hotmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'rodrigo carvajal',
-          email: 'rodrigocarvajal1118@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'rodrigocarvajal1118@gmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'victor manuel asprilla gonzalez',
-          email: 'vicmas14_6@yahoo.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'vicmas14_6@yahoo.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'william andres carabali ospina',
-          email: 'waco7925@yahoo.es',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'waco7925@yahoo.es',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'william ceballos caicedo',
-          email: 'willceca@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'willceca@gmail.com',
-            jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-      ],
-    },
-    {
-      id: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Administrador punto de venta',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'alejandra lopez',
-          email: 'allejitalopez@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'allejitalopez@gmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'andrés felipe ortiz arboleda',
-          email: 'andreso78@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'andreso78@gmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'carlos david campo santanilla',
-          email: 'caerlosdavid29@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'caerlosdavid29@gmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'carlos posso',
-          email: 'carposso@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'carposso@gmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'daniel londoño',
-          email: 'danielth48@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'danielth48@gmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'dario núñez',
-          email: 'dariocobo2@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'dariocobo2@gmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'david gamba hernández',
-          email: 'davidg0319@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'davidg0319@hotmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'deiby alexander tenorio',
-          email: 'deibytenorio@yahoo.es',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'deibytenorio@yahoo.es',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'eduan lara moncayo',
-          email: 'eduanlara@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'eduanlara@gmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'eimy jovanna morales',
-          email: 'eimy1901@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'eimy1901@gmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'felix diaz',
-          email: 'felixbeatles@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'felixbeatles@gmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'isabel paladines',
-          email: 'isapaladines@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'isapaladines@hotmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'libia yasmin pereira barrera',
-          email: 'jazminpeba@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'jazminpeba@hotmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jenny patricia agudelo hernández',
-          email: 'jepahe511@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'jepahe511@gmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jessica marcela vergara torres',
-          email: 'jessivalen06@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'jessivalen06@hotmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'john londoño',
-          email: 'jhon.jaime.londono@correounivalle.edu.co',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'jhon.jaime.londono@correounivalle.edu.co',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'johann mauricio zuluaga vasquez',
-          email: 'jmauricioz@yahoo.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'jmauricioz@yahoo.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'julian antonio villa rivera',
-          email: 'julianantoniovillarivera@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'julianantoniovillarivera@gmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'karen andrea velasquez usma',
-          email: 'karenandreavelasquezusma@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'karenandreavelasquezusma@gmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'oneida elizabeth pantoja calderón',
-          email: 'lizapc26@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'lizapc26@hotmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'luis yamin caicedo masías',
-          email: 'luisyaca@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'luisyaca@gmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'luiyi alexander martinez moreno',
-          email: 'luiyialexandermartinezmoreno@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'luiyialexandermartinezmoreno@gmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'brenda vanessa lozano',
-          email: 'mariajose1228@outlook.es',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'mariajose1228@outlook.es',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'mileydi alejandra prieto marquez',
-          email: 'mileydi.m2013@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'mileydi.m2013@gmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'fernando molina mondragon',
-          email: 'molfer2@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'molfer2@hotmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'paulo cesar marulanda lorez',
-          email: 'pacmalo@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'pacmalo@gmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jhon edward ortegon morales',
-          email: 'papuzzy@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'papuzzy@gmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'luis dario gallon ramos',
-          email: 'smith20jun@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'smith20jun@hotmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'william hoyos martinez',
-          email: 'willy-022@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'willy-022@hotmail.com',
-            jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-      ],
-    },
-    {
-      id: 'a986b2d2-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Ortodoncista',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'adriana bastidas',
-          email: 'adrianabasti1983@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa del sector odontológico, se encuentra en búsqueda de ODONTOLÓGO CON ESPECIALIDAD EN ORTODONCIA en la ciudad de CALI',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'adrianabasti1983@gmail.com',
-            jobOfferId: 'a986b2d2-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jorge andres garcia blanco',
-          email: 'andresgarciaortodoncia@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa del sector odontológico, se encuentra en búsqueda de ODONTOLÓGO CON ESPECIALIDAD EN ORTODONCIA en la ciudad de CALI',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'andresgarciaortodoncia@gmail.com',
-            jobOfferId: 'a986b2d2-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'carmen salazar alexander',
-          email: 'carmen.salazar@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa del sector odontológico, se encuentra en búsqueda de ODONTOLÓGO CON ESPECIALIDAD EN ORTODONCIA en la ciudad de CALI',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'carmen.salazar@hotmail.com',
-            jobOfferId: 'a986b2d2-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'laura milena castillo díaz',
-          email: 'laurita8982@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa del sector odontológico, se encuentra en búsqueda de ODONTOLÓGO CON ESPECIALIDAD EN ORTODONCIA en la ciudad de CALI',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'laurita8982@hotmail.com',
-            jobOfferId: 'a986b2d2-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'natalia baquero ramirez',
-          email: 'natyodonto91@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa del sector odontológico, se encuentra en búsqueda de ODONTOLÓGO CON ESPECIALIDAD EN ORTODONCIA en la ciudad de CALI',
-            createdAt: '2020-06-02T15:13:51.000Z',
-            updatedAt: '2020-06-02T15:13:51.000Z',
-            userEmail: 'natyodonto91@gmail.com',
-            jobOfferId: 'a986b2d2-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-      ],
-    },
-    {
-      id: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Contador',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'andrea johanna parra martínez',
-          email: 'andreajohapm@yahoo.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'andreajohapm@yahoo.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'andrea rozo',
-          email: 'andrwrozo@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'andrwrozo@hotmail.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'armando vega garcia',
-          email: 'armandovega731@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'armandovega731@hotmail.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'claudia helena ortiz mahecha',
-          email: 'claudia_eom@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'claudia_eom@hotmail.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'carmenza edith navia cerón',
-          email: 'dajorca.cont1905@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'dajorca.cont1905@gmail.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'rosa del valle carabali camacho',
-          email: 'delvalle.19co@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'delvalle.19co@hotmail.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'edgar perez romero',
-          email: 'eperezrom@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'eperezrom@hotmail.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'erika vanessa garcia oyola',
-          email: 'erikagarciaoyola@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'erikagarciaoyola@gmail.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'fabian jimenez hincapie',
-          email: 'fabianj7@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'fabianj7@hotmail.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'francisco florez',
-          email: 'franciscoflorezcastro@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'franciscoflorezcastro@gmail.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jorge puente duran',
-          email: 'jpuente42@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'jpuente42@hotmail.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'juan guillermo pineda montoya',
-          email: 'juangpineda@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'juangpineda@hotmail.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'diego fernando ladino lozano',
-          email: 'ladinolozanodiego@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'ladinolozanodiego@hotmail.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'luz heddy lópez arbelaez',
-          email: 'luzheddy@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'luzheddy@gmail.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'margarita valencia cardenas',
-          email: 'margaritavlnc@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'margaritavlnc@gmail.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'carmen athala prado reyes',
-          email: 'mary810705@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'mary810705@hotmail.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'maria eugenia corrales medina',
-          email: 'me.corrales@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'me.corrales@hotmail.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'milton césar álvarez',
-          email: 'miltoncesar.alvarez72@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'miltoncesar.alvarez72@gmail.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'shirley dinac soto castaño',
-          email: 'sdinac1975@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'sdinac1975@gmail.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'udinel guzman paternina',
-          email: 'udguzman@yahoo.com.co',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'udguzman@yahoo.com.co',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'yuli herrera sanchez',
-          email: 'yulita.herrera@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'yulita.herrera@gmail.com',
-            jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-      ],
-    },
-    {
-      id: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Guarda de seguridad',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'jesse toro urbano',
-          email: 'aguila988@hotmail.com',
+          userEmail: 'jaaltqm@gmail.com',
+          jobOfferId: 'a9868bc3-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jennifer julieth buitrago zapata',
+        email: 'JEN19902011@GMAIL.COM',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante multinacional especialista en servicios de alimentación requiere para su contratación HOMBRE O MUJER CHEF, para el sector industrial en la ciudad de Cali , es indispensable que la persona cuente con disponibilidad de tiempo completo para trabaj',
+          createdAt: '2020-06-02T15:13:50.000Z',
+          updatedAt: '2020-06-02T15:13:50.000Z',
+          userEmail: 'JEN19902011@GMAIL.COM',
+          jobOfferId: 'a9868bc3-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'reinaldo gomez chaparro',
+        email: 'reinaldogomezch1969@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante multinacional especialista en servicios de alimentación requiere para su contratación HOMBRE O MUJER CHEF, para el sector industrial en la ciudad de Cali , es indispensable que la persona cuente con disponibilidad de tiempo completo para trabaj',
+          createdAt: '2020-06-02T15:13:50.000Z',
+          updatedAt: '2020-06-02T15:13:50.000Z',
+          userEmail: 'reinaldogomezch1969@gmail.com',
+          jobOfferId: 'a9868bc3-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'sergio andre caicedo diaz',
+        email: 'serandres745@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante multinacional especialista en servicios de alimentación requiere para su contratación HOMBRE O MUJER CHEF, para el sector industrial en la ciudad de Cali , es indispensable que la persona cuente con disponibilidad de tiempo completo para trabaj',
+          createdAt: '2020-06-02T15:13:50.000Z',
+          updatedAt: '2020-06-02T15:13:50.000Z',
+          userEmail: 'serandres745@gmail.com',
+          jobOfferId: 'a9868bc3-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'yeimmy vanessa chacua rojas',
+        email: 'vane-majo0921@hotmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante multinacional especialista en servicios de alimentación requiere para su contratación HOMBRE O MUJER CHEF, para el sector industrial en la ciudad de Cali , es indispensable que la persona cuente con disponibilidad de tiempo completo para trabaj',
+          createdAt: '2020-06-02T15:13:50.000Z',
+          updatedAt: '2020-06-02T15:13:50.000Z',
+          userEmail: 'vane-majo0921@hotmail.com',
+          jobOfferId: 'a9868bc3-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Coordinador de Operaciones exp transporte',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'agustin ramos collazos',
+        email: 'agustinrc4@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'agustinrc4@hotmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'duvier alejandro diaz',
+        email: 'alejodiaz2512@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'alejodiaz2512@gmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'andrés felipe ortiz arboleda',
+        email: 'andreso78@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'andreso78@gmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'gustavo adolfo betancur herrera',
+        email: 'betancurgustavo114@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'betancurgustavo114@gmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jorge leonardo chalare torres',
+        email: 'blumade2014@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'blumade2014@gmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'cristian a david gutierrez ospina',
+        email: 'c.gutierrez.ospina.1010@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'c.gutierrez.ospina.1010@gmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'cesar archila',
+        email: 'cesarchila75@yahoo.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'cesarchila75@yahoo.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'díana maria rico torres',
+        email: 'diana82260@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'diana82260@gmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'eduan lara moncayo',
+        email: 'eduanlara@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'eduanlara@gmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'fernando perez rosas',
+        email: 'fernandoperezrosas1971@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'fernandoperezrosas1971@gmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'german ruiz mosquera',
+        email: 'germanruiz612@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'germanruiz612@hotmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jennifer andrea aroca pilcue',
+        email: 'jennyaroca28@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'jennyaroca28@gmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'juan jose medina gutiérrez',
+        email: 'Juan.josemedina01@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'Juan.josemedina01@gmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'oneida elizabeth pantoja calderón',
+        email: 'lizapc26@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'lizapc26@hotmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'luis ricardo suárez montaña',
+        email: 'lrichard_90@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'lrichard_90@hotmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'luis carlos murcia castro',
+        email: 'luismuteky@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'luismuteky@hotmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'luis eduardo lopez valencia',
+        email: 'luis_edo1@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'luis_edo1@hotmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'leidy vanessa estupiñan quintero',
+        email: 'lvanes_160@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'lvanes_160@hotmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'maria eugenia bonilla castaño',
+        email: 'mariluz10223@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'mariluz10223@hotmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'mario alberto mendoza galindo',
+        email: 'marioalbertomendozagalindo@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'marioalbertomendozagalindo@gmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jorge humberto marroquin villaquiran',
+        email: 'marroquinvilla@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'marroquinvilla@gmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'fernando molina mondragon',
+        email: 'molfer2@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'molfer2@hotmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'mónica gálvez gonzález',
+        email: 'monicongo1980@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'monicongo1980@gmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'neried elena valencia acosta',
+        email: 'neriedvalencia@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'neriedvalencia@gmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'javier francisco pantoja támara',
+        email: 'pantoja716@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'pantoja716@hotmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'rodrigo carvajal',
+        email: 'rodrigocarvajal1118@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'rodrigocarvajal1118@gmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'victor manuel asprilla gonzalez',
+        email: 'vicmas14_6@yahoo.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'vicmas14_6@yahoo.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'william andres carabali ospina',
+        email: 'waco7925@yahoo.es',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'waco7925@yahoo.es',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'william ceballos caicedo',
+        email: 'willceca@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa del sector transporte requiere Tecnologo o Profesional en el área Ingeniería Industrial, logística, comercio exterior o afines.',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'willceca@gmail.com',
+          jobOfferId: 'a986b2d0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Administrador punto de venta',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'alejandra lopez',
+        email: 'allejitalopez@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'allejitalopez@gmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'andrés felipe ortiz arboleda',
+        email: 'andreso78@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'andreso78@gmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'carlos david campo santanilla',
+        email: 'caerlosdavid29@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'caerlosdavid29@gmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'carlos posso',
+        email: 'carposso@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'carposso@gmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'daniel londoño',
+        email: 'danielth48@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'danielth48@gmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'dario núñez',
+        email: 'dariocobo2@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'dariocobo2@gmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'david gamba hernández',
+        email: 'davidg0319@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'davidg0319@hotmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'deiby alexander tenorio',
+        email: 'deibytenorio@yahoo.es',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'deibytenorio@yahoo.es',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'eduan lara moncayo',
+        email: 'eduanlara@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'eduanlara@gmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'eimy jovanna morales',
+        email: 'eimy1901@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'eimy1901@gmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'felix diaz',
+        email: 'felixbeatles@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'felixbeatles@gmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'isabel paladines',
+        email: 'isapaladines@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'isapaladines@hotmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'libia yasmin pereira barrera',
+        email: 'jazminpeba@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'jazminpeba@hotmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jenny patricia agudelo hernández',
+        email: 'jepahe511@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'jepahe511@gmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jessica marcela vergara torres',
+        email: 'jessivalen06@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'jessivalen06@hotmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'john londoño',
+        email: 'jhon.jaime.londono@correounivalle.edu.co',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'jhon.jaime.londono@correounivalle.edu.co',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'johann mauricio zuluaga vasquez',
+        email: 'jmauricioz@yahoo.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'jmauricioz@yahoo.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'julian antonio villa rivera',
+        email: 'julianantoniovillarivera@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'julianantoniovillarivera@gmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'karen andrea velasquez usma',
+        email: 'karenandreavelasquezusma@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'karenandreavelasquezusma@gmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'oneida elizabeth pantoja calderón',
+        email: 'lizapc26@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'lizapc26@hotmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'luis yamin caicedo masías',
+        email: 'luisyaca@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'luisyaca@gmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'luiyi alexander martinez moreno',
+        email: 'luiyialexandermartinezmoreno@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'luiyialexandermartinezmoreno@gmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'brenda vanessa lozano',
+        email: 'mariajose1228@outlook.es',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'mariajose1228@outlook.es',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'mileydi alejandra prieto marquez',
+        email: 'mileydi.m2013@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'mileydi.m2013@gmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'fernando molina mondragon',
+        email: 'molfer2@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'molfer2@hotmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'paulo cesar marulanda lorez',
+        email: 'pacmalo@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'pacmalo@gmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jhon edward ortegon morales',
+        email: 'papuzzy@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'papuzzy@gmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'luis dario gallon ramos',
+        email: 'smith20jun@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'smith20jun@hotmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'william hoyos martinez',
+        email: 'willy-022@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'En tiendas ara nuestro propósito es democratizar alimentos de calidad para que estén al alcance de todos los colombianos, nuestro compromiso es velar por el bienestar de nuestros colaboradores, sus familias y por el cuidado del medio ambiente, apostamos p',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'willy-022@hotmail.com',
+          jobOfferId: 'a986b2d1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a986b2d2-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Ortodoncista',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'adriana bastidas',
+        email: 'adrianabasti1983@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa del sector odontológico, se encuentra en búsqueda de ODONTOLÓGO CON ESPECIALIDAD EN ORTODONCIA en la ciudad de CALI',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'adrianabasti1983@gmail.com',
+          jobOfferId: 'a986b2d2-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jorge andres garcia blanco',
+        email: 'andresgarciaortodoncia@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa del sector odontológico, se encuentra en búsqueda de ODONTOLÓGO CON ESPECIALIDAD EN ORTODONCIA en la ciudad de CALI',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'andresgarciaortodoncia@gmail.com',
+          jobOfferId: 'a986b2d2-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'carmen salazar alexander',
+        email: 'carmen.salazar@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa del sector odontológico, se encuentra en búsqueda de ODONTOLÓGO CON ESPECIALIDAD EN ORTODONCIA en la ciudad de CALI',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'carmen.salazar@hotmail.com',
+          jobOfferId: 'a986b2d2-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'laura milena castillo díaz',
+        email: 'laurita8982@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa del sector odontológico, se encuentra en búsqueda de ODONTOLÓGO CON ESPECIALIDAD EN ORTODONCIA en la ciudad de CALI',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'laurita8982@hotmail.com',
+          jobOfferId: 'a986b2d2-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'natalia baquero ramirez',
+        email: 'natyodonto91@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa del sector odontológico, se encuentra en búsqueda de ODONTOLÓGO CON ESPECIALIDAD EN ORTODONCIA en la ciudad de CALI',
+          createdAt: '2020-06-02T15:13:51.000Z',
+          updatedAt: '2020-06-02T15:13:51.000Z',
+          userEmail: 'natyodonto91@gmail.com',
+          jobOfferId: 'a986b2d2-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Contador',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'andrea johanna parra martínez',
+        email: 'andreajohapm@yahoo.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'aguila988@hotmail.com',
-            jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'andreajohapm@yahoo.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'ancízar velásquez gómez',
-          email: 'cjancizar@gmail.com',
+      },
+      {
+        name: 'andrea rozo',
+        email: 'andrwrozo@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'cjancizar@gmail.com',
-            jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'andrwrozo@hotmail.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'rubo cristian erazo tobar',
-          email: 'cristianerazo0001@gmail.com',
+      },
+      {
+        name: 'armando vega garcia',
+        email: 'armandovega731@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'cristianerazo0001@gmail.com',
-            jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'armandovega731@hotmail.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'daniel antonio bolaños garzon',
-          email: 'danybolanos524@gmail.com',
+      },
+      {
+        name: 'claudia helena ortiz mahecha',
+        email: 'claudia_eom@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'danybolanos524@gmail.com',
-            jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'claudia_eom@hotmail.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'henry giraldo montoya',
-          email: 'henrygiraldo67@yahoo.es',
+      },
+      {
+        name: 'carmenza edith navia cerón',
+        email: 'dajorca.cont1905@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'henrygiraldo67@yahoo.es',
-            jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'dajorca.cont1905@gmail.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jean carlo guerrero izquierdo',
-          email: 'izquierdcarlo1998@hotmail.com',
-          createdAt: '2020-06-02T15:13:49.000Z',
-          updatedAt: '2020-06-02T15:13:49.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'izquierdcarlo1998@hotmail.com',
-            jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jefferson guampe cortes',
-          email: 'jeffer1908@outlook.com',
+      },
+      {
+        name: 'rosa del valle carabali camacho',
+        email: 'delvalle.19co@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'jeffer1908@outlook.com',
-            jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'delvalle.19co@hotmail.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'john jairo candelo santacruz',
-          email: 'jemisa1025@hotmail.com',
+      },
+      {
+        name: 'edgar perez romero',
+        email: 'eperezrom@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'jemisa1025@hotmail.com',
-            jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'eperezrom@hotmail.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jose ediber ramirez cardozo',
-          email: 'jose.ediber0601@gmail.com',
+      },
+      {
+        name: 'erika vanessa garcia oyola',
+        email: 'erikagarciaoyola@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'jose.ediber0601@gmail.com',
-            jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'erikagarciaoyola@gmail.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'diego alenxandre gonzález ríos',
-          email: 'julimatixime2831@gmail.com',
+      },
+      {
+        name: 'fabian jimenez hincapie',
+        email: 'fabianj7@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'julimatixime2831@gmail.com',
-            jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'fabianj7@hotmail.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'diana carolina pinto salazar',
-          email: 'karitops08@hotmail.com',
+      },
+      {
+        name: 'francisco florez',
+        email: 'franciscoflorezcastro@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'karitops08@hotmail.com',
-            jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'franciscoflorezcastro@gmail.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'luis fernando torres',
-          email: 'luisfer9818@hotmail.com',
+      },
+      {
+        name: 'jorge puente duran',
+        email: 'jpuente42@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'luisfer9818@hotmail.com',
-            jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'jpuente42@hotmail.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'paula andrea cancimanse',
-          email: 'morenasa.38@hotmail.com',
+      },
+      {
+        name: 'juan guillermo pineda montoya',
+        email: 'juangpineda@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'morenasa.38@hotmail.com',
-            jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'juangpineda@hotmail.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'paola andrea muñoz pretel',
-          email: 'paola111927@gmail.com',
+      },
+      {
+        name: 'diego fernando ladino lozano',
+        email: 'ladinolozanodiego@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'paola111927@gmail.com',
-            jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'ladinolozanodiego@hotmail.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'francia elena walles dávila',
-          email: 'wallesdavilaelena@gmail.com',
+      },
+      {
+        name: 'luz heddy lópez arbelaez',
+        email: 'luzheddy@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'wallesdavilaelena@gmail.com',
-            jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'luzheddy@gmail.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'leonel garcia daza',
-          email: 'yudhistira8@outlook.es',
+      },
+      {
+        name: 'margarita valencia cardenas',
+        email: 'margaritavlnc@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'yudhistira8@outlook.es',
-            jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'margaritavlnc@gmail.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-      ],
-    },
-    {
-      id: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Ejecutivo/a Comercial',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'andrés felipe narváez',
-          email: 'andreshorta0@gmail.com',
+      },
+      {
+        name: 'carmen athala prado reyes',
+        email: 'mary810705@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Requerimos profesional en finanzas,economía, administración y afines con experiencia 2 años en ventas intangibles, sus funciones serán captar nuevos clientes y hacer seguimiento a los existentes en base de datos, crear estrategias de mercadeo y venta, y h',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'andreshorta0@gmail.com',
-            jobOfferId: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'mary810705@hotmail.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'daniel londoño',
-          email: 'danielth48@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Requerimos profesional en finanzas,economía, administración y afines con experiencia 2 años en ventas intangibles, sus funciones serán captar nuevos clientes y hacer seguimiento a los existentes en base de datos, crear estrategias de mercadeo y venta, y h',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'danielth48@gmail.com',
-            jobOfferId: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'eduardo reyes valdez',
-          email: 'ereyesvaldez50@gmail.com',
+      },
+      {
+        name: 'maria eugenia corrales medina',
+        email: 'me.corrales@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Requerimos profesional en finanzas,economía, administración y afines con experiencia 2 años en ventas intangibles, sus funciones serán captar nuevos clientes y hacer seguimiento a los existentes en base de datos, crear estrategias de mercadeo y venta, y h',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'ereyesvaldez50@gmail.com',
-            jobOfferId: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'me.corrales@hotmail.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'laura catalina giraldo cardoza',
-          email: 'giraldolauracatalina@gmail.com',
+      },
+      {
+        name: 'milton césar álvarez',
+        email: 'miltoncesar.alvarez72@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Requerimos profesional en finanzas,economía, administración y afines con experiencia 2 años en ventas intangibles, sus funciones serán captar nuevos clientes y hacer seguimiento a los existentes en base de datos, crear estrategias de mercadeo y venta, y h',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'giraldolauracatalina@gmail.com',
-            jobOfferId: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'miltoncesar.alvarez72@gmail.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'ingry yohanna ángulo castillo',
-          email: 'ingryyohanna1@gmail.com',
+      },
+      {
+        name: 'shirley dinac soto castaño',
+        email: 'sdinac1975@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Requerimos profesional en finanzas,economía, administración y afines con experiencia 2 años en ventas intangibles, sus funciones serán captar nuevos clientes y hacer seguimiento a los existentes en base de datos, crear estrategias de mercadeo y venta, y h',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'ingryyohanna1@gmail.com',
-            jobOfferId: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'sdinac1975@gmail.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jose fernando lopez samaca',
-          email: 'jflopezsam@gmail.com',
+      },
+      {
+        name: 'udinel guzman paternina',
+        email: 'udguzman@yahoo.com.co',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Requerimos profesional en finanzas,economía, administración y afines con experiencia 2 años en ventas intangibles, sus funciones serán captar nuevos clientes y hacer seguimiento a los existentes en base de datos, crear estrategias de mercadeo y venta, y h',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'jflopezsam@gmail.com',
-            jobOfferId: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'udguzman@yahoo.com.co',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'julián andres ospina taborda',
-          email: 'julianospina0806@hotmail.com',
+      },
+      {
+        name: 'yuli herrera sanchez',
+        email: 'yulita.herrera@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa nacional, requiere para vinculación inmediata Contador-financiero, Profesional en Contaduría con diplomado o posgrados en el área financiera, par dirigir los procesos de registro, administración y control de la información contable, leg',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Requerimos profesional en finanzas,economía, administración y afines con experiencia 2 años en ventas intangibles, sus funciones serán captar nuevos clientes y hacer seguimiento a los existentes en base de datos, crear estrategias de mercadeo y venta, y h',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'julianospina0806@hotmail.com',
-            jobOfferId: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'yulita.herrera@gmail.com',
+          jobOfferId: 'a986d9e0-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'oscar armando roldan buendia',
-          email: 'osroldan1625@hotmail.com',
+      },
+    ],
+  },
+  {
+    id: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Guarda de seguridad',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'jesse toro urbano',
+        email: 'aguila988@hotmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Requerimos profesional en finanzas,economía, administración y afines con experiencia 2 años en ventas intangibles, sus funciones serán captar nuevos clientes y hacer seguimiento a los existentes en base de datos, crear estrategias de mercadeo y venta, y h',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'osroldan1625@hotmail.com',
-            jobOfferId: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'aguila988@hotmail.com',
+          jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'paola ximena mazuera medina',
-          email: 'pxmazuera@gmail.com',
+      },
+      {
+        name: 'ancízar velásquez gómez',
+        email: 'cjancizar@gmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Requerimos profesional en finanzas,economía, administración y afines con experiencia 2 años en ventas intangibles, sus funciones serán captar nuevos clientes y hacer seguimiento a los existentes en base de datos, crear estrategias de mercadeo y venta, y h',
-            createdAt: '2020-06-02T15:13:52.000Z',
-            updatedAt: '2020-06-02T15:13:52.000Z',
-            userEmail: 'pxmazuera@gmail.com',
-            jobOfferId: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'cjancizar@gmail.com',
+          jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
         },
-      ],
-    },
-    {
-      id: 'a98700f1-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Vendedor Fruver',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'alejandro parra',
-          email: 'alejandro33pg@hotmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa importadora de fruta necesita vendedor fruver con experiencia mínima de tres años en mercadeo para trabajar en la plaza Santa Elena en Cali. La responsabilidad, honestidad, seriedad y compromiso son indispensables para aplicar al puesto.',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'alejandro33pg@hotmail.com',
-            jobOfferId: 'a98700f1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'carlos mario garcía silva',
-          email: 'carlosmgarcia68@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa importadora de fruta necesita vendedor fruver con experiencia mínima de tres años en mercadeo para trabajar en la plaza Santa Elena en Cali. La responsabilidad, honestidad, seriedad y compromiso son indispensables para aplicar al puesto.',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'carlosmgarcia68@gmail.com',
-            jobOfferId: 'a98700f1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jennifer julieth buitrago zapata',
-          email: 'JEN19902011@GMAIL.COM',
-          createdAt: '2020-06-02T15:13:50.000Z',
-          updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa importadora de fruta necesita vendedor fruver con experiencia mínima de tres años en mercadeo para trabajar en la plaza Santa Elena en Cali. La responsabilidad, honestidad, seriedad y compromiso son indispensables para aplicar al puesto.',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'JEN19902011@GMAIL.COM',
-            jobOfferId: 'a98700f1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'loyni johanna vidal hurtado',
-          email: 'johannakavi09@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa importadora de fruta necesita vendedor fruver con experiencia mínima de tres años en mercadeo para trabajar en la plaza Santa Elena en Cali. La responsabilidad, honestidad, seriedad y compromiso son indispensables para aplicar al puesto.',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'johannakavi09@gmail.com',
-            jobOfferId: 'a98700f1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'julieth bermudez toro',
-          email: 'juleyber@hotmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa importadora de fruta necesita vendedor fruver con experiencia mínima de tres años en mercadeo para trabajar en la plaza Santa Elena en Cali. La responsabilidad, honestidad, seriedad y compromiso son indispensables para aplicar al puesto.',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'juleyber@hotmail.com',
-            jobOfferId: 'a98700f1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'leidy tatiana realpe reyes',
-          email: 'lilo23001@hotmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa importadora de fruta necesita vendedor fruver con experiencia mínima de tres años en mercadeo para trabajar en la plaza Santa Elena en Cali. La responsabilidad, honestidad, seriedad y compromiso son indispensables para aplicar al puesto.',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'lilo23001@hotmail.com',
-            jobOfferId: 'a98700f1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'maria navas',
-          email: 'maryyeca3@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa importadora de fruta necesita vendedor fruver con experiencia mínima de tres años en mercadeo para trabajar en la plaza Santa Elena en Cali. La responsabilidad, honestidad, seriedad y compromiso son indispensables para aplicar al puesto.',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'maryyeca3@gmail.com',
-            jobOfferId: 'a98700f1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'yojana patricia cruz valencia',
-          email: 'yojanita1219@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa importadora de fruta necesita vendedor fruver con experiencia mínima de tres años en mercadeo para trabajar en la plaza Santa Elena en Cali. La responsabilidad, honestidad, seriedad y compromiso son indispensables para aplicar al puesto.',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'yojanita1219@gmail.com',
-            jobOfferId: 'a98700f1-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-      ],
-    },
-    {
-      id: 'a9874f10-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Vendedor Punto Fijo',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'gerardin johanna caicedo angulo',
-          email: 'CAICEDOJOHANNA1999@GMAIL.COM',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa del sector avicola busca bachiller con experiencia en ventas de mostrador o punto fijo de 2 años mínima, servicio al cliente, cargue y descargue y organización de bodega personas que hayan laborado en venta de carne, pollo, fruver, tien',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'CAICEDOJOHANNA1999@GMAIL.COM',
-            jobOfferId: 'a9874f10-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'diana andre escobar velasco',
-          email: 'dianaevelasco@hotmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa del sector avicola busca bachiller con experiencia en ventas de mostrador o punto fijo de 2 años mínima, servicio al cliente, cargue y descargue y organización de bodega personas que hayan laborado en venta de carne, pollo, fruver, tien',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'dianaevelasco@hotmail.com',
-            jobOfferId: 'a9874f10-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'martha isabel zapata bermudez',
-          email: 'isa1858@hotmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa del sector avicola busca bachiller con experiencia en ventas de mostrador o punto fijo de 2 años mínima, servicio al cliente, cargue y descargue y organización de bodega personas que hayan laborado en venta de carne, pollo, fruver, tien',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'isa1858@hotmail.com',
-            jobOfferId: 'a9874f10-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'diana carolina pinto salazar',
-          email: 'karitops08@hotmail.com',
+      },
+      {
+        name: 'rubo cristian erazo tobar',
+        email: 'cristianerazo0001@gmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida empresa del sector avicola busca bachiller con experiencia en ventas de mostrador o punto fijo de 2 años mínima, servicio al cliente, cargue y descargue y organización de bodega personas que hayan laborado en venta de carne, pollo, fruver, tien',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'karitops08@hotmail.com',
-            jobOfferId: 'a9874f10-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'cristianerazo0001@gmail.com',
+          jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
         },
-      ],
-    },
-    {
-      id: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Asesor Comercial',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'erika vaca sanchez',
-          email: 'akeris81@hotmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'akeris81@hotmail.com',
-            jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'paula andrea ortiz adarme',
-          email: 'andrea_89_6@hotmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'andrea_89_6@hotmail.com',
-            jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'miguel andres quiñones angulo',
-          email: 'asesor.misalud@hotmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'asesor.misalud@hotmail.com',
-            jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'carlos alberto salazar garcia',
-          email: 'casbusiness2007@yahoo.es',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'casbusiness2007@yahoo.es',
-            jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'ruby rocio fuenmayor quenoran',
-          email: 'fuenmayorruby9@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'fuenmayorruby9@gmail.com',
-            jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'gustavo grueso gómez',
-          email: 'gussg-23@hotmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'gussg-23@hotmail.com',
-            jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'heberly álvarez rave',
-          email: 'heberly1988@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'heberly1988@gmail.com',
-            jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'ingrid lorena angulo',
-          email: 'ingridlorenaangulo126@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'ingridlorenaangulo126@gmail.com',
-            jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'irzain bedoya botina',
-          email: 'irzainbedoya0715@hotmail.com',
-          createdAt: '2020-06-02T15:13:50.000Z',
-          updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'irzainbedoya0715@hotmail.com',
-            jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'josé humberto bustos manosalva',
-          email: 'josehbustos6@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'josehbustos6@gmail.com',
-            jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'lina maria urbano herrera',
-          email: 'limaur13@yahoo.es',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'limaur13@yahoo.es',
-            jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'luis fernando torres',
-          email: 'luisfer9818@hotmail.com',
+      },
+      {
+        name: 'daniel antonio bolaños garzon',
+        email: 'danybolanos524@gmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'luisfer9818@hotmail.com',
-            jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'danybolanos524@gmail.com',
+          jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'luiyi alexander martinez moreno',
-          email: 'luiyialexandermartinezmoreno@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'luiyialexandermartinezmoreno@gmail.com',
-            jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'sandra milena lasso claros',
-          email: 'samilacla@hotmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'samilacla@hotmail.com',
-            jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'lina gongora salas',
-          email: 'thiago17maice@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'thiago17maice@gmail.com',
-            jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'yuliana palacios',
-          email: 'yuliana13palacios@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'yuliana13palacios@gmail.com',
-            jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'cindy zambrano zutta',
-          email: 'zambranojohana33@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
-            createdAt: '2020-06-02T15:13:53.000Z',
-            updatedAt: '2020-06-02T15:13:53.000Z',
-            userEmail: 'zambranojohana33@gmail.com',
-            jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-      ],
-    },
-    {
-      id: 'a9874f12-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'IT Recruiter',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'william alejandro luna garzon',
-          email: 'Alejo.luna.garzon@hotmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Buscamos IT Recruiter para sumarse al equipo de Reclutamiento y participar en distintos proyectos conformados por equipos multiculturales distribuidos en todo el mundo. Buscamos personas proactivas, dinámicas y team players, con gran capacidad de organiza',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'Alejo.luna.garzon@hotmail.com',
-            jobOfferId: 'a9874f12-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'catalina gutiérrez rendón',
-          email: 'catalinagutierrez98@hotmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Buscamos IT Recruiter para sumarse al equipo de Reclutamiento y participar en distintos proyectos conformados por equipos multiculturales distribuidos en todo el mundo. Buscamos personas proactivas, dinámicas y team players, con gran capacidad de organiza',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'catalinagutierrez98@hotmail.com',
-            jobOfferId: 'a9874f12-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'maria catalina vargas prado',
-          email: 'catavp85@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Buscamos IT Recruiter para sumarse al equipo de Reclutamiento y participar en distintos proyectos conformados por equipos multiculturales distribuidos en todo el mundo. Buscamos personas proactivas, dinámicas y team players, con gran capacidad de organiza',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'catavp85@gmail.com',
-            jobOfferId: 'a9874f12-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'yossin stiven valencia',
-          email: 'jhosinval@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Buscamos IT Recruiter para sumarse al equipo de Reclutamiento y participar en distintos proyectos conformados por equipos multiculturales distribuidos en todo el mundo. Buscamos personas proactivas, dinámicas y team players, con gran capacidad de organiza',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'jhosinval@gmail.com',
-            jobOfferId: 'a9874f12-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'juan pablo reyes talero',
-          email: 'jreyestalero@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Buscamos IT Recruiter para sumarse al equipo de Reclutamiento y participar en distintos proyectos conformados por equipos multiculturales distribuidos en todo el mundo. Buscamos personas proactivas, dinámicas y team players, con gran capacidad de organiza',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'jreyestalero@gmail.com',
-            jobOfferId: 'a9874f12-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'oneida elizabeth pantoja calderón',
-          email: 'lizapc26@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Buscamos IT Recruiter para sumarse al equipo de Reclutamiento y participar en distintos proyectos conformados por equipos multiculturales distribuidos en todo el mundo. Buscamos personas proactivas, dinámicas y team players, con gran capacidad de organiza',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'lizapc26@hotmail.com',
-            jobOfferId: 'a9874f12-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'lizeth tatiana fonseca rivera',
-          email: 'lizethtfonsecar@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Buscamos IT Recruiter para sumarse al equipo de Reclutamiento y participar en distintos proyectos conformados por equipos multiculturales distribuidos en todo el mundo. Buscamos personas proactivas, dinámicas y team players, con gran capacidad de organiza',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'lizethtfonsecar@gmail.com',
-            jobOfferId: 'a9874f12-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'arnol julian ospina jimenez',
-          email: 'siemprejuli@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Buscamos IT Recruiter para sumarse al equipo de Reclutamiento y participar en distintos proyectos conformados por equipos multiculturales distribuidos en todo el mundo. Buscamos personas proactivas, dinámicas y team players, con gran capacidad de organiza',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'siemprejuli@gmail.com',
-            jobOfferId: 'a9874f12-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-      ],
-    },
-    {
-      id: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-      name: '70 agentes call center tecnico o tecnologos',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'adriana salazar',
-          email: 'abogadriana28064@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'abogadriana28064@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'adolfo leon cano marquez',
-          email: 'adolfoleoncano@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'adolfoleoncano@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'aida liseth ibañez',
-          email: 'aidalizeth@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'aidalizeth@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'maria fernanda alegria bastidas',
-          email: 'alegria0820@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'alegria0820@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'alexis mina',
-          email: 'alexisminam97@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'alexisminam97@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'andrea guerrero varon',
-          email: 'andrea.guerrero1986@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'andrea.guerrero1986@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'aura andrea villota pulistar',
-          email: 'andrea.vipuli@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'andrea.vipuli@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'mitchel andrea lopez quintero',
-          email: 'andreasport4@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'andreasport4@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'andrés felipe narváez',
-          email: 'andreshorta0@gmail.com',
+      },
+      {
+        name: 'henry giraldo montoya',
+        email: 'henrygiraldo67@yahoo.es',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'andreshorta0@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'angélica galvez',
-          email: 'angelica.gv01@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'angelica.gv01@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'angie vanessa londoño valencia',
-          email: 'angi2846@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'angi2846@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'angie andrea viafara',
-          email: 'angieandreaviafara@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'angieandreaviafara@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'miguel andres quiñones angulo',
-          email: 'asesor.misalud@hotmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'asesor.misalud@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'martín daniel bravo calvo',
-          email: 'bbdaniel89@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'bbdaniel89@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'breicy bautista',
-          email: 'bemacaje2016@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'bemacaje2016@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'gerardin johanna caicedo angulo',
-          email: 'CAICEDOJOHANNA1999@GMAIL.COM',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'CAICEDOJOHANNA1999@GMAIL.COM',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'carlos yesid cubides morales',
-          email: 'carloscubides@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'carloscubides@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'carlos posso',
-          email: 'carposso@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'carposso@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'césar augusto lópez lópez',
-          email: 'ceslopez94@yahoo.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'ceslopez94@yahoo.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'claudia marcela ibañez cardona',
-          email: 'claudiscmi@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'claudiscmi@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'leidy tatiana collazos cobo',
-          email: 'collazoscobotatiana@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'collazoscobotatiana@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'ana contreras',
-          email: 'contrerasana1991@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'contrerasana1991@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'david arango posso',
-          email: 'dabineitor08@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'dabineitor08@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'dayra elisa ricas orrego',
-          email: 'daira.fre@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'daira.fre@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'daniela artunduaga',
-          email: 'daniela.artunduaga.aragon@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'daniela.artunduaga.aragon@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'dayris zabala mercado',
-          email: 'dayriszabala7@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'dayriszabala7@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'diva polanco ortiz',
-          email: 'divam_2008@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'divam_2008@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'eliana arango',
-          email: 'eliarqui20@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'eliarqui20@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'esther lizette diaz vargas',
-          email: 'elidiva4@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'elidiva4@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'erika sofia forero cifuentes',
-          email: 'erikita1989dinda@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'erikita1989dinda@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'esmeralda barrero grisales',
-          email: 'esmebagri1996@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'esmebagri1996@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'fany dorado',
-          email: 'fannyesperanza4@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'fannyesperanza4@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'luis fernando saavedra',
-          email: 'fer271968@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'fer271968@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'paola jeniree fernandez dominguez',
-          email: 'fernandez.paola0@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'fernandez.paola0@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'gina giraldo',
-          email: 'ginmaring13@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'ginmaring13@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'gonzalo blandón delgado',
-          email: 'gonzaloblandon98@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'gonzaloblandon98@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'heberly álvarez rave',
-          email: 'heberly1988@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'heberly1988@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'ingrid lorena angulo',
-          email: 'ingridlorenaangulo126@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'ingridlorenaangulo126@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jhon alexander bermudez uran',
-          email: 'jhonalexanderuran2020@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'jhonalexanderuran2020@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jonathan narvaez',
-          email: 'jhonatan.en@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'jhonatan.en@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jhonatan gutierrez',
-          email: 'jhonatangm1998@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'jhonatangm1998@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'claudia jimena tello montenegro',
-          email: 'jimena0088@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'jimena0088@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jose fernando naranjo ruiz',
-          email: 'jofenaru@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'jofenaru@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'josé humberto bustos manosalva',
-          email: 'josehbustos6@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'josehbustos6@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'juan camilo parra gutierrez',
-          email: 'juanca1070921@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'juanca1070921@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'juan fernando viveros',
-          email: 'juhan_fer@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'juhan_fer@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'karen yulieth pinillo torres',
-          email: 'karenpinillo@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'karenpinillo@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'katerinet sanchez',
-          email: 'katerinet_sanchez@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'katerinet_sanchez@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'katherine urrego rocha',
-          email: 'kathe.urrego98@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'kathe.urrego98@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'kevin solarte',
-          email: 'kevinsolarte92@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'kevinsolarte92@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'katalina olaya sanchez',
-          email: 'kta9509@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'kta9509@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'leidy daniela villani jambo',
-          email: 'leidydaniela64@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'leidydaniela64@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'teresa perdomo',
-          email: 'lizailyne05@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'lizailyne05@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'igna lorena bermudez velasco',
-          email: 'lorena.198321@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'lorena.198321@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'sujey lorena camacho ospina',
-          email: 'lorenacam25@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'lorenacam25@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'luis felipe gaitan idarraga',
-          email: 'luisfelipegaitanidarraga@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'luisfelipegaitanidarraga@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'mayra alejandra cabrera cabrera',
-          email: 'maecabrera99@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'maecabrera99@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'maria alejandra abadia toro',
-          email: 'malejaabadiatoro@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'malejaabadiatoro@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jackeline manso grajales',
-          email: 'manso1984@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'manso1984@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'diana marcela zuñiga ipia',
-          email: 'marcela2015mar16@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'marcela2015mar16@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'maría eugenia angulo gallego',
-          email: 'meangulo85@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'meangulo85@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'miguel angel santoyo celis',
-          email: 'miguelcelis2015@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'miguelcelis2015@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'tatiana murcia espinosa',
-          email: 'murcia624@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'murcia624@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'nasly sanclemente',
-          email: 'naslysanclemente@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'naslysanclemente@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'paula andrea ramirez ospina',
-          email: 'paula.andrea.ramirez@correounivalle.edu.co',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'paula.andrea.ramirez@correounivalle.edu.co',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'raul lopez ortega',
-          email: 'rlo512003@yahoo.es',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'rlo512003@yahoo.es',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'paulina antonia ramos londoño',
-          email: 'salsayvallenato@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'salsayvallenato@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'sandra patricia maldonado',
-          email: 'sandra_patricia16@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'sandra_patricia16@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'luz mary meza quintero',
-          email: 'sedan_64@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'sedan_64@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jean carlos solarte ortiz',
-          email: 'solarteortiz1998@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'solarteortiz1998@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'josé david soto rodrigues',
-          email: 'soto-610@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'soto-610@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'paula andrea cuartas trujillo',
-          email: 'tabata2308@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'tabata2308@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'angela maría betancourt quintero',
-          email: 'unangel0120@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'unangel0120@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'valentina asprilla palacios',
-          email: 'VALEN2362011@HOTMAIL.COM',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'VALEN2362011@HOTMAIL.COM',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'anyi vanesa camacho valencia',
-          email: 'valenciaangie1@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'valenciaangie1@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'vannessa velasco victoria',
-          email: 'vanevelasco17@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'vanevelasco17@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'yenny josefina jaramillo fernandez',
-          email: 'yenny2359@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'yenny2359@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'yhojan barrientos lópez',
-          email: 'yhojanbl@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'yhojanbl@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'maria yileiner ibarguen mendoza',
-          email: 'yileiner@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'yileiner@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'yineth marlady caicedo garcés',
-          email: 'yinethcaicedo27@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'yinethcaicedo27@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'yubisay herrera',
-          email: 'yubisay554@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'yubisay554@gmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'yurani burbano',
-          email: 'yura201985@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'yura201985@hotmail.com',
-            jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-      ],
-    },
-    {
-      id: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Asesor Soporte Técnico',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'gabriela paola vargas insignares',
-          email: '1002013531gabi@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: '1002013531gabi@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'alexis mina',
-          email: 'alexisminam97@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'alexisminam97@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'ana elizabeth culma mendoza',
-          email: 'anaculma@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'anaculma@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'aura andrea villota pulistar',
-          email: 'andrea.vipuli@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'andrea.vipuli@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'andres montoya cortazar',
-          email: 'andresmc3186@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'andresmc3186@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'andres delgado',
-          email: 'andru2a@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'andru2a@hotmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'angie andrea viafara',
-          email: 'angieandreaviafara@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'angieandreaviafara@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'bernardo javier villota morales',
-          email: 'bvillota933@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'bvillota933@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'hernán darío victoria',
-          email: 'dari00597@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'dari00597@hotmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'darwin alexis rosero lopez',
-          email: 'darwinroserolopez@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'darwinroserolopez@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'diego fernando gualdron parra',
-          email: 'dfgual@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'dfgual@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'duberney restrepo',
-          email: 'duber0312@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'duber0312@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'daniela angulo gonzález',
-          email: 'edani.g97@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'edani.g97@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'felipe antonio benavides ortegon',
-          email: 'felomania@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'felomania@hotmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'omar fernando garcia alderete',
-          email: 'fercho730106@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'fercho730106@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'hernan antony cortés',
-          email: 'hancor23@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'hancor23@hotmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jhon alexander laviano ortiz',
-          email: 'iamjhonalex679@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'iamjhonalex679@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'juan david hernández',
-          email: 'jdhernandez421@misena.edu.co',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'jdhernandez421@misena.edu.co',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jhon mauricio calderon garzon',
-          email: 'jmcgarzon@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'jmcgarzon@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jorge andres palma salazar',
-          email: 'jpalmas35@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'jpalmas35@hotmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'juan fernando viveros',
-          email: 'juhan_fer@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'juhan_fer@hotmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'julián andres ospina taborda',
-          email: 'julianospina0806@hotmail.com',
+          userEmail: 'henrygiraldo67@yahoo.es',
+          jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jean carlo guerrero izquierdo',
+        email: 'izquierdcarlo1998@hotmail.com',
+        createdAt: '2020-06-02T15:13:49.000Z',
+        updatedAt: '2020-06-02T15:13:49.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
           createdAt: '2020-06-02T15:13:52.000Z',
           updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'julianospina0806@hotmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'izquierdcarlo1998@hotmail.com',
+          jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'julio sanchez',
-          email: 'juliosanz998@gmail.com',
+      },
+      {
+        name: 'jefferson guampe cortes',
+        email: 'jeffer1908@outlook.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
+          createdAt: '2020-06-02T15:13:52.000Z',
+          updatedAt: '2020-06-02T15:13:52.000Z',
+          userEmail: 'jeffer1908@outlook.com',
+          jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'john jairo candelo santacruz',
+        email: 'jemisa1025@hotmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
+          createdAt: '2020-06-02T15:13:52.000Z',
+          updatedAt: '2020-06-02T15:13:52.000Z',
+          userEmail: 'jemisa1025@hotmail.com',
+          jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jose ediber ramirez cardozo',
+        email: 'jose.ediber0601@gmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
+          createdAt: '2020-06-02T15:13:52.000Z',
+          updatedAt: '2020-06-02T15:13:52.000Z',
+          userEmail: 'jose.ediber0601@gmail.com',
+          jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'diego alenxandre gonzález ríos',
+        email: 'julimatixime2831@gmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
+          createdAt: '2020-06-02T15:13:52.000Z',
+          updatedAt: '2020-06-02T15:13:52.000Z',
+          userEmail: 'julimatixime2831@gmail.com',
+          jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'diana carolina pinto salazar',
+        email: 'karitops08@hotmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
+          createdAt: '2020-06-02T15:13:52.000Z',
+          updatedAt: '2020-06-02T15:13:52.000Z',
+          userEmail: 'karitops08@hotmail.com',
+          jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'luis fernando torres',
+        email: 'luisfer9818@hotmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
+          createdAt: '2020-06-02T15:13:52.000Z',
+          updatedAt: '2020-06-02T15:13:52.000Z',
+          userEmail: 'luisfer9818@hotmail.com',
+          jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'paula andrea cancimanse',
+        email: 'morenasa.38@hotmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
+          createdAt: '2020-06-02T15:13:52.000Z',
+          updatedAt: '2020-06-02T15:13:52.000Z',
+          userEmail: 'morenasa.38@hotmail.com',
+          jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'paola andrea muñoz pretel',
+        email: 'paola111927@gmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
+          createdAt: '2020-06-02T15:13:52.000Z',
+          updatedAt: '2020-06-02T15:13:52.000Z',
+          userEmail: 'paola111927@gmail.com',
+          jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'francia elena walles dávila',
+        email: 'wallesdavilaelena@gmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
+          createdAt: '2020-06-02T15:13:52.000Z',
+          updatedAt: '2020-06-02T15:13:52.000Z',
+          userEmail: 'wallesdavilaelena@gmail.com',
+          jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'leonel garcia daza',
+        email: 'yudhistira8@outlook.es',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa de Seguridad requiere Guardas de Seguridad URGENTE!!!!!! Con MÍNIMO de 1 a 2 años de experiencia en seguridad Privada, Bachiller y situación militar definida.',
+          createdAt: '2020-06-02T15:13:52.000Z',
+          updatedAt: '2020-06-02T15:13:52.000Z',
+          userEmail: 'yudhistira8@outlook.es',
+          jobOfferId: 'a986d9e1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Ejecutivo/a Comercial',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'andrés felipe narváez',
+        email: 'andreshorta0@gmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Requerimos profesional en finanzas,economía, administración y afines con experiencia 2 años en ventas intangibles, sus funciones serán captar nuevos clientes y hacer seguimiento a los existentes en base de datos, crear estrategias de mercadeo y venta, y h',
+          createdAt: '2020-06-02T15:13:52.000Z',
+          updatedAt: '2020-06-02T15:13:52.000Z',
+          userEmail: 'andreshorta0@gmail.com',
+          jobOfferId: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'daniel londoño',
+        email: 'danielth48@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Requerimos profesional en finanzas,economía, administración y afines con experiencia 2 años en ventas intangibles, sus funciones serán captar nuevos clientes y hacer seguimiento a los existentes en base de datos, crear estrategias de mercadeo y venta, y h',
+          createdAt: '2020-06-02T15:13:52.000Z',
+          updatedAt: '2020-06-02T15:13:52.000Z',
+          userEmail: 'danielth48@gmail.com',
+          jobOfferId: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'eduardo reyes valdez',
+        email: 'ereyesvaldez50@gmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Requerimos profesional en finanzas,economía, administración y afines con experiencia 2 años en ventas intangibles, sus funciones serán captar nuevos clientes y hacer seguimiento a los existentes en base de datos, crear estrategias de mercadeo y venta, y h',
+          createdAt: '2020-06-02T15:13:52.000Z',
+          updatedAt: '2020-06-02T15:13:52.000Z',
+          userEmail: 'ereyesvaldez50@gmail.com',
+          jobOfferId: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'laura catalina giraldo cardoza',
+        email: 'giraldolauracatalina@gmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Requerimos profesional en finanzas,economía, administración y afines con experiencia 2 años en ventas intangibles, sus funciones serán captar nuevos clientes y hacer seguimiento a los existentes en base de datos, crear estrategias de mercadeo y venta, y h',
+          createdAt: '2020-06-02T15:13:52.000Z',
+          updatedAt: '2020-06-02T15:13:52.000Z',
+          userEmail: 'giraldolauracatalina@gmail.com',
+          jobOfferId: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ingry yohanna ángulo castillo',
+        email: 'ingryyohanna1@gmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Requerimos profesional en finanzas,economía, administración y afines con experiencia 2 años en ventas intangibles, sus funciones serán captar nuevos clientes y hacer seguimiento a los existentes en base de datos, crear estrategias de mercadeo y venta, y h',
+          createdAt: '2020-06-02T15:13:52.000Z',
+          updatedAt: '2020-06-02T15:13:52.000Z',
+          userEmail: 'ingryyohanna1@gmail.com',
+          jobOfferId: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jose fernando lopez samaca',
+        email: 'jflopezsam@gmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Requerimos profesional en finanzas,economía, administración y afines con experiencia 2 años en ventas intangibles, sus funciones serán captar nuevos clientes y hacer seguimiento a los existentes en base de datos, crear estrategias de mercadeo y venta, y h',
+          createdAt: '2020-06-02T15:13:52.000Z',
+          updatedAt: '2020-06-02T15:13:52.000Z',
+          userEmail: 'jflopezsam@gmail.com',
+          jobOfferId: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'julián andres ospina taborda',
+        email: 'julianospina0806@hotmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Requerimos profesional en finanzas,economía, administración y afines con experiencia 2 años en ventas intangibles, sus funciones serán captar nuevos clientes y hacer seguimiento a los existentes en base de datos, crear estrategias de mercadeo y venta, y h',
+          createdAt: '2020-06-02T15:13:52.000Z',
+          updatedAt: '2020-06-02T15:13:52.000Z',
+          userEmail: 'julianospina0806@hotmail.com',
+          jobOfferId: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'oscar armando roldan buendia',
+        email: 'osroldan1625@hotmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Requerimos profesional en finanzas,economía, administración y afines con experiencia 2 años en ventas intangibles, sus funciones serán captar nuevos clientes y hacer seguimiento a los existentes en base de datos, crear estrategias de mercadeo y venta, y h',
+          createdAt: '2020-06-02T15:13:52.000Z',
+          updatedAt: '2020-06-02T15:13:52.000Z',
+          userEmail: 'osroldan1625@hotmail.com',
+          jobOfferId: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'paola ximena mazuera medina',
+        email: 'pxmazuera@gmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Requerimos profesional en finanzas,economía, administración y afines con experiencia 2 años en ventas intangibles, sus funciones serán captar nuevos clientes y hacer seguimiento a los existentes en base de datos, crear estrategias de mercadeo y venta, y h',
+          createdAt: '2020-06-02T15:13:52.000Z',
+          updatedAt: '2020-06-02T15:13:52.000Z',
+          userEmail: 'pxmazuera@gmail.com',
+          jobOfferId: 'a98700f0-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a98700f1-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Vendedor Fruver',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'alejandro parra',
+        email: 'alejandro33pg@hotmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa importadora de fruta necesita vendedor fruver con experiencia mínima de tres años en mercadeo para trabajar en la plaza Santa Elena en Cali. La responsabilidad, honestidad, seriedad y compromiso son indispensables para aplicar al puesto.',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'alejandro33pg@hotmail.com',
+          jobOfferId: 'a98700f1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'carlos mario garcía silva',
+        email: 'carlosmgarcia68@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa importadora de fruta necesita vendedor fruver con experiencia mínima de tres años en mercadeo para trabajar en la plaza Santa Elena en Cali. La responsabilidad, honestidad, seriedad y compromiso son indispensables para aplicar al puesto.',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'carlosmgarcia68@gmail.com',
+          jobOfferId: 'a98700f1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jennifer julieth buitrago zapata',
+        email: 'JEN19902011@GMAIL.COM',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa importadora de fruta necesita vendedor fruver con experiencia mínima de tres años en mercadeo para trabajar en la plaza Santa Elena en Cali. La responsabilidad, honestidad, seriedad y compromiso son indispensables para aplicar al puesto.',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'JEN19902011@GMAIL.COM',
+          jobOfferId: 'a98700f1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'loyni johanna vidal hurtado',
+        email: 'johannakavi09@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa importadora de fruta necesita vendedor fruver con experiencia mínima de tres años en mercadeo para trabajar en la plaza Santa Elena en Cali. La responsabilidad, honestidad, seriedad y compromiso son indispensables para aplicar al puesto.',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'johannakavi09@gmail.com',
+          jobOfferId: 'a98700f1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'julieth bermudez toro',
+        email: 'juleyber@hotmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa importadora de fruta necesita vendedor fruver con experiencia mínima de tres años en mercadeo para trabajar en la plaza Santa Elena en Cali. La responsabilidad, honestidad, seriedad y compromiso son indispensables para aplicar al puesto.',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'juleyber@hotmail.com',
+          jobOfferId: 'a98700f1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'leidy tatiana realpe reyes',
+        email: 'lilo23001@hotmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa importadora de fruta necesita vendedor fruver con experiencia mínima de tres años en mercadeo para trabajar en la plaza Santa Elena en Cali. La responsabilidad, honestidad, seriedad y compromiso son indispensables para aplicar al puesto.',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'lilo23001@hotmail.com',
+          jobOfferId: 'a98700f1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'maria navas',
+        email: 'maryyeca3@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa importadora de fruta necesita vendedor fruver con experiencia mínima de tres años en mercadeo para trabajar en la plaza Santa Elena en Cali. La responsabilidad, honestidad, seriedad y compromiso son indispensables para aplicar al puesto.',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'maryyeca3@gmail.com',
+          jobOfferId: 'a98700f1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'yojana patricia cruz valencia',
+        email: 'yojanita1219@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa importadora de fruta necesita vendedor fruver con experiencia mínima de tres años en mercadeo para trabajar en la plaza Santa Elena en Cali. La responsabilidad, honestidad, seriedad y compromiso son indispensables para aplicar al puesto.',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'yojanita1219@gmail.com',
+          jobOfferId: 'a98700f1-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a9874f10-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Vendedor Punto Fijo',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'gerardin johanna caicedo angulo',
+        email: 'CAICEDOJOHANNA1999@GMAIL.COM',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa del sector avicola busca bachiller con experiencia en ventas de mostrador o punto fijo de 2 años mínima, servicio al cliente, cargue y descargue y organización de bodega personas que hayan laborado en venta de carne, pollo, fruver, tien',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'CAICEDOJOHANNA1999@GMAIL.COM',
+          jobOfferId: 'a9874f10-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'diana andre escobar velasco',
+        email: 'dianaevelasco@hotmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa del sector avicola busca bachiller con experiencia en ventas de mostrador o punto fijo de 2 años mínima, servicio al cliente, cargue y descargue y organización de bodega personas que hayan laborado en venta de carne, pollo, fruver, tien',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'dianaevelasco@hotmail.com',
+          jobOfferId: 'a9874f10-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'martha isabel zapata bermudez',
+        email: 'isa1858@hotmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa del sector avicola busca bachiller con experiencia en ventas de mostrador o punto fijo de 2 años mínima, servicio al cliente, cargue y descargue y organización de bodega personas que hayan laborado en venta de carne, pollo, fruver, tien',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'isa1858@hotmail.com',
+          jobOfferId: 'a9874f10-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'diana carolina pinto salazar',
+        email: 'karitops08@hotmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida empresa del sector avicola busca bachiller con experiencia en ventas de mostrador o punto fijo de 2 años mínima, servicio al cliente, cargue y descargue y organización de bodega personas que hayan laborado en venta de carne, pollo, fruver, tien',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'karitops08@hotmail.com',
+          jobOfferId: 'a9874f10-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Asesor Comercial',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'erika vaca sanchez',
+        email: 'akeris81@hotmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'akeris81@hotmail.com',
+          jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'paula andrea ortiz adarme',
+        email: 'andrea_89_6@hotmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'andrea_89_6@hotmail.com',
+          jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'miguel andres quiñones angulo',
+        email: 'asesor.misalud@hotmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'asesor.misalud@hotmail.com',
+          jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'carlos alberto salazar garcia',
+        email: 'casbusiness2007@yahoo.es',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'casbusiness2007@yahoo.es',
+          jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ruby rocio fuenmayor quenoran',
+        email: 'fuenmayorruby9@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'fuenmayorruby9@gmail.com',
+          jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'gustavo grueso gómez',
+        email: 'gussg-23@hotmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'gussg-23@hotmail.com',
+          jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'heberly álvarez rave',
+        email: 'heberly1988@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'heberly1988@gmail.com',
+          jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ingrid lorena angulo',
+        email: 'ingridlorenaangulo126@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'ingridlorenaangulo126@gmail.com',
+          jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'irzain bedoya botina',
+        email: 'irzainbedoya0715@hotmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'irzainbedoya0715@hotmail.com',
+          jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'josé humberto bustos manosalva',
+        email: 'josehbustos6@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'josehbustos6@gmail.com',
+          jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'lina maria urbano herrera',
+        email: 'limaur13@yahoo.es',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'limaur13@yahoo.es',
+          jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'luis fernando torres',
+        email: 'luisfer9818@hotmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'luisfer9818@hotmail.com',
+          jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'luiyi alexander martinez moreno',
+        email: 'luiyialexandermartinezmoreno@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'luiyialexandermartinezmoreno@gmail.com',
+          jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'sandra milena lasso claros',
+        email: 'samilacla@hotmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'samilacla@hotmail.com',
+          jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'lina gongora salas',
+        email: 'thiago17maice@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'thiago17maice@gmail.com',
+          jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'yuliana palacios',
+        email: 'yuliana13palacios@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'yuliana13palacios@gmail.com',
+          jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'cindy zambrano zutta',
+        email: 'zambranojohana33@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de consumo masivo requiere de manera urgente personal bachiller, con año de experiencia como vendedor tienda a tienda o año como promotor o mercaderistas manejando el canal consumo masivo, manejo de indicadores, recaudo de cartera. Salario $ 877.8',
+          createdAt: '2020-06-02T15:13:53.000Z',
+          updatedAt: '2020-06-02T15:13:53.000Z',
+          userEmail: 'zambranojohana33@gmail.com',
+          jobOfferId: 'a9874f11-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a9874f12-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'IT Recruiter',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'william alejandro luna garzon',
+        email: 'Alejo.luna.garzon@hotmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Buscamos IT Recruiter para sumarse al equipo de Reclutamiento y participar en distintos proyectos conformados por equipos multiculturales distribuidos en todo el mundo. Buscamos personas proactivas, dinámicas y team players, con gran capacidad de organiza',
           createdAt: '2020-06-02T15:13:54.000Z',
           updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'juliosanz998@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'Alejo.luna.garzon@hotmail.com',
+          jobOfferId: 'a9874f12-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'kimberly katherine lemos martínez',
-          email: 'kimberlylemos6@gmail.com',
+      },
+      {
+        name: 'catalina gutiérrez rendón',
+        email: 'catalinagutierrez98@hotmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Buscamos IT Recruiter para sumarse al equipo de Reclutamiento y participar en distintos proyectos conformados por equipos multiculturales distribuidos en todo el mundo. Buscamos personas proactivas, dinámicas y team players, con gran capacidad de organiza',
           createdAt: '2020-06-02T15:13:54.000Z',
           updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'kimberlylemos6@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'catalinagutierrez98@hotmail.com',
+          jobOfferId: 'a9874f12-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'laura valentina araujo montilla',
-          email: 'lauramontilla400@gmail.com',
+      },
+      {
+        name: 'maria catalina vargas prado',
+        email: 'catavp85@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Buscamos IT Recruiter para sumarse al equipo de Reclutamiento y participar en distintos proyectos conformados por equipos multiculturales distribuidos en todo el mundo. Buscamos personas proactivas, dinámicas y team players, con gran capacidad de organiza',
           createdAt: '2020-06-02T15:13:54.000Z',
           updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'lauramontilla400@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'catavp85@gmail.com',
+          jobOfferId: 'a9874f12-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'leyder sanchez',
-          email: 'leyderpoll@gmail.com',
+      },
+      {
+        name: 'yossin stiven valencia',
+        email: 'jhosinval@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Buscamos IT Recruiter para sumarse al equipo de Reclutamiento y participar en distintos proyectos conformados por equipos multiculturales distribuidos en todo el mundo. Buscamos personas proactivas, dinámicas y team players, con gran capacidad de organiza',
           createdAt: '2020-06-02T15:13:54.000Z',
           updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'leyderpoll@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'jhosinval@gmail.com',
+          jobOfferId: 'a9874f12-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'maria fernanda mena cardona',
-          email: 'mafer7672@gmail.com',
+      },
+      {
+        name: 'juan pablo reyes talero',
+        email: 'jreyestalero@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Buscamos IT Recruiter para sumarse al equipo de Reclutamiento y participar en distintos proyectos conformados por equipos multiculturales distribuidos en todo el mundo. Buscamos personas proactivas, dinámicas y team players, con gran capacidad de organiza',
           createdAt: '2020-06-02T15:13:54.000Z',
           updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'mafer7672@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'jreyestalero@gmail.com',
+          jobOfferId: 'a9874f12-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'mileydi alejandra prieto marquez',
-          email: 'mileydi.m2013@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'mileydi.m2013@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'ricardo contreras polo',
-          email: 'ricardoc353@hotmail.com',
+      },
+      {
+        name: 'oneida elizabeth pantoja calderón',
+        email: 'lizapc26@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Buscamos IT Recruiter para sumarse al equipo de Reclutamiento y participar en distintos proyectos conformados por equipos multiculturales distribuidos en todo el mundo. Buscamos personas proactivas, dinámicas y team players, con gran capacidad de organiza',
           createdAt: '2020-06-02T15:13:54.000Z',
           updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'ricardoc353@hotmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'lizapc26@hotmail.com',
+          jobOfferId: 'a9874f12-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jean carlos solarte ortiz',
-          email: 'solarteortiz1998@hotmail.com',
+      },
+      {
+        name: 'lizeth tatiana fonseca rivera',
+        email: 'lizethtfonsecar@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Buscamos IT Recruiter para sumarse al equipo de Reclutamiento y participar en distintos proyectos conformados por equipos multiculturales distribuidos en todo el mundo. Buscamos personas proactivas, dinámicas y team players, con gran capacidad de organiza',
           createdAt: '2020-06-02T15:13:54.000Z',
           updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'solarteortiz1998@hotmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'lizethtfonsecar@gmail.com',
+          jobOfferId: 'a9874f12-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'renee surcukt ceron ramirez',
-          email: 'videocomponentes@hotmail.com',
+      },
+      {
+        name: 'arnol julian ospina jimenez',
+        email: 'siemprejuli@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Buscamos IT Recruiter para sumarse al equipo de Reclutamiento y participar en distintos proyectos conformados por equipos multiculturales distribuidos en todo el mundo. Buscamos personas proactivas, dinámicas y team players, con gran capacidad de organiza',
           createdAt: '2020-06-02T15:13:54.000Z',
           updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'videocomponentes@hotmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'siemprejuli@gmail.com',
+          jobOfferId: 'a9874f12-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'yhojan barrientos lópez',
-          email: 'yhojanbl@gmail.com',
+      },
+    ],
+  },
+  {
+    id: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+    name: '70 agentes call center tecnico o tecnologos',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'adriana salazar',
+        email: 'abogadriana28064@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
           createdAt: '2020-06-02T15:13:54.000Z',
           updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'yhojanbl@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'abogadriana28064@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'yineth marlady caicedo garcés',
-          email: 'yinethcaicedo27@gmail.com',
+      },
+      {
+        name: 'adolfo leon cano marquez',
+        email: 'adolfoleoncano@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
           createdAt: '2020-06-02T15:13:54.000Z',
           updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
-            createdAt: '2020-06-02T15:13:54.000Z',
-            updatedAt: '2020-06-02T15:13:54.000Z',
-            userEmail: 'yinethcaicedo27@gmail.com',
-            jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'adolfoleoncano@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
         },
-      ],
-    },
-    {
-      id: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Auxiliar Administrativo de Riesgos',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'william alexander soto rojas',
-          email: 'Alexandersrojas17@gmail.com',
+      },
+      {
+        name: 'aida liseth ibañez',
+        email: 'aidalizeth@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'aidalizeth@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'maria fernanda alegria bastidas',
+        email: 'alegria0820@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'alegria0820@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'alexis mina',
+        email: 'alexisminam97@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'alexisminam97@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'andrea guerrero varon',
+        email: 'andrea.guerrero1986@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'andrea.guerrero1986@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'aura andrea villota pulistar',
+        email: 'andrea.vipuli@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'andrea.vipuli@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'mitchel andrea lopez quintero',
+        email: 'andreasport4@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'andreasport4@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'andrés felipe narváez',
+        email: 'andreshorta0@gmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'andreshorta0@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'angélica galvez',
+        email: 'angelica.gv01@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'angelica.gv01@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'angie vanessa londoño valencia',
+        email: 'angi2846@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'angi2846@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'angie andrea viafara',
+        email: 'angieandreaviafara@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'angieandreaviafara@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'miguel andres quiñones angulo',
+        email: 'asesor.misalud@hotmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'asesor.misalud@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'martín daniel bravo calvo',
+        email: 'bbdaniel89@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'bbdaniel89@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'breicy bautista',
+        email: 'bemacaje2016@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'bemacaje2016@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'gerardin johanna caicedo angulo',
+        email: 'CAICEDOJOHANNA1999@GMAIL.COM',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'CAICEDOJOHANNA1999@GMAIL.COM',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'carlos yesid cubides morales',
+        email: 'carloscubides@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'carloscubides@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'carlos posso',
+        email: 'carposso@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'carposso@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'césar augusto lópez lópez',
+        email: 'ceslopez94@yahoo.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'ceslopez94@yahoo.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'claudia marcela ibañez cardona',
+        email: 'claudiscmi@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'claudiscmi@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'leidy tatiana collazos cobo',
+        email: 'collazoscobotatiana@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'collazoscobotatiana@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ana contreras',
+        email: 'contrerasana1991@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'contrerasana1991@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'david arango posso',
+        email: 'dabineitor08@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'dabineitor08@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'dayra elisa ricas orrego',
+        email: 'daira.fre@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'daira.fre@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'daniela artunduaga',
+        email: 'daniela.artunduaga.aragon@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'daniela.artunduaga.aragon@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'dayris zabala mercado',
+        email: 'dayriszabala7@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'dayriszabala7@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'diva polanco ortiz',
+        email: 'divam_2008@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'divam_2008@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'eliana arango',
+        email: 'eliarqui20@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'eliarqui20@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'esther lizette diaz vargas',
+        email: 'elidiva4@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'elidiva4@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'erika sofia forero cifuentes',
+        email: 'erikita1989dinda@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'erikita1989dinda@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'esmeralda barrero grisales',
+        email: 'esmebagri1996@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'esmebagri1996@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'fany dorado',
+        email: 'fannyesperanza4@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'fannyesperanza4@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'luis fernando saavedra',
+        email: 'fer271968@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'fer271968@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'paola jeniree fernandez dominguez',
+        email: 'fernandez.paola0@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'fernandez.paola0@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'gina giraldo',
+        email: 'ginmaring13@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'ginmaring13@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'gonzalo blandón delgado',
+        email: 'gonzaloblandon98@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'gonzaloblandon98@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'heberly álvarez rave',
+        email: 'heberly1988@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'heberly1988@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ingrid lorena angulo',
+        email: 'ingridlorenaangulo126@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'ingridlorenaangulo126@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jhon alexander bermudez uran',
+        email: 'jhonalexanderuran2020@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'jhonalexanderuran2020@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jonathan narvaez',
+        email: 'jhonatan.en@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'jhonatan.en@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jhonatan gutierrez',
+        email: 'jhonatangm1998@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'jhonatangm1998@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'claudia jimena tello montenegro',
+        email: 'jimena0088@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'jimena0088@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jose fernando naranjo ruiz',
+        email: 'jofenaru@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'jofenaru@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'josé humberto bustos manosalva',
+        email: 'josehbustos6@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'josehbustos6@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'juan camilo parra gutierrez',
+        email: 'juanca1070921@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'juanca1070921@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'juan fernando viveros',
+        email: 'juhan_fer@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'juhan_fer@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'karen yulieth pinillo torres',
+        email: 'karenpinillo@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'karenpinillo@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'katerinet sanchez',
+        email: 'katerinet_sanchez@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'katerinet_sanchez@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'katherine urrego rocha',
+        email: 'kathe.urrego98@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'kathe.urrego98@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'kevin solarte',
+        email: 'kevinsolarte92@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'kevinsolarte92@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'katalina olaya sanchez',
+        email: 'kta9509@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'kta9509@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'leidy daniela villani jambo',
+        email: 'leidydaniela64@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'leidydaniela64@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'teresa perdomo',
+        email: 'lizailyne05@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'lizailyne05@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'igna lorena bermudez velasco',
+        email: 'lorena.198321@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'lorena.198321@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'sujey lorena camacho ospina',
+        email: 'lorenacam25@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'lorenacam25@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'luis felipe gaitan idarraga',
+        email: 'luisfelipegaitanidarraga@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'luisfelipegaitanidarraga@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'mayra alejandra cabrera cabrera',
+        email: 'maecabrera99@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'maecabrera99@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'maria alejandra abadia toro',
+        email: 'malejaabadiatoro@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'malejaabadiatoro@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jackeline manso grajales',
+        email: 'manso1984@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'manso1984@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'diana marcela zuñiga ipia',
+        email: 'marcela2015mar16@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'marcela2015mar16@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'maría eugenia angulo gallego',
+        email: 'meangulo85@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'meangulo85@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'miguel angel santoyo celis',
+        email: 'miguelcelis2015@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'miguelcelis2015@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'tatiana murcia espinosa',
+        email: 'murcia624@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'murcia624@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'nasly sanclemente',
+        email: 'naslysanclemente@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'naslysanclemente@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'paula andrea ramirez ospina',
+        email: 'paula.andrea.ramirez@correounivalle.edu.co',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'paula.andrea.ramirez@correounivalle.edu.co',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'raul lopez ortega',
+        email: 'rlo512003@yahoo.es',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'rlo512003@yahoo.es',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'paulina antonia ramos londoño',
+        email: 'salsayvallenato@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'salsayvallenato@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'sandra patricia maldonado',
+        email: 'sandra_patricia16@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'sandra_patricia16@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'luz mary meza quintero',
+        email: 'sedan_64@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'sedan_64@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jean carlos solarte ortiz',
+        email: 'solarteortiz1998@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'solarteortiz1998@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'josé david soto rodrigues',
+        email: 'soto-610@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'soto-610@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'paula andrea cuartas trujillo',
+        email: 'tabata2308@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'tabata2308@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'angela maría betancourt quintero',
+        email: 'unangel0120@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'unangel0120@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'valentina asprilla palacios',
+        email: 'VALEN2362011@HOTMAIL.COM',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'VALEN2362011@HOTMAIL.COM',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'anyi vanesa camacho valencia',
+        email: 'valenciaangie1@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'valenciaangie1@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'vannessa velasco victoria',
+        email: 'vanevelasco17@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'vanevelasco17@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'yenny josefina jaramillo fernandez',
+        email: 'yenny2359@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'yenny2359@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'yhojan barrientos lópez',
+        email: 'yhojanbl@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'yhojanbl@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'maria yileiner ibarguen mendoza',
+        email: 'yileiner@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'yileiner@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'yineth marlady caicedo garcés',
+        email: 'yinethcaicedo27@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'yinethcaicedo27@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'yubisay herrera',
+        email: 'yubisay554@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'yubisay554@gmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'yurani burbano',
+        email: 'yura201985@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante compañía requiere 70 ASESORES O AGENTES CALL CENTER con mínimo 6 meses de experiencia reciente, servicio al cliente, ventas, retención, cobranza TECNICOS O TECNOLOGOS, PUEDEN ESTAR ESTUDIANDO, horario lunes a sábado entre las 7:00 am a 9:00 pm ',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'yura201985@hotmail.com',
+          jobOfferId: 'a9874f13-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Asesor Soporte Técnico',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'gabriela paola vargas insignares',
+        email: '1002013531gabi@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: '1002013531gabi@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'alexis mina',
+        email: 'alexisminam97@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'alexisminam97@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ana elizabeth culma mendoza',
+        email: 'anaculma@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'anaculma@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'aura andrea villota pulistar',
+        email: 'andrea.vipuli@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'andrea.vipuli@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'andres montoya cortazar',
+        email: 'andresmc3186@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'andresmc3186@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'andres delgado',
+        email: 'andru2a@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'andru2a@hotmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'angie andrea viafara',
+        email: 'angieandreaviafara@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'angieandreaviafara@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'bernardo javier villota morales',
+        email: 'bvillota933@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'bvillota933@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'hernán darío victoria',
+        email: 'dari00597@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'dari00597@hotmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'darwin alexis rosero lopez',
+        email: 'darwinroserolopez@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'darwinroserolopez@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'diego fernando gualdron parra',
+        email: 'dfgual@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'dfgual@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'duberney restrepo',
+        email: 'duber0312@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'duber0312@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'daniela angulo gonzález',
+        email: 'edani.g97@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'edani.g97@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'felipe antonio benavides ortegon',
+        email: 'felomania@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'felomania@hotmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'omar fernando garcia alderete',
+        email: 'fercho730106@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'fercho730106@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'hernan antony cortés',
+        email: 'hancor23@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'hancor23@hotmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jhon alexander laviano ortiz',
+        email: 'iamjhonalex679@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'iamjhonalex679@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'juan david hernández',
+        email: 'jdhernandez421@misena.edu.co',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'jdhernandez421@misena.edu.co',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jhon mauricio calderon garzon',
+        email: 'jmcgarzon@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'jmcgarzon@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jorge andres palma salazar',
+        email: 'jpalmas35@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'jpalmas35@hotmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'juan fernando viveros',
+        email: 'juhan_fer@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'juhan_fer@hotmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'julián andres ospina taborda',
+        email: 'julianospina0806@hotmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'julianospina0806@hotmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'julio sanchez',
+        email: 'juliosanz998@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'juliosanz998@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'kimberly katherine lemos martínez',
+        email: 'kimberlylemos6@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'kimberlylemos6@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'laura valentina araujo montilla',
+        email: 'lauramontilla400@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'lauramontilla400@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'leyder sanchez',
+        email: 'leyderpoll@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'leyderpoll@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'maria fernanda mena cardona',
+        email: 'mafer7672@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'mafer7672@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'mileydi alejandra prieto marquez',
+        email: 'mileydi.m2013@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'mileydi.m2013@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ricardo contreras polo',
+        email: 'ricardoc353@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'ricardoc353@hotmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jean carlos solarte ortiz',
+        email: 'solarteortiz1998@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'solarteortiz1998@hotmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'renee surcukt ceron ramirez',
+        email: 'videocomponentes@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'videocomponentes@hotmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'yhojan barrientos lópez',
+        email: 'yhojanbl@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'yhojanbl@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'yineth marlady caicedo garcés',
+        email: 'yinethcaicedo27@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Experiencia Cliente y BPO requiere Asesores de Soporte Técnico',
+          createdAt: '2020-06-02T15:13:54.000Z',
+          updatedAt: '2020-06-02T15:13:54.000Z',
+          userEmail: 'yinethcaicedo27@gmail.com',
+          jobOfferId: 'a9874f14-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Auxiliar Administrativo de Riesgos',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'william alexander soto rojas',
+        email: 'Alexandersrojas17@gmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'Alexandersrojas17@gmail.com',
-            jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'Alexandersrojas17@gmail.com',
+          jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'alejandra lopez',
-          email: 'allejitalopez@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'allejitalopez@gmail.com',
-            jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'gloria beatriz betancur florez',
-          email: 'beatrizbetancurf@gmail.com',
+      },
+      {
+        name: 'alejandra lopez',
+        email: 'allejitalopez@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'beatrizbetancurf@gmail.com',
-            jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'allejitalopez@gmail.com',
+          jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'carlos david campo santanilla',
-          email: 'caerlosdavid29@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'caerlosdavid29@gmail.com',
-            jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'claudia camila pizarro candelo',
-          email: 'claudiapizarrocandelo@gmail.com',
+      },
+      {
+        name: 'gloria beatriz betancur florez',
+        email: 'beatrizbetancurf@gmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'claudiapizarrocandelo@gmail.com',
-            jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'beatrizbetancurf@gmail.com',
+          jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'harwin dario papamija astudillo',
-          email: 'dario_1950@hotmail.com',
+      },
+      {
+        name: 'carlos david campo santanilla',
+        email: 'caerlosdavid29@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'dario_1950@hotmail.com',
-            jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'caerlosdavid29@gmail.com',
+          jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'eduan lara moncayo',
-          email: 'eduanlara@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'eduanlara@gmail.com',
-            jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jhon jairo cuartas sanchez',
-          email: 'jhacusa1965@hotmail.com',
+      },
+      {
+        name: 'claudia camila pizarro candelo',
+        email: 'claudiapizarrocandelo@gmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'jhacusa1965@hotmail.com',
-            jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'claudiapizarrocandelo@gmail.com',
+          jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'karen andrea velasquez usma',
-          email: 'karenandreavelasquezusma@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'karenandreavelasquezusma@gmail.com',
-            jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'maria alejandra abadia toro',
-          email: 'malejaabadiatoro@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'malejaabadiatoro@hotmail.com',
-            jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'maría muñoz narvaez',
-          email: 'mar18-angeles@hotmail.com',
+      },
+      {
+        name: 'harwin dario papamija astudillo',
+        email: 'dario_1950@hotmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'mar18-angeles@hotmail.com',
-            jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'dario_1950@hotmail.com',
+          jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'claudia marcela rojas rojas',
-          email: 'marce251089@gmail.com',
+      },
+      {
+        name: 'eduan lara moncayo',
+        email: 'eduanlara@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'marce251089@gmail.com',
-            jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'eduanlara@gmail.com',
+          jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'miguel angel santoyo celis',
-          email: 'miguelcelis2015@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'miguelcelis2015@gmail.com',
-            jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'paola andrea mosos cadavid',
-          email: 'paomosos@hotmail.com',
+      },
+      {
+        name: 'jhon jairo cuartas sanchez',
+        email: 'jhacusa1965@hotmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'paomosos@hotmail.com',
-            jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'jhacusa1965@hotmail.com',
+          jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'valentina hernández molina',
-          email: 'vhernande17@gmail.com',
+      },
+      {
+        name: 'karen andrea velasquez usma',
+        email: 'karenandreavelasquezusma@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'vhernande17@gmail.com',
-            jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'karenandreavelasquezusma@gmail.com',
+          jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'wilson avila',
-          email: 'wilsonavila95@gmail.com',
+      },
+      {
+        name: 'maria alejandra abadia toro',
+        email: 'malejaabadiatoro@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'wilsonavila95@gmail.com',
-            jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'malejaabadiatoro@hotmail.com',
+          jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'yubisay herrera',
-          email: 'yubisay554@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'yubisay554@gmail.com',
-            jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-      ],
-    },
-    {
-      id: 'a9874f16-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Analista de Desarrollo',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'harold wbeimar mosquera figueroa',
-          email: 'hwmosquera2@gmail.com',
+      },
+      {
+        name: 'maría muñoz narvaez',
+        email: 'mar18-angeles@hotmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere Tecnólogo en Sistemas, con experiencia mínima de 2 años desarrollando software.',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'hwmosquera2@gmail.com',
-            jobOfferId: 'a9874f16-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'mar18-angeles@hotmail.com',
+          jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jhon alexander rodriguez hernandez',
-          email: 'jrodriuezhernandez@gmail.com',
+      },
+      {
+        name: 'claudia marcela rojas rojas',
+        email: 'marce251089@gmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere Tecnólogo en Sistemas, con experiencia mínima de 2 años desarrollando software.',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'jrodriuezhernandez@gmail.com',
-            jobOfferId: 'a9874f16-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'marce251089@gmail.com',
+          jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
         },
-      ],
-    },
-    {
-      id: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Asesor lider de Cobranza',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'luz adriana giraldo gutierrez',
-          email: 'adrianagiraldo616@hotmail.com',
+      },
+      {
+        name: 'miguel angel santoyo celis',
+        email: 'miguelcelis2015@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Controlar los indicadores de gestión del equipo de asesores a su cargo. Garantizar el cumplimiento de los objetivos de las campañas de gestión de cobranza, según corresponda (efectividad en el recaudo, normalización total, etc.). Motivar y orientar a su e',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'adrianagiraldo616@hotmail.com',
-            jobOfferId: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'miguelcelis2015@gmail.com',
+          jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'ana elizabeth sanchez',
-          email: 'anasanchezabogada@hotmail.com',
+      },
+      {
+        name: 'paola andrea mosos cadavid',
+        email: 'paomosos@hotmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Controlar los indicadores de gestión del equipo de asesores a su cargo. Garantizar el cumplimiento de los objetivos de las campañas de gestión de cobranza, según corresponda (efectividad en el recaudo, normalización total, etc.). Motivar y orientar a su e',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'anasanchezabogada@hotmail.com',
-            jobOfferId: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'paomosos@hotmail.com',
+          jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'miguel andres quiñones angulo',
-          email: 'asesor.misalud@hotmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Controlar los indicadores de gestión del equipo de asesores a su cargo. Garantizar el cumplimiento de los objetivos de las campañas de gestión de cobranza, según corresponda (efectividad en el recaudo, normalización total, etc.). Motivar y orientar a su e',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'asesor.misalud@hotmail.com',
-            jobOfferId: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'aura marcela ramirez campo',
-          email: 'auramarcelaramirez@gmail.com',
+      },
+      {
+        name: 'valentina hernández molina',
+        email: 'vhernande17@gmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Controlar los indicadores de gestión del equipo de asesores a su cargo. Garantizar el cumplimiento de los objetivos de las campañas de gestión de cobranza, según corresponda (efectividad en el recaudo, normalización total, etc.). Motivar y orientar a su e',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'auramarcelaramirez@gmail.com',
-            jobOfferId: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'vhernande17@gmail.com',
+          jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'eliana hernandez',
-          email: 'eliana_w1@hotmail.com',
+      },
+      {
+        name: 'wilson avila',
+        email: 'wilsonavila95@gmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Controlar los indicadores de gestión del equipo de asesores a su cargo. Garantizar el cumplimiento de los objetivos de las campañas de gestión de cobranza, según corresponda (efectividad en el recaudo, normalización total, etc.). Motivar y orientar a su e',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'eliana_w1@hotmail.com',
-            jobOfferId: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'wilsonavila95@gmail.com',
+          jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'laura catalina giraldo cardoza',
-          email: 'giraldolauracatalina@gmail.com',
-          createdAt: '2020-06-02T15:13:52.000Z',
-          updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Controlar los indicadores de gestión del equipo de asesores a su cargo. Garantizar el cumplimiento de los objetivos de las campañas de gestión de cobranza, según corresponda (efectividad en el recaudo, normalización total, etc.). Motivar y orientar a su e',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'giraldolauracatalina@gmail.com',
-            jobOfferId: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jennifer sepulveda',
-          email: 'jensepul@gmail.com',
+      },
+      {
+        name: 'yubisay herrera',
+        email: 'yubisay554@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere Tecnólogo en carreras administrativas con experiencia minima de 2 años en el cargo, conocimientos requeridos obligatorios en S.A.R.O y SARLAFT.',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Controlar los indicadores de gestión del equipo de asesores a su cargo. Garantizar el cumplimiento de los objetivos de las campañas de gestión de cobranza, según corresponda (efectividad en el recaudo, normalización total, etc.). Motivar y orientar a su e',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'jensepul@gmail.com',
-            jobOfferId: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'yubisay554@gmail.com',
+          jobOfferId: 'a9874f15-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'olga patricia guerrero calderon',
-          email: 'olpaguerr_70@hotmail.com',
+      },
+    ],
+  },
+  {
+    id: 'a9874f16-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Analista de Desarrollo',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'harold wbeimar mosquera figueroa',
+        email: 'hwmosquera2@gmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere Tecnólogo en Sistemas, con experiencia mínima de 2 años desarrollando software.',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Controlar los indicadores de gestión del equipo de asesores a su cargo. Garantizar el cumplimiento de los objetivos de las campañas de gestión de cobranza, según corresponda (efectividad en el recaudo, normalización total, etc.). Motivar y orientar a su e',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'olpaguerr_70@hotmail.com',
-            jobOfferId: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'hwmosquera2@gmail.com',
+          jobOfferId: 'a9874f16-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'oscar armando roldan buendia',
-          email: 'osroldan1625@hotmail.com',
-          createdAt: '2020-06-02T15:13:52.000Z',
-          updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Controlar los indicadores de gestión del equipo de asesores a su cargo. Garantizar el cumplimiento de los objetivos de las campañas de gestión de cobranza, según corresponda (efectividad en el recaudo, normalización total, etc.). Motivar y orientar a su e',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'osroldan1625@hotmail.com',
-            jobOfferId: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-      ],
-    },
-    {
-      id: 'a9877621-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Coordinador de sistemas',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'john londoño',
-          email: 'jhon.jaime.londono@correounivalle.edu.co',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere TECNICO, TECNOLOGO O PROFESIONAL Mínimo dos (2) años de experiencia en el cargo. Administración de software contable CG-Uno versión 8.5 y todos sus módulos. 2. Administración de sistema Linux. 3. Presentación de informes gerenciales mediante s',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'jhon.jaime.londono@correounivalle.edu.co',
-            jobOfferId: 'a9877621-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'yeison antonio arango tamayo',
-          email: 'yeisonarango03@gmail.com',
+      },
+      {
+        name: 'jhon alexander rodriguez hernandez',
+        email: 'jrodriuezhernandez@gmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere Tecnólogo en Sistemas, con experiencia mínima de 2 años desarrollando software.',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere TECNICO, TECNOLOGO O PROFESIONAL Mínimo dos (2) años de experiencia en el cargo. Administración de software contable CG-Uno versión 8.5 y todos sus módulos. 2. Administración de sistema Linux. 3. Presentación de informes gerenciales mediante s',
-            createdAt: '2020-06-02T15:13:55.000Z',
-            updatedAt: '2020-06-02T15:13:55.000Z',
-            userEmail: 'yeisonarango03@gmail.com',
-            jobOfferId: 'a9877621-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'jrodriuezhernandez@gmail.com',
+          jobOfferId: 'a9874f16-a4e3-11ea-85ea-83d5a59c081e',
         },
-      ],
-    },
-    {
-      id: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Auxiliar de enfermería prequirurgíca',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'ricardo alberto ramirez ramirez',
-          email: 'amoszorobabel1231@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'amoszorobabel1231@gmail.com',
-            jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'angela marcela nieva ramírez',
-          email: 'anginieva@hotmail.es',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'anginieva@hotmail.es',
-            jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'alba patricia bedoya florez',
-          email: 'apbedoya1476@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'apbedoya1476@gmail.com',
-            jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'claudia marcela delgado gallego',
-          email: 'clamardel@yahoo.es',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'clamardel@yahoo.es',
-            jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'daniela franco gomez',
-          email: 'dani041194@hotmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'dani041194@hotmail.com',
-            jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'claudia lorena ramirez pinchao',
-          email: 'daniel_marty15@hotmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'daniel_marty15@hotmail.com',
-            jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'nidia gonzalez guerrero',
-          email: 'dianigonzalez026@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'dianigonzalez026@gmail.com',
-            jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'ely johana montaño perez',
-          email: 'ellie.mon1992@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'ellie.mon1992@gmail.com',
-            jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'david erazo',
-          email: 'loeh4812@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'loeh4812@gmail.com',
-            jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'mayra alejandra lozano rodriguez',
-          email: 'mairix66@hotmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'mairix66@hotmail.com',
-            jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'ana marcela cogollo oviedo',
-          email: 'marcela.cogollo@hotmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'marcela.cogollo@hotmail.com',
-            jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'merlin johana moreno',
-          email: 'merlinnnnjohanamoreno@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'merlinnnnjohanamoreno@gmail.com',
-            jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'paola andrea montenegro perafan',
-          email: 'pamp7807@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'pamp7807@gmail.com',
-            jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'sandra milena bonilla quintero',
-          email: 'sandramilenab66@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'sandramilenab66@gmail.com',
-            jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'veronica hurtado rodriguez',
-          email: 'vero720maro@outlook.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'vero720maro@outlook.com',
-            jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'yurany cruz zamora',
-          email: 'yucaza95@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'yucaza95@gmail.com',
-            jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-      ],
-    },
-    {
-      id: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Profesional de gestión documental',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'duvier alejandro diaz',
-          email: 'alejodiaz2512@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'alejodiaz2512@gmail.com',
-            jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'edwin jovanny pizza uribe',
-          email: 'edwinjovanny23@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'edwinjovanny23@gmail.com',
-            jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'edwin arley pinillo montenegro',
-          email: 'edwinp1012@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'edwinp1012@gmail.com',
-            jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'elizabeth mejia vélez',
-          email: 'elizabethmejiavelezz@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'elizabethmejiavelezz@gmail.com',
-            jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'henry armando velandia rodriguez',
-          email: 'havr14@hotmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'havr14@hotmail.com',
-            jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'maria ines arias mejia',
-          email: 'inesmaria90@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'inesmaria90@gmail.com',
-            jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'edgar mauricio rojas urdaneta',
-          email: 'karemsk8@yahoo.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'karemsk8@yahoo.com',
-            jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'kelly johana pérez ramirez',
-          email: 'kellyjoha007@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'kellyjoha007@gmail.com',
-            jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'laura cleve siso',
-          email: 'laura.cleve@hotmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'laura.cleve@hotmail.com',
-            jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'oneida elizabeth pantoja calderón',
-          email: 'lizapc26@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'lizapc26@hotmail.com',
-            jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'héctor darío páez urrea',
-          email: 'magoeazul@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'magoeazul@gmail.com',
-            jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'sneider marin valencia',
-          email: 'smvalencia2008@hotmail.es',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'smvalencia2008@hotmail.es',
-            jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'viviana guzman morales',
-          email: 'vivianita.guzman@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'vivianita.guzman@gmail.com',
-            jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-      ],
-    },
-    {
-      id: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Servicios generales',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'jesse toro urbano',
-          email: 'aguila988@hotmail.com',
-          createdAt: '2020-06-02T15:13:52.000Z',
-          updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'aguila988@hotmail.com',
-            jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'alexandra castillo cuero',
-          email: 'castilloalexc3@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'castilloalexc3@gmail.com',
-            jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'victor alexander molina valencia',
-          email: 'elamigablevic1980@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'elamigablevic1980@gmail.com',
-            jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'carlos alberto paz caicedo',
-          email: 'elmastercp@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'elmastercp@gmail.com',
-            jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'ernesto valencia valencia',
-          email: 'ernest85-12@hotmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'ernest85-12@hotmail.com',
-            jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'ingry yohanna ángulo castillo',
-          email: 'ingryyohanna1@gmail.com',
-          createdAt: '2020-06-02T15:13:52.000Z',
-          updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'ingryyohanna1@gmail.com',
-            jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jhon freddy montaño preciado',
-          email: 'jmontanopreciado@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'jmontanopreciado@gmail.com',
-            jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'marco tulio gonzalez londoño',
-          email: 'marcotuliogonzalez10@hotmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'marcotuliogonzalez10@hotmail.com',
-            jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'paola andrea tavera varela',
-          email: 'paolatavera617@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'paolatavera617@gmail.com',
-            jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'ruby bibiana acosta samboni',
-          email: 'rubita570@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'rubita570@gmail.com',
-            jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'wilson zuñiga bonilla',
-          email: 'thezbbonilla@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'thezbbonilla@gmail.com',
-            jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'wilson harold sarria marin',
-          email: 'wisama720204@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'wisama720204@gmail.com',
-            jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'zurama carolina quiroz blanco',
-          email: 'zuramaq1030@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'zuramaq1030@gmail.com',
-            jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-      ],
-    },
-    {
-      id: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Auxiliar contable',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'maria angelica leon narvaez',
-          email: 'angelica_leon3.8@hotmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'angelica_leon3.8@hotmail.com',
-            jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'gloria beatriz betancur florez',
-          email: 'beatrizbetancurf@gmail.com',
+      },
+    ],
+  },
+  {
+    id: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Asesor lider de Cobranza',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'luz adriana giraldo gutierrez',
+        email: 'adrianagiraldo616@hotmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Controlar los indicadores de gestión del equipo de asesores a su cargo. Garantizar el cumplimiento de los objetivos de las campañas de gestión de cobranza, según corresponda (efectividad en el recaudo, normalización total, etc.). Motivar y orientar a su e',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'beatrizbetancurf@gmail.com',
-            jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'adrianagiraldo616@hotmail.com',
+          jobOfferId: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'diana alejandra loboa rodas',
-          email: 'dianaloboa11@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'dianaloboa11@gmail.com',
-            jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'hoffman diego rodriguez gil',
-          email: 'diegohoffman@yahoo.com.mx',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'diegohoffman@yahoo.com.mx',
-            jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'harold bernardo jimenez romero',
-          email: 'haroldjimenez31@hotmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'haroldjimenez31@hotmail.com',
-            jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'ingrid vanessa perez londoño',
-          email: 'ingridvanessaperez@hotmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'ingridvanessaperez@hotmail.com',
-            jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'ingry yohanna ángulo castillo',
-          email: 'ingryyohanna1@gmail.com',
-          createdAt: '2020-06-02T15:13:52.000Z',
-          updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'ingryyohanna1@gmail.com',
-            jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'daniel alejandro isaza larrahondo',
-          email: 'isazadaniel89@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'isazadaniel89@gmail.com',
-            jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jennifer guerrero bolaños',
-          email: 'jenny_fernanda1@hotmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'jenny_fernanda1@hotmail.com',
-            jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'jhon jairo vidal zuñiga',
-          email: 'jhon.vidal@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'jhon.vidal@gmail.com',
-            jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'leonardo harvey alvira polanco',
-          email: 'leonardoalvira80@hotmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'leonardoalvira80@hotmail.com',
-            jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'leslie alejandra riascos españa',
-          email: 'lesliespa90@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'lesliespa90@gmail.com',
-            jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'nini johanna guevara bejarano',
-          email: 'ninijohana1@yahoo.es',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'ninijohana1@yahoo.es',
-            jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'sandra patricia hurtado mosquera',
-          email: 'sandra_312@live.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'sandra_312@live.com',
-            jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'sara geraldine merizalde moreno',
-          email: 'sarita2001127@gmail.com',
-          createdAt: '2020-06-02T15:13:56.000Z',
-          updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'sarita2001127@gmail.com',
-            jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'angela maría betancourt quintero',
-          email: 'unangel0120@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
-            createdAt: '2020-06-02T15:13:56.000Z',
-            updatedAt: '2020-06-02T15:13:56.000Z',
-            userEmail: 'unangel0120@hotmail.com',
-            jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-      ],
-    },
-    {
-      id: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Asistente Administrativa Talento Humano',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'adriana chavez',
-          email: 'adrychavezromero@gmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'adrychavezromero@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'yaritza alejandra gómez palma',
-          email: 'alejandragomez80@gmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'alejandragomez80@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'andres muñoz',
-          email: 'ancamuba2008@hotmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'ancamuba2008@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'andrea guerrero varon',
-          email: 'andrea.guerrero1986@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'andrea.guerrero1986@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'andrea ortiz lopez',
-          email: 'Andreiiita94@hotmail.es',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'Andreiiita94@hotmail.es',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'yessica andrea torres martínez',
-          email: 'andretorres06.jt@gmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'andretorres06.jt@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'angie borrero lopez',
-          email: 'ANGIEBORRERO24@GMAIL.COM',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'ANGIEBORRERO24@GMAIL.COM',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'ana rocio ordoñez rosero',
-          email: 'anro-55@hotmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'anro-55@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'faisury rodriguez',
-          email: 'ansorena123@gmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'ansorena123@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'anyely tabares pereira',
-          email: 'anyelytabaresp@gmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'anyelytabaresp@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'sonia mabel moreno rueda',
-          email: 'bermeomoreno@hotmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'bermeomoreno@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'gilberto arizabaleta garcia',
-          email: 'beto.ari7@hotmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'beto.ari7@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'viholex montealegre calderon',
-          email: 'biholexmontealegre@hotmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'biholexmontealegre@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'valentina castillo lopez',
-          email: 'castillovalentina97@gmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'castillovalentina97@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'juan gonzález',
-          email: 'cordoba058@gmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'cordoba058@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'maria cristina trochez salamanca',
-          email: 'cristinatrochez1@gmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'cristinatrochez1@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'daniela giraldo rivera',
-          email: 'daniela1128gr@gmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'daniela1128gr@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'harwin dario papamija astudillo',
-          email: 'dario_1950@hotmail.com',
+      },
+      {
+        name: 'ana elizabeth sanchez',
+        email: 'anasanchezabogada@hotmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Controlar los indicadores de gestión del equipo de asesores a su cargo. Garantizar el cumplimiento de los objetivos de las campañas de gestión de cobranza, según corresponda (efectividad en el recaudo, normalización total, etc.). Motivar y orientar a su e',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'dario_1950@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'anasanchezabogada@hotmail.com',
+          jobOfferId: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'dahyana zarama alvarez',
-          email: 'dazarama@misena.edu.co',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'dazarama@misena.edu.co',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'diana marcela mina galeano',
-          email: 'DIANA.M.MINA@OUTLOOK.COM',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'DIANA.M.MINA@OUTLOOK.COM',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'diana lucia candela arango',
-          email: 'dianacandela10@gmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'dianacandela10@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'dixa lorena urresti isaza',
-          email: 'dixxalorena@gmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'dixxalorena@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'eliana hernandez',
-          email: 'eliana_w1@hotmail.com',
+      },
+      {
+        name: 'miguel andres quiñones angulo',
+        email: 'asesor.misalud@hotmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Controlar los indicadores de gestión del equipo de asesores a su cargo. Garantizar el cumplimiento de los objetivos de las campañas de gestión de cobranza, según corresponda (efectividad en el recaudo, normalización total, etc.). Motivar y orientar a su e',
           createdAt: '2020-06-02T15:13:55.000Z',
           updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'eliana_w1@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'asesor.misalud@hotmail.com',
+          jobOfferId: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'erika lozano gonzalez',
-          email: 'erika17878@gmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'erika17878@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+      },
+      {
+        name: 'aura marcela ramirez campo',
+        email: 'auramarcelaramirez@gmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Controlar los indicadores de gestión del equipo de asesores a su cargo. Garantizar el cumplimiento de los objetivos de las campañas de gestión de cobranza, según corresponda (efectividad en el recaudo, normalización total, etc.). Motivar y orientar a su e',
+          createdAt: '2020-06-02T15:13:55.000Z',
+          updatedAt: '2020-06-02T15:13:55.000Z',
+          userEmail: 'auramarcelaramirez@gmail.com',
+          jobOfferId: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'stefania cordoba',
-          email: 'fani.cor29@hotmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'fani.cor29@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+      },
+      {
+        name: 'eliana hernandez',
+        email: 'eliana_w1@hotmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Controlar los indicadores de gestión del equipo de asesores a su cargo. Garantizar el cumplimiento de los objetivos de las campañas de gestión de cobranza, según corresponda (efectividad en el recaudo, normalización total, etc.). Motivar y orientar a su e',
+          createdAt: '2020-06-02T15:13:55.000Z',
+          updatedAt: '2020-06-02T15:13:55.000Z',
+          userEmail: 'eliana_w1@hotmail.com',
+          jobOfferId: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'geraldine velasco',
-          email: 'geral.velasco97@gmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'geral.velasco97@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+      },
+      {
+        name: 'laura catalina giraldo cardoza',
+        email: 'giraldolauracatalina@gmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Controlar los indicadores de gestión del equipo de asesores a su cargo. Garantizar el cumplimiento de los objetivos de las campañas de gestión de cobranza, según corresponda (efectividad en el recaudo, normalización total, etc.). Motivar y orientar a su e',
+          createdAt: '2020-06-02T15:13:55.000Z',
+          updatedAt: '2020-06-02T15:13:55.000Z',
+          userEmail: 'giraldolauracatalina@gmail.com',
+          jobOfferId: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'gonzalo blandón delgado',
-          email: 'gonzaloblandon98@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'gonzaloblandon98@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+      },
+      {
+        name: 'jennifer sepulveda',
+        email: 'jensepul@gmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Controlar los indicadores de gestión del equipo de asesores a su cargo. Garantizar el cumplimiento de los objetivos de las campañas de gestión de cobranza, según corresponda (efectividad en el recaudo, normalización total, etc.). Motivar y orientar a su e',
+          createdAt: '2020-06-02T15:13:55.000Z',
+          updatedAt: '2020-06-02T15:13:55.000Z',
+          userEmail: 'jensepul@gmail.com',
+          jobOfferId: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'gloria stephany benítez angulo',
-          email: 'gstepfanybenitezangulo@hotmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'gstepfanybenitezangulo@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+      },
+      {
+        name: 'olga patricia guerrero calderon',
+        email: 'olpaguerr_70@hotmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Controlar los indicadores de gestión del equipo de asesores a su cargo. Garantizar el cumplimiento de los objetivos de las campañas de gestión de cobranza, según corresponda (efectividad en el recaudo, normalización total, etc.). Motivar y orientar a su e',
+          createdAt: '2020-06-02T15:13:55.000Z',
+          updatedAt: '2020-06-02T15:13:55.000Z',
+          userEmail: 'olpaguerr_70@hotmail.com',
+          jobOfferId: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'hansy mogollon diaz',
-          email: 'hansyroci@hotmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'hansyroci@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+      },
+      {
+        name: 'oscar armando roldan buendia',
+        email: 'osroldan1625@hotmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Controlar los indicadores de gestión del equipo de asesores a su cargo. Garantizar el cumplimiento de los objetivos de las campañas de gestión de cobranza, según corresponda (efectividad en el recaudo, normalización total, etc.). Motivar y orientar a su e',
+          createdAt: '2020-06-02T15:13:55.000Z',
+          updatedAt: '2020-06-02T15:13:55.000Z',
+          userEmail: 'osroldan1625@hotmail.com',
+          jobOfferId: 'a9877620-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'helen tobar',
-          email: 'hemely0903@hotmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'hemely0903@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+      },
+    ],
+  },
+  {
+    id: 'a9877621-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Coordinador de sistemas',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'john londoño',
+        email: 'jhon.jaime.londono@correounivalle.edu.co',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere TECNICO, TECNOLOGO O PROFESIONAL Mínimo dos (2) años de experiencia en el cargo. Administración de software contable CG-Uno versión 8.5 y todos sus módulos. 2. Administración de sistema Linux. 3. Presentación de informes gerenciales mediante s',
+          createdAt: '2020-06-02T15:13:55.000Z',
+          updatedAt: '2020-06-02T15:13:55.000Z',
+          userEmail: 'jhon.jaime.londono@correounivalle.edu.co',
+          jobOfferId: 'a9877621-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'marcela ibeth viafara carrillo',
-          email: 'ibeth0612@hotmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'ibeth0612@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+      },
+      {
+        name: 'yeison antonio arango tamayo',
+        email: 'yeisonarango03@gmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere TECNICO, TECNOLOGO O PROFESIONAL Mínimo dos (2) años de experiencia en el cargo. Administración de software contable CG-Uno versión 8.5 y todos sus módulos. 2. Administración de sistema Linux. 3. Presentación de informes gerenciales mediante s',
+          createdAt: '2020-06-02T15:13:55.000Z',
+          updatedAt: '2020-06-02T15:13:55.000Z',
+          userEmail: 'yeisonarango03@gmail.com',
+          jobOfferId: 'a9877621-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'ingry yohanna ángulo castillo',
-          email: 'ingryyohanna1@gmail.com',
-          createdAt: '2020-06-02T15:13:52.000Z',
-          updatedAt: '2020-06-02T15:13:52.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'ingryyohanna1@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'maria isabel luna',
-          email: 'isalunita07@hotmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'isalunita07@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'isabel paladines',
-          email: 'isapaladines@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'isapaladines@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'leidy jhoana montes arce',
-          email: 'jhoanamontz@hotmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'jhoanamontz@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'yossin stiven valencia',
-          email: 'jhosinval@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'jhosinval@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'juan manuel betancourt medina',
-          email: 'juanmabe49@gmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'juanmabe49@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'julian andres cardona alzate',
-          email: 'juliand.cardona@hotmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'juliand.cardona@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'juli andrea aparicio prada',
-          email: 'juliaparu@hotmail.es',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'juliaparu@hotmail.es',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'karen osorio',
-          email: 'karen.osorio1998@hotmail.com',
-          createdAt: '2020-06-02T15:13:57.000Z',
-          updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'karen.osorio1998@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'kelly johana pérez ramirez',
-          email: 'kellyjoha007@gmail.com',
+      },
+    ],
+  },
+  {
+    id: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Auxiliar de enfermería prequirurgíca',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'ricardo alberto ramirez ramirez',
+        email: 'amoszorobabel1231@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
           createdAt: '2020-06-02T15:13:56.000Z',
           updatedAt: '2020-06-02T15:13:56.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'kellyjoha007@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'amoszorobabel1231@gmail.com',
+          jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'laura zambrano',
-          email: 'lazato21@gmail.com',
+      },
+      {
+        name: 'angela marcela nieva ramírez',
+        email: 'anginieva@hotmail.es',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'anginieva@hotmail.es',
+          jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'alba patricia bedoya florez',
+        email: 'apbedoya1476@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'apbedoya1476@gmail.com',
+          jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'claudia marcela delgado gallego',
+        email: 'clamardel@yahoo.es',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'clamardel@yahoo.es',
+          jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'daniela franco gomez',
+        email: 'dani041194@hotmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'dani041194@hotmail.com',
+          jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'claudia lorena ramirez pinchao',
+        email: 'daniel_marty15@hotmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'daniel_marty15@hotmail.com',
+          jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'nidia gonzalez guerrero',
+        email: 'dianigonzalez026@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'dianigonzalez026@gmail.com',
+          jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ely johana montaño perez',
+        email: 'ellie.mon1992@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'ellie.mon1992@gmail.com',
+          jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'david erazo',
+        email: 'loeh4812@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'loeh4812@gmail.com',
+          jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'mayra alejandra lozano rodriguez',
+        email: 'mairix66@hotmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'mairix66@hotmail.com',
+          jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ana marcela cogollo oviedo',
+        email: 'marcela.cogollo@hotmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'marcela.cogollo@hotmail.com',
+          jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'merlin johana moreno',
+        email: 'merlinnnnjohanamoreno@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'merlinnnnjohanamoreno@gmail.com',
+          jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'paola andrea montenegro perafan',
+        email: 'pamp7807@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'pamp7807@gmail.com',
+          jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'sandra milena bonilla quintero',
+        email: 'sandramilenab66@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'sandramilenab66@gmail.com',
+          jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'veronica hurtado rodriguez',
+        email: 'vero720maro@outlook.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'vero720maro@outlook.com',
+          jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'yurany cruz zamora',
+        email: 'yucaza95@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Realizar entrevista prequirurgíca diligenciando historia clínica en siis',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'yucaza95@gmail.com',
+          jobOfferId: 'a9877622-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Profesional de gestión documental',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'duvier alejandro diaz',
+        email: 'alejodiaz2512@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'alejodiaz2512@gmail.com',
+          jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'edwin jovanny pizza uribe',
+        email: 'edwinjovanny23@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'edwinjovanny23@gmail.com',
+          jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'edwin arley pinillo montenegro',
+        email: 'edwinp1012@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'edwinp1012@gmail.com',
+          jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'elizabeth mejia vélez',
+        email: 'elizabethmejiavelezz@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'elizabethmejiavelezz@gmail.com',
+          jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'henry armando velandia rodriguez',
+        email: 'havr14@hotmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'havr14@hotmail.com',
+          jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'maria ines arias mejia',
+        email: 'inesmaria90@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'inesmaria90@gmail.com',
+          jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'edgar mauricio rojas urdaneta',
+        email: 'karemsk8@yahoo.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'karemsk8@yahoo.com',
+          jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'kelly johana pérez ramirez',
+        email: 'kellyjoha007@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'kellyjoha007@gmail.com',
+          jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'laura cleve siso',
+        email: 'laura.cleve@hotmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'laura.cleve@hotmail.com',
+          jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'oneida elizabeth pantoja calderón',
+        email: 'lizapc26@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'lizapc26@hotmail.com',
+          jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'héctor darío páez urrea',
+        email: 'magoeazul@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'magoeazul@gmail.com',
+          jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'sneider marin valencia',
+        email: 'smvalencia2008@hotmail.es',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'smvalencia2008@hotmail.es',
+          jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'viviana guzman morales',
+        email: 'vivianita.guzman@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa de Gestion documental requiere Profesional en gestión documental para laborar en Cali, en un proyecto inicialmente de 2 meses, Profesional en gestión documental, archivistica, bibliotecologia o afines. Experiencia mínima de 2 años en ca',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'vivianita.guzman@gmail.com',
+          jobOfferId: 'a9877623-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Servicios generales',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'jesse toro urbano',
+        email: 'aguila988@hotmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'aguila988@hotmail.com',
+          jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'alexandra castillo cuero',
+        email: 'castilloalexc3@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'castilloalexc3@gmail.com',
+          jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'victor alexander molina valencia',
+        email: 'elamigablevic1980@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'elamigablevic1980@gmail.com',
+          jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'carlos alberto paz caicedo',
+        email: 'elmastercp@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'elmastercp@gmail.com',
+          jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ernesto valencia valencia',
+        email: 'ernest85-12@hotmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'ernest85-12@hotmail.com',
+          jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ingry yohanna ángulo castillo',
+        email: 'ingryyohanna1@gmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'ingryyohanna1@gmail.com',
+          jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jhon freddy montaño preciado',
+        email: 'jmontanopreciado@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'jmontanopreciado@gmail.com',
+          jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'marco tulio gonzalez londoño',
+        email: 'marcotuliogonzalez10@hotmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'marcotuliogonzalez10@hotmail.com',
+          jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'paola andrea tavera varela',
+        email: 'paolatavera617@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'paolatavera617@gmail.com',
+          jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ruby bibiana acosta samboni',
+        email: 'rubita570@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'rubita570@gmail.com',
+          jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'wilson zuñiga bonilla',
+        email: 'thezbbonilla@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'thezbbonilla@gmail.com',
+          jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'wilson harold sarria marin',
+        email: 'wisama720204@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'wisama720204@gmail.com',
+          jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'zurama carolina quiroz blanco',
+        email: 'zuramaq1030@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se solicita personal para el área de servicios generales, experiencia de mas de 1 año en servicios generales se encargara de los servicios generales de la parte administrativa debe tener muy buena presentación personal.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'zuramaq1030@gmail.com',
+          jobOfferId: 'a9877624-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Auxiliar contable',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'maria angelica leon narvaez',
+        email: 'angelica_leon3.8@hotmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'angelica_leon3.8@hotmail.com',
+          jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'gloria beatriz betancur florez',
+        email: 'beatrizbetancurf@gmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'beatrizbetancurf@gmail.com',
+          jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'diana alejandra loboa rodas',
+        email: 'dianaloboa11@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'dianaloboa11@gmail.com',
+          jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'hoffman diego rodriguez gil',
+        email: 'diegohoffman@yahoo.com.mx',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'diegohoffman@yahoo.com.mx',
+          jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'harold bernardo jimenez romero',
+        email: 'haroldjimenez31@hotmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'haroldjimenez31@hotmail.com',
+          jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ingrid vanessa perez londoño',
+        email: 'ingridvanessaperez@hotmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'ingridvanessaperez@hotmail.com',
+          jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ingry yohanna ángulo castillo',
+        email: 'ingryyohanna1@gmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'ingryyohanna1@gmail.com',
+          jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'daniel alejandro isaza larrahondo',
+        email: 'isazadaniel89@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'isazadaniel89@gmail.com',
+          jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jennifer guerrero bolaños',
+        email: 'jenny_fernanda1@hotmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'jenny_fernanda1@hotmail.com',
+          jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jhon jairo vidal zuñiga',
+        email: 'jhon.vidal@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'jhon.vidal@gmail.com',
+          jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'leonardo harvey alvira polanco',
+        email: 'leonardoalvira80@hotmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'leonardoalvira80@hotmail.com',
+          jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'leslie alejandra riascos españa',
+        email: 'lesliespa90@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'lesliespa90@gmail.com',
+          jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'nini johanna guevara bejarano',
+        email: 'ninijohana1@yahoo.es',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'ninijohana1@yahoo.es',
+          jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'sandra patricia hurtado mosquera',
+        email: 'sandra_312@live.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'sandra_312@live.com',
+          jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'sara geraldine merizalde moreno',
+        email: 'sarita2001127@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'sarita2001127@gmail.com',
+          jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'angela maría betancourt quintero',
+        email: 'unangel0120@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Liquidación de impuestos, contabilización de documentos contables, análisis e informes de estados financieros, auditorías y conciliaciones de cuentas, manejo del software contable SIESA Y SIESA WEB.',
+          createdAt: '2020-06-02T15:13:56.000Z',
+          updatedAt: '2020-06-02T15:13:56.000Z',
+          userEmail: 'unangel0120@hotmail.com',
+          jobOfferId: 'a9877625-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Asistente Administrativa Talento Humano',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'adriana chavez',
+        email: 'adrychavezromero@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'lazato21@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'adrychavezromero@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'leonardo vinasco',
-          email: 'leovinasco1006@hotmail.com',
-          createdAt: '2020-06-02T15:13:50.000Z',
-          updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'leovinasco1006@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'lina lourdes pescador alcalde',
-          email: 'llourdes@hotmail.es',
+      },
+      {
+        name: 'yaritza alejandra gómez palma',
+        email: 'alejandragomez80@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'llourdes@hotmail.es',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'alejandragomez80@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'andrea lopez calderon',
-          email: 'lopezcalderonandrea@gmail.com',
+      },
+      {
+        name: 'andres muñoz',
+        email: 'ancamuba2008@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'lopezcalderonandrea@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'ancamuba2008@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'lida mery patiño garcia',
-          email: 'lpatino.tvg@gmail.com',
+      },
+      {
+        name: 'andrea guerrero varon',
+        email: 'andrea.guerrero1986@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'lpatino.tvg@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'andrea.guerrero1986@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'maría luisa rodríguez',
-          email: 'luisa-rodriguez0625@hotmail.com',
+      },
+      {
+        name: 'andrea ortiz lopez',
+        email: 'Andreiiita94@hotmail.es',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'luisa-rodriguez0625@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'Andreiiita94@hotmail.es',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'luz elena mosquera guerrero',
-          email: 'luzemosquerag@gmail.com',
+      },
+      {
+        name: 'yessica andrea torres martínez',
+        email: 'andretorres06.jt@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'luzemosquerag@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'andretorres06.jt@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'maría josé arboleda',
-          email: 'maarboleda-mary423@hotmail.es',
+      },
+      {
+        name: 'angie borrero lopez',
+        email: 'ANGIEBORRERO24@GMAIL.COM',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'maarboleda-mary423@hotmail.es',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'ANGIEBORRERO24@GMAIL.COM',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'mayra alejandra cabrera cabrera',
-          email: 'maecabrera99@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'maecabrera99@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'maria fernanda martinez caicedo',
-          email: 'mafe197536@gmail.com',
+      },
+      {
+        name: 'ana rocio ordoñez rosero',
+        email: 'anro-55@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'mafe197536@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'anro-55@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jackeline manso grajales',
-          email: 'manso1984@hotmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'manso1984@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'maría muñoz narvaez',
-          email: 'mar18-angeles@hotmail.com',
-          createdAt: '2020-06-02T15:13:55.000Z',
-          updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'mar18-angeles@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'marcela joaqui',
-          email: 'marcelis.9211@gmail.com',
+      },
+      {
+        name: 'faisury rodriguez',
+        email: 'ansorena123@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'marcelis.9211@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'ansorena123@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'margareth diaz meza',
-          email: 'Margareth18230@Gmail.com',
+      },
+      {
+        name: 'anyely tabares pereira',
+        email: 'anyelytabaresp@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'Margareth18230@Gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'anyelytabaresp@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'maritza echeverry soo',
-          email: 'maritzaecheverrys14@gmail.com',
+      },
+      {
+        name: 'sonia mabel moreno rueda',
+        email: 'bermeomoreno@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'maritzaecheverrys14@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'bermeomoreno@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'johana maritza salas garces',
-          email: 'maritza_garces.32@hotmail.com',
+      },
+      {
+        name: 'gilberto arizabaleta garcia',
+        email: 'beto.ari7@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'maritza_garces.32@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'beto.ari7@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'mayra lizeth panesso villafañe',
-          email: 'mayli414@hotmail.com',
+      },
+      {
+        name: 'viholex montealegre calderon',
+        email: 'biholexmontealegre@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'mayli414@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'biholexmontealegre@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'xiomara meza hurtado',
-          email: 'mezahurtadoxiomara11@gmail.com',
+      },
+      {
+        name: 'valentina castillo lopez',
+        email: 'castillovalentina97@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'mezahurtadoxiomara11@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'castillovalentina97@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'milet tatiana moreno meneses',
-          email: 'milethtatiana2001@gmail.com',
+      },
+      {
+        name: 'juan gonzález',
+        email: 'cordoba058@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'milethtatiana2001@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'cordoba058@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'mileydi alejandra prieto marquez',
-          email: 'mileydi.m2013@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'mileydi.m2013@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'martha melo',
-          email: 'MROCIOFRANCO197@GMAIL.COM',
+      },
+      {
+        name: 'maria cristina trochez salamanca',
+        email: 'cristinatrochez1@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'MROCIOFRANCO197@GMAIL.COM',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'cristinatrochez1@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'natalia ospina benitez',
-          email: 'natalia.ospina9400@gmail.com',
+      },
+      {
+        name: 'daniela giraldo rivera',
+        email: 'daniela1128gr@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'natalia.ospina9400@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'daniela1128gr@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'natalye realpe diaz',
-          email: 'natalyerealpediaz@hotmail.com',
+      },
+      {
+        name: 'harwin dario papamija astudillo',
+        email: 'dario_1950@hotmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'natalyerealpediaz@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'dario_1950@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'ivon nathaly sanchez rodriguez',
-          email: 'natta1721@yahoo.es',
+      },
+      {
+        name: 'dahyana zarama alvarez',
+        email: 'dazarama@misena.edu.co',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'natta1721@yahoo.es',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'dazarama@misena.edu.co',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'ninoska triana',
-          email: 'ninoskatriana3@gmail.com',
+      },
+      {
+        name: 'diana marcela mina galeano',
+        email: 'DIANA.M.MINA@OUTLOOK.COM',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'ninoskatriana3@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'DIANA.M.MINA@OUTLOOK.COM',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'angie paola hurtado alomia',
-          email: 'paolahurtado2117@gmail.com',
+      },
+      {
+        name: 'diana lucia candela arango',
+        email: 'dianacandela10@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'paolahurtado2117@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'dianacandela10@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'paula andrea ramirez ospina',
-          email: 'paula.andrea.ramirez@correounivalle.edu.co',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'paula.andrea.ramirez@correounivalle.edu.co',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'maría camila ramírez',
-          email: 'ramirezcamilar29@gmail.com',
+      },
+      {
+        name: 'dixa lorena urresti isaza',
+        email: 'dixxalorena@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'ramirezcamilar29@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'dixxalorena@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'diana suleidy ramírez mojica',
-          email: 'ramirezmojicadiana@gmail.com',
+      },
+      {
+        name: 'eliana hernandez',
+        email: 'eliana_w1@hotmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'ramirezmojicadiana@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'eliana_w1@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'ruth mercedes gaviria villarreal',
-          email: 'rumega07@hotmail.com',
+      },
+      {
+        name: 'erika lozano gonzalez',
+        email: 'erika17878@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'rumega07@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'erika17878@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'arnol julian ospina jimenez',
-          email: 'siemprejuli@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'siemprejuli@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'sonia patricia mendez cubides',
-          email: 'soni.3113@hotmail.com',
+      },
+      {
+        name: 'stefania cordoba',
+        email: 'fani.cor29@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'soni.3113@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'fani.cor29@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'anyi vanesa camacho valencia',
-          email: 'valenciaangie1@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'valenciaangie1@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'valentina rubio ortega',
-          email: 'valentinaro32@gmail.com',
+      },
+      {
+        name: 'geraldine velasco',
+        email: 'geral.velasco97@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'valentinaro32@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'geral.velasco97@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'valeria castaño',
-          email: 'valocc15@gmail.com',
+      },
+      {
+        name: 'gonzalo blandón delgado',
+        email: 'gonzaloblandon98@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'valocc15@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'gonzaloblandon98@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'luz adriana vargas gomez',
-          email: 'vargas.gomez85@gmail.com',
+      },
+      {
+        name: 'gloria stephany benítez angulo',
+        email: 'gstepfanybenitezangulo@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'vargas.gomez85@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'gstepfanybenitezangulo@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'valentina hernández molina',
-          email: 'vhernande17@gmail.com',
-          createdAt: '2020-06-02T15:13:55.000Z',
-          updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'vhernande17@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'viviana maria urquijo baquero',
-          email: 'vivimaria321@yahoo.es',
+      },
+      {
+        name: 'hansy mogollon diaz',
+        email: 'hansyroci@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'vivimaria321@yahoo.es',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'hansyroci@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'wilson avila',
-          email: 'wilsonavila95@gmail.com',
-          createdAt: '2020-06-02T15:13:55.000Z',
-          updatedAt: '2020-06-02T15:13:55.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'wilsonavila95@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'ximena carvajal',
-          email: 'ximena-81@hotmail.es',
+      },
+      {
+        name: 'helen tobar',
+        email: 'hemely0903@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'ximena-81@hotmail.es',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'hemely0903@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'ana yibe mambague mañunga',
-          email: 'yibeana1@gmail.com',
+      },
+      {
+        name: 'marcela ibeth viafara carrillo',
+        email: 'ibeth0612@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'yibeana1@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'ibeth0612@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'yubisay herrera',
-          email: 'yubisay554@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'yubisay554@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'yuliana palacios',
-          email: 'yuliana13palacios@gmail.com',
-          createdAt: '2020-06-02T15:13:53.000Z',
-          updatedAt: '2020-06-02T15:13:53.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'yuliana13palacios@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'yurani estefania jojoa guacas',
-          email: 'yuraniestefania24@gmail.com',
+      },
+      {
+        name: 'ingry yohanna ángulo castillo',
+        email: 'ingryyohanna1@gmail.com',
+        createdAt: '2020-06-02T15:13:52.000Z',
+        updatedAt: '2020-06-02T15:13:52.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'yuraniestefania24@gmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'ingryyohanna1@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'zuly fajardo',
-          email: 'zulyfa70@hotmail.com',
+      },
+      {
+        name: 'maria isabel luna',
+        email: 'isalunita07@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'zulyfa70@hotmail.com',
-            jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'isalunita07@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-      ],
-    },
-    {
-      id: 'a9877627-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Técnico de Montacargas Eléctrica',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'eduan lara moncayo',
-          email: 'eduanlara@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Reconocida multinacional, requiere de manera urgente Técnico de Montacargas Eléctricas, con 3 años de experiencia realizando mantenimiento preventivo y correctivo de montacargas Eléctrico. Salario: $ 1.550.000 + todas las prestaciones de ley + beneficios.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'eduanlara@gmail.com',
-            jobOfferId: 'a9877627-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-      ],
-    },
-    {
-      id: 'a9877628-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Practicante diseño grafico',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'juan benítez',
-          email: 'davidbenitezv@hotmail.com',
+      },
+      {
+        name: 'isabel paladines',
+        email: 'isapaladines@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere aprendiz de diseño gráfico o diseño de modas habilitado para hacer su practica en el segundo semestre de 2020. Con conocimiento en Illustrator, Photoshop , excel e ingles basico.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'davidbenitezv@hotmail.com',
-            jobOfferId: 'a9877628-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'isapaladines@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'mariam michelle nieto sanclemente',
-          email: 'mariammichellens@gmail.com',
+      },
+      {
+        name: 'leidy jhoana montes arce',
+        email: 'jhoanamontz@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere aprendiz de diseño gráfico o diseño de modas habilitado para hacer su practica en el segundo semestre de 2020. Con conocimiento en Illustrator, Photoshop , excel e ingles basico.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'mariammichellens@gmail.com',
-            jobOfferId: 'a9877628-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'jhoanamontz@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'juan carlos escobar criollo',
-          email: 'mechudo36@hotmail.com',
+      },
+      {
+        name: 'yossin stiven valencia',
+        email: 'jhosinval@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere aprendiz de diseño gráfico o diseño de modas habilitado para hacer su practica en el segundo semestre de 2020. Con conocimiento en Illustrator, Photoshop , excel e ingles basico.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'mechudo36@hotmail.com',
-            jobOfferId: 'a9877628-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'jhosinval@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'miguel angel devia cortes',
-          email: 'miguelpro999@hotmail.com',
+      },
+      {
+        name: 'juan manuel betancourt medina',
+        email: 'juanmabe49@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere aprendiz de diseño gráfico o diseño de modas habilitado para hacer su practica en el segundo semestre de 2020. Con conocimiento en Illustrator, Photoshop , excel e ingles basico.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'miguelpro999@hotmail.com',
-            jobOfferId: 'a9877628-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'juanmabe49@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'mónica rodriguez',
-          email: 'rodriguezmoranmonica@gmail.com',
+      },
+      {
+        name: 'julian andres cardona alzate',
+        email: 'juliand.cardona@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere aprendiz de diseño gráfico o diseño de modas habilitado para hacer su practica en el segundo semestre de 2020. Con conocimiento en Illustrator, Photoshop , excel e ingles basico.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'rodriguezmoranmonica@gmail.com',
-            jobOfferId: 'a9877628-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'juliand.cardona@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'roswell alexander romero vasquez',
-          email: 'roswellromero420@gmail.com',
+      },
+      {
+        name: 'juli andrea aparicio prada',
+        email: 'juliaparu@hotmail.es',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
           createdAt: '2020-06-02T15:13:57.000Z',
           updatedAt: '2020-06-02T15:13:57.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Se requiere aprendiz de diseño gráfico o diseño de modas habilitado para hacer su practica en el segundo semestre de 2020. Con conocimiento en Illustrator, Photoshop , excel e ingles basico.',
-            createdAt: '2020-06-02T15:13:57.000Z',
-            updatedAt: '2020-06-02T15:13:57.000Z',
-            userEmail: 'roswellromero420@gmail.com',
-            jobOfferId: 'a9877628-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'juliaparu@hotmail.es',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-      ],
-    },
-    {
-      id: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Supervisor (a) Logístico (a) de Importaciones',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'agustin ramos collazos',
-          email: 'agustinrc4@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'agustinrc4@hotmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
+      },
+      {
+        name: 'karen osorio',
+        email: 'karen.osorio1998@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'karen.osorio1998@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'juan alejandro valencia peña',
-          email: 'alejan092@hotmail.com',
+      },
+      {
+        name: 'kelly johana pérez ramirez',
+        email: 'kellyjoha007@gmail.com',
+        createdAt: '2020-06-02T15:13:56.000Z',
+        updatedAt: '2020-06-02T15:13:56.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'kellyjoha007@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'laura zambrano',
+        email: 'lazato21@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'lazato21@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'leonardo vinasco',
+        email: 'leovinasco1006@hotmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'leovinasco1006@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'lina lourdes pescador alcalde',
+        email: 'llourdes@hotmail.es',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'llourdes@hotmail.es',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'andrea lopez calderon',
+        email: 'lopezcalderonandrea@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'lopezcalderonandrea@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'lida mery patiño garcia',
+        email: 'lpatino.tvg@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'lpatino.tvg@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'maría luisa rodríguez',
+        email: 'luisa-rodriguez0625@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'luisa-rodriguez0625@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'luz elena mosquera guerrero',
+        email: 'luzemosquerag@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'luzemosquerag@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'maría josé arboleda',
+        email: 'maarboleda-mary423@hotmail.es',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'maarboleda-mary423@hotmail.es',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'mayra alejandra cabrera cabrera',
+        email: 'maecabrera99@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'maecabrera99@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'maria fernanda martinez caicedo',
+        email: 'mafe197536@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'mafe197536@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jackeline manso grajales',
+        email: 'manso1984@hotmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'manso1984@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'maría muñoz narvaez',
+        email: 'mar18-angeles@hotmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'mar18-angeles@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'marcela joaqui',
+        email: 'marcelis.9211@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'marcelis.9211@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'margareth diaz meza',
+        email: 'Margareth18230@Gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'Margareth18230@Gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'maritza echeverry soo',
+        email: 'maritzaecheverrys14@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'maritzaecheverrys14@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'johana maritza salas garces',
+        email: 'maritza_garces.32@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'maritza_garces.32@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'mayra lizeth panesso villafañe',
+        email: 'mayli414@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'mayli414@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'xiomara meza hurtado',
+        email: 'mezahurtadoxiomara11@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'mezahurtadoxiomara11@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'milet tatiana moreno meneses',
+        email: 'milethtatiana2001@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'milethtatiana2001@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'mileydi alejandra prieto marquez',
+        email: 'mileydi.m2013@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'mileydi.m2013@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'martha melo',
+        email: 'MROCIOFRANCO197@GMAIL.COM',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'MROCIOFRANCO197@GMAIL.COM',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'natalia ospina benitez',
+        email: 'natalia.ospina9400@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'natalia.ospina9400@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'natalye realpe diaz',
+        email: 'natalyerealpediaz@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'natalyerealpediaz@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ivon nathaly sanchez rodriguez',
+        email: 'natta1721@yahoo.es',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'natta1721@yahoo.es',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ninoska triana',
+        email: 'ninoskatriana3@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'ninoskatriana3@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'angie paola hurtado alomia',
+        email: 'paolahurtado2117@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'paolahurtado2117@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'paula andrea ramirez ospina',
+        email: 'paula.andrea.ramirez@correounivalle.edu.co',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'paula.andrea.ramirez@correounivalle.edu.co',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'maría camila ramírez',
+        email: 'ramirezcamilar29@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'ramirezcamilar29@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'diana suleidy ramírez mojica',
+        email: 'ramirezmojicadiana@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'ramirezmojicadiana@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ruth mercedes gaviria villarreal',
+        email: 'rumega07@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'rumega07@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'arnol julian ospina jimenez',
+        email: 'siemprejuli@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'siemprejuli@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'sonia patricia mendez cubides',
+        email: 'soni.3113@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'soni.3113@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'anyi vanesa camacho valencia',
+        email: 'valenciaangie1@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'valenciaangie1@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'valentina rubio ortega',
+        email: 'valentinaro32@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'valentinaro32@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'valeria castaño',
+        email: 'valocc15@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'valocc15@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'luz adriana vargas gomez',
+        email: 'vargas.gomez85@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'vargas.gomez85@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'valentina hernández molina',
+        email: 'vhernande17@gmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'vhernande17@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'viviana maria urquijo baquero',
+        email: 'vivimaria321@yahoo.es',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'vivimaria321@yahoo.es',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'wilson avila',
+        email: 'wilsonavila95@gmail.com',
+        createdAt: '2020-06-02T15:13:55.000Z',
+        updatedAt: '2020-06-02T15:13:55.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'wilsonavila95@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ximena carvajal',
+        email: 'ximena-81@hotmail.es',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'ximena-81@hotmail.es',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ana yibe mambague mañunga',
+        email: 'yibeana1@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'yibeana1@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'yubisay herrera',
+        email: 'yubisay554@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'yubisay554@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'yuliana palacios',
+        email: 'yuliana13palacios@gmail.com',
+        createdAt: '2020-06-02T15:13:53.000Z',
+        updatedAt: '2020-06-02T15:13:53.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'yuliana13palacios@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'yurani estefania jojoa guacas',
+        email: 'yuraniestefania24@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'yuraniestefania24@gmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'zuly fajardo',
+        email: 'zulyfa70@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Empresa de servicios temporales requiere de manera urgente técnica o tecnología en recursos humanos para trabajar en el sector de talento humano, experiencia en contratacion, afiliaciones, reclutamiento entre otras funciones.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'zulyfa70@hotmail.com',
+          jobOfferId: 'a9877626-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a9877627-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Técnico de Montacargas Eléctrica',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'eduan lara moncayo',
+        email: 'eduanlara@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Reconocida multinacional, requiere de manera urgente Técnico de Montacargas Eléctricas, con 3 años de experiencia realizando mantenimiento preventivo y correctivo de montacargas Eléctrico. Salario: $ 1.550.000 + todas las prestaciones de ley + beneficios.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'eduanlara@gmail.com',
+          jobOfferId: 'a9877627-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a9877628-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Practicante diseño grafico',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'juan benítez',
+        email: 'davidbenitezv@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere aprendiz de diseño gráfico o diseño de modas habilitado para hacer su practica en el segundo semestre de 2020. Con conocimiento en Illustrator, Photoshop , excel e ingles basico.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'davidbenitezv@hotmail.com',
+          jobOfferId: 'a9877628-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'mariam michelle nieto sanclemente',
+        email: 'mariammichellens@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere aprendiz de diseño gráfico o diseño de modas habilitado para hacer su practica en el segundo semestre de 2020. Con conocimiento en Illustrator, Photoshop , excel e ingles basico.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'mariammichellens@gmail.com',
+          jobOfferId: 'a9877628-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'juan carlos escobar criollo',
+        email: 'mechudo36@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere aprendiz de diseño gráfico o diseño de modas habilitado para hacer su practica en el segundo semestre de 2020. Con conocimiento en Illustrator, Photoshop , excel e ingles basico.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'mechudo36@hotmail.com',
+          jobOfferId: 'a9877628-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'miguel angel devia cortes',
+        email: 'miguelpro999@hotmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere aprendiz de diseño gráfico o diseño de modas habilitado para hacer su practica en el segundo semestre de 2020. Con conocimiento en Illustrator, Photoshop , excel e ingles basico.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'miguelpro999@hotmail.com',
+          jobOfferId: 'a9877628-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'mónica rodriguez',
+        email: 'rodriguezmoranmonica@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere aprendiz de diseño gráfico o diseño de modas habilitado para hacer su practica en el segundo semestre de 2020. Con conocimiento en Illustrator, Photoshop , excel e ingles basico.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'rodriguezmoranmonica@gmail.com',
+          jobOfferId: 'a9877628-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'roswell alexander romero vasquez',
+        email: 'roswellromero420@gmail.com',
+        createdAt: '2020-06-02T15:13:57.000Z',
+        updatedAt: '2020-06-02T15:13:57.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Se requiere aprendiz de diseño gráfico o diseño de modas habilitado para hacer su practica en el segundo semestre de 2020. Con conocimiento en Illustrator, Photoshop , excel e ingles basico.',
+          createdAt: '2020-06-02T15:13:57.000Z',
+          updatedAt: '2020-06-02T15:13:57.000Z',
+          userEmail: 'roswellromero420@gmail.com',
+          jobOfferId: 'a9877628-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Supervisor (a) Logístico (a) de Importaciones',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'agustin ramos collazos',
+        email: 'agustinrc4@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'alejan092@hotmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'agustinrc4@hotmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'duvier alejandro diaz',
-          email: 'alejodiaz2512@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'alejodiaz2512@gmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'serhiño alexandro sandoval vera',
-          email: 'alexandrosandoval2207@hotmail.com',
+      },
+      {
+        name: 'juan alejandro valencia peña',
+        email: 'alejan092@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'alexandrosandoval2207@hotmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'alejan092@hotmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'andrés felipe ortiz arboleda',
-          email: 'andreso78@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'andreso78@gmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'angela margarita sanchez mendez',
-          email: 'angela.sanchez2010@yahoo.com',
+      },
+      {
+        name: 'duvier alejandro diaz',
+        email: 'alejodiaz2512@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'angela.sanchez2010@yahoo.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'alejodiaz2512@gmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jorge leonardo chalare torres',
-          email: 'blumade2014@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'blumade2014@gmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'carlos holmes lozano cortes',
-          email: 'cahlo82@hotmail.com',
+      },
+      {
+        name: 'serhiño alexandro sandoval vera',
+        email: 'alexandrosandoval2207@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'cahlo82@hotmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'alexandrosandoval2207@hotmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'laura milena cardona',
-          email: 'cardona_laura@hotmail.com',
+      },
+      {
+        name: 'andrés felipe ortiz arboleda',
+        email: 'andreso78@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'cardona_laura@hotmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'andreso78@gmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'cesar archila',
-          email: 'cesarchila75@yahoo.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'cesarchila75@yahoo.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'christian salazar',
-          email: 'christian.salazar@gmail.com',
+      },
+      {
+        name: 'angela margarita sanchez mendez',
+        email: 'angela.sanchez2010@yahoo.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'christian.salazar@gmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'angela.sanchez2010@yahoo.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'eduan lara moncayo',
-          email: 'eduanlara@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'eduanlara@gmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'fabio jeanpaul beltran peña',
-          email: 'fabiojeanpaulbeltran@gmail.com',
+      },
+      {
+        name: 'jorge leonardo chalare torres',
+        email: 'blumade2014@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'fabiojeanpaulbeltran@gmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'blumade2014@gmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'german ruiz mosquera',
-          email: 'germanruiz612@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'germanruiz612@hotmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'hector ivan florez montoya',
-          email: 'hectorivanflorez@hotmail.com',
+      },
+      {
+        name: 'carlos holmes lozano cortes',
+        email: 'cahlo82@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'hectorivanflorez@hotmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'cahlo82@hotmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'imy alexander mosquera alzate',
-          email: 'imymosquera@hotmail.com',
+      },
+      {
+        name: 'laura milena cardona',
+        email: 'cardona_laura@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'imymosquera@hotmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'cardona_laura@hotmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jean carlo guerrero izquierdo',
-          email: 'izquierdcarlo1998@hotmail.com',
-          createdAt: '2020-06-02T15:13:49.000Z',
-          updatedAt: '2020-06-02T15:13:49.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'izquierdcarlo1998@hotmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'javier garcia guaraca',
-          email: 'javier.garcia.1984@hotmail.com',
+      },
+      {
+        name: 'cesar archila',
+        email: 'cesarchila75@yahoo.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'javier.garcia.1984@hotmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'cesarchila75@yahoo.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jessica moran rengifo',
-          email: 'jmoran03@misena.edu.co',
+      },
+      {
+        name: 'christian salazar',
+        email: 'christian.salazar@gmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'jmoran03@misena.edu.co',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'christian.salazar@gmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jorge elías lópez jullar',
-          email: 'jorgelopezju@gmail.com',
+      },
+      {
+        name: 'eduan lara moncayo',
+        email: 'eduanlara@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'jorgelopezju@gmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'eduanlara@gmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'juan carlos bedoya ussa',
-          email: 'juanc27031968@hotmail.com',
+      },
+      {
+        name: 'fabio jeanpaul beltran peña',
+        email: 'fabiojeanpaulbeltran@gmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'juanc27031968@hotmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'fabiojeanpaulbeltran@gmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'mariana sánchez serna',
-          email: 'juanmsanchez964@gmail.com',
+      },
+      {
+        name: 'german ruiz mosquera',
+        email: 'germanruiz612@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'juanmsanchez964@gmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'germanruiz612@hotmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'karen andrea velasquez usma',
-          email: 'karenandreavelasquezusma@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'karenandreavelasquezusma@gmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'luis ricardo suárez montaña',
-          email: 'lrichard_90@hotmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'lrichard_90@hotmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'maría isabel álvarez viveros',
-          email: 'mariaialvarezv@hotmail.com',
+      },
+      {
+        name: 'hector ivan florez montoya',
+        email: 'hectorivanflorez@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'mariaialvarezv@hotmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'hectorivanflorez@hotmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'neried elena valencia acosta',
-          email: 'neriedvalencia@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'neriedvalencia@gmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'viviana patricia garcia de la hoz',
-          email: 'vivigarciad24@gmail.com',
+      },
+      {
+        name: 'imy alexander mosquera alzate',
+        email: 'imymosquera@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'vivigarciad24@gmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'imymosquera@hotmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'william andres carabali ospina',
-          email: 'waco7925@yahoo.es',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'waco7925@yahoo.es',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'william ceballos caicedo',
-          email: 'willceca@gmail.com',
-          createdAt: '2020-06-02T15:13:51.000Z',
-          updatedAt: '2020-06-02T15:13:51.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'willceca@gmail.com',
-            jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-      ],
-    },
-    {
-      id: 'a987762a-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Practicante universitario o tecnologo en ing. industrial',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'alvaro rodrigo arteaga',
-          email: 'alvarodri23@gmail.com',
+      },
+      {
+        name: 'jean carlo guerrero izquierdo',
+        email: 'izquierdcarlo1998@hotmail.com',
+        createdAt: '2020-06-02T15:13:49.000Z',
+        updatedAt: '2020-06-02T15:13:49.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa del sector textil, requiere para su equipo de trabajo, un estudiante de ingeniería o tecnología industrial apto para realizar sus practicas, las funciones a ejecutar son acordes a su programa académico. Contratación inmediata Contrato d',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'alvarodri23@gmail.com',
-            jobOfferId: 'a987762a-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'izquierdcarlo1998@hotmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'javier garcia guaraca',
-          email: 'javier.garcia.1984@hotmail.com',
+      },
+      {
+        name: 'javier garcia guaraca',
+        email: 'javier.garcia.1984@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa del sector textil, requiere para su equipo de trabajo, un estudiante de ingeniería o tecnología industrial apto para realizar sus practicas, las funciones a ejecutar son acordes a su programa académico. Contratación inmediata Contrato d',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'javier.garcia.1984@hotmail.com',
-            jobOfferId: 'a987762a-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'javier.garcia.1984@hotmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jhoan arley duque otabo',
-          email: 'jhoanduque90@gmail.com',
+      },
+      {
+        name: 'jessica moran rengifo',
+        email: 'jmoran03@misena.edu.co',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa del sector textil, requiere para su equipo de trabajo, un estudiante de ingeniería o tecnología industrial apto para realizar sus practicas, las funciones a ejecutar son acordes a su programa académico. Contratación inmediata Contrato d',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'jhoanduque90@gmail.com',
-            jobOfferId: 'a987762a-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'jmoran03@misena.edu.co',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'kimberly katherine lemos martínez',
-          email: 'kimberlylemos6@gmail.com',
-          createdAt: '2020-06-02T15:13:54.000Z',
-          updatedAt: '2020-06-02T15:13:54.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa del sector textil, requiere para su equipo de trabajo, un estudiante de ingeniería o tecnología industrial apto para realizar sus practicas, las funciones a ejecutar son acordes a su programa académico. Contratación inmediata Contrato d',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'kimberlylemos6@gmail.com',
-            jobOfferId: 'a987762a-a4e3-11ea-85ea-83d5a59c081e',
-          },
-        },
-        {
-          name: 'oscar daniel pareja aguilar',
-          email: 'oscar427@hotmail.com',
+      },
+      {
+        name: 'jorge elías lópez jullar',
+        email: 'jorgelopezju@gmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Importante empresa del sector textil, requiere para su equipo de trabajo, un estudiante de ingeniería o tecnología industrial apto para realizar sus practicas, las funciones a ejecutar son acordes a su programa académico. Contratación inmediata Contrato d',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'oscar427@hotmail.com',
-            jobOfferId: 'a987762a-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'jorgelopezju@gmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-      ],
-    },
-    {
-      id: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Profesores de Inglés',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'alberto balcazar ruiz',
-          email: 'albalcazar@hotmail.com',
+      },
+      {
+        name: 'juan carlos bedoya ussa',
+        email: 'juanc27031968@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'albalcazar@hotmail.com',
-            jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'juanc27031968@hotmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'ana maría velasco',
-          email: 'anama.velasco98@gmail.com',
+      },
+      {
+        name: 'mariana sánchez serna',
+        email: 'juanmsanchez964@gmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'anama.velasco98@gmail.com',
-            jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'juanmsanchez964@gmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'ana maría tabares garcía',
-          email: 'anamt_20@outlook.com',
+      },
+      {
+        name: 'karen andrea velasquez usma',
+        email: 'karenandreavelasquezusma@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'anamt_20@outlook.com',
-            jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'karenandreavelasquezusma@gmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'andres uribe',
-          email: 'andresuribe11@hotmail.com',
+      },
+      {
+        name: 'luis ricardo suárez montaña',
+        email: 'lrichard_90@hotmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'andresuribe11@hotmail.com',
-            jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'lrichard_90@hotmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'sandra bonilla',
-          email: 'bsandraximena@gmail.com',
+      },
+      {
+        name: 'maría isabel álvarez viveros',
+        email: 'mariaialvarezv@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'bsandraximena@gmail.com',
-            jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'mariaialvarezv@hotmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: "camilo d'amato",
-          email: 'camilo.damato@gmail.com',
+      },
+      {
+        name: 'neried elena valencia acosta',
+        email: 'neriedvalencia@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'camilo.damato@gmail.com',
-            jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'neriedvalencia@gmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'elkin martinez',
-          email: 'fabiangil02@hotmail.com',
+      },
+      {
+        name: 'viviana patricia garcia de la hoz',
+        email: 'vivigarciad24@gmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'fabiangil02@hotmail.com',
-            jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'vivigarciad24@gmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'juan carlos garcia gomez',
-          email: 'garzo66@hotmail.com',
+      },
+      {
+        name: 'william andres carabali ospina',
+        email: 'waco7925@yahoo.es',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'garzo66@hotmail.com',
-            jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'waco7925@yahoo.es',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'lucía lópez toro',
-          email: 'jamieloto@hotmail.com',
+      },
+      {
+        name: 'william ceballos caicedo',
+        email: 'willceca@gmail.com',
+        createdAt: '2020-06-02T15:13:51.000Z',
+        updatedAt: '2020-06-02T15:13:51.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supervisar, controlar y vigilar procesos logísticos de importación de materias primas, repuestos, equipos y maquinaria a nivel nacional, incluyendo control de procesos transaccionales',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'jamieloto@hotmail.com',
-            jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'willceca@gmail.com',
+          jobOfferId: 'a9877629-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jaris jaramillo',
-          email: 'jaramillocepeda3628@hotmail.com',
+      },
+    ],
+  },
+  {
+    id: 'a987762a-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Practicante universitario o tecnologo en ing. industrial',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'alvaro rodrigo arteaga',
+        email: 'alvarodri23@gmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa del sector textil, requiere para su equipo de trabajo, un estudiante de ingeniería o tecnología industrial apto para realizar sus practicas, las funciones a ejecutar son acordes a su programa académico. Contratación inmediata Contrato d',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'jaramillocepeda3628@hotmail.com',
-            jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'alvarodri23@gmail.com',
+          jobOfferId: 'a987762a-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'jose guerrero',
-          email: 'Joseguerrero2588@yahoo.com',
+      },
+      {
+        name: 'javier garcia guaraca',
+        email: 'javier.garcia.1984@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa del sector textil, requiere para su equipo de trabajo, un estudiante de ingeniería o tecnología industrial apto para realizar sus practicas, las funciones a ejecutar son acordes a su programa académico. Contratación inmediata Contrato d',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'Joseguerrero2588@yahoo.com',
-            jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'javier.garcia.1984@hotmail.com',
+          jobOfferId: 'a987762a-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'julio cesar perdomo',
-          email: 'julioperdomo61@hotmail.com',
+      },
+      {
+        name: 'jhoan arley duque otabo',
+        email: 'jhoanduque90@gmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa del sector textil, requiere para su equipo de trabajo, un estudiante de ingeniería o tecnología industrial apto para realizar sus practicas, las funciones a ejecutar son acordes a su programa académico. Contratación inmediata Contrato d',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'julioperdomo61@hotmail.com',
-            jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'jhoanduque90@gmail.com',
+          jobOfferId: 'a987762a-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'laura camila quesada vargas',
-          email: 'lc1896@outlook.es',
+      },
+      {
+        name: 'kimberly katherine lemos martínez',
+        email: 'kimberlylemos6@gmail.com',
+        createdAt: '2020-06-02T15:13:54.000Z',
+        updatedAt: '2020-06-02T15:13:54.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa del sector textil, requiere para su equipo de trabajo, un estudiante de ingeniería o tecnología industrial apto para realizar sus practicas, las funciones a ejecutar son acordes a su programa académico. Contratación inmediata Contrato d',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'lc1896@outlook.es',
-            jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'kimberlylemos6@gmail.com',
+          jobOfferId: 'a987762a-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'luis torres',
-          email: 'luchoftorres@yahoo.com',
+      },
+      {
+        name: 'oscar daniel pareja aguilar',
+        email: 'oscar427@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Importante empresa del sector textil, requiere para su equipo de trabajo, un estudiante de ingeniería o tecnología industrial apto para realizar sus practicas, las funciones a ejecutar son acordes a su programa académico. Contratación inmediata Contrato d',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'luchoftorres@yahoo.com',
-            jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'oscar427@hotmail.com',
+          jobOfferId: 'a987762a-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'victoria eugenia becerra montalvo',
-          email: 'victoriamontalvo25@hotmail.com',
+      },
+    ],
+  },
+  {
+    id: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Profesores de Inglés',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'alberto balcazar ruiz',
+        email: 'albalcazar@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'victoriamontalvo25@hotmail.com',
-            jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'albalcazar@hotmail.com',
+          jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'ernesto vigil',
-          email: 'vigilernesto@gmail.com',
+      },
+      {
+        name: 'ana maría velasco',
+        email: 'anama.velasco98@gmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'vigilernesto@gmail.com',
-            jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'anama.velasco98@gmail.com',
+          jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
         },
-      ],
-    },
-    {
-      id: 'a987762c-a4e3-11ea-85ea-83d5a59c081e',
-      name: 'Auxiliar de Panadería',
-      createdAt: '2020-06-02T15:13:49.000Z',
-      updatedAt: '2020-06-02T15:13:49.000Z',
-      jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
-      users: [
-        {
-          name: 'brayan bolaños perez',
-          email: 'alex5112010@hotmail.com',
+      },
+      {
+        name: 'ana maría tabares garcía',
+        email: 'anamt_20@outlook.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
           createdAt: '2020-06-02T15:13:58.000Z',
           updatedAt: '2020-06-02T15:13:58.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supermercados Olímpica, es una Importante compañía nacional del sector retail que se encuentra en la búsqueda de un Panadero con experiencia mínima de 1 año desempeñando el cargo, con excelente actitud y desempeño para elaborar todos los productos requeri',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'alex5112010@hotmail.com',
-            jobOfferId: 'a987762c-a4e3-11ea-85ea-83d5a59c081e',
-          },
+          userEmail: 'anamt_20@outlook.com',
+          jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
         },
-        {
-          name: 'sergio andre caicedo diaz',
-          email: 'serandres745@gmail.com',
-          createdAt: '2020-06-02T15:13:50.000Z',
-          updatedAt: '2020-06-02T15:13:50.000Z',
-          user_offer: {
-            emailSentAt: null,
-            company:
-              'Supermercados Olímpica, es una Importante compañía nacional del sector retail que se encuentra en la búsqueda de un Panadero con experiencia mínima de 1 año desempeñando el cargo, con excelente actitud y desempeño para elaborar todos los productos requeri',
-            createdAt: '2020-06-02T15:13:58.000Z',
-            updatedAt: '2020-06-02T15:13:58.000Z',
-            userEmail: 'serandres745@gmail.com',
-            jobOfferId: 'a987762c-a4e3-11ea-85ea-83d5a59c081e',
-          },
+      },
+      {
+        name: 'andres uribe',
+        email: 'andresuribe11@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
+          createdAt: '2020-06-02T15:13:58.000Z',
+          updatedAt: '2020-06-02T15:13:58.000Z',
+          userEmail: 'andresuribe11@hotmail.com',
+          jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
         },
-      ],
-    },
-  ];
-  
+      },
+      {
+        name: 'sandra bonilla',
+        email: 'bsandraximena@gmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
+          createdAt: '2020-06-02T15:13:58.000Z',
+          updatedAt: '2020-06-02T15:13:58.000Z',
+          userEmail: 'bsandraximena@gmail.com',
+          jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: "camilo d'amato",
+        email: 'camilo.damato@gmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
+          createdAt: '2020-06-02T15:13:58.000Z',
+          updatedAt: '2020-06-02T15:13:58.000Z',
+          userEmail: 'camilo.damato@gmail.com',
+          jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'elkin martinez',
+        email: 'fabiangil02@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
+          createdAt: '2020-06-02T15:13:58.000Z',
+          updatedAt: '2020-06-02T15:13:58.000Z',
+          userEmail: 'fabiangil02@hotmail.com',
+          jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'juan carlos garcia gomez',
+        email: 'garzo66@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
+          createdAt: '2020-06-02T15:13:58.000Z',
+          updatedAt: '2020-06-02T15:13:58.000Z',
+          userEmail: 'garzo66@hotmail.com',
+          jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'lucía lópez toro',
+        email: 'jamieloto@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
+          createdAt: '2020-06-02T15:13:58.000Z',
+          updatedAt: '2020-06-02T15:13:58.000Z',
+          userEmail: 'jamieloto@hotmail.com',
+          jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jaris jaramillo',
+        email: 'jaramillocepeda3628@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
+          createdAt: '2020-06-02T15:13:58.000Z',
+          updatedAt: '2020-06-02T15:13:58.000Z',
+          userEmail: 'jaramillocepeda3628@hotmail.com',
+          jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'jose guerrero',
+        email: 'Joseguerrero2588@yahoo.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
+          createdAt: '2020-06-02T15:13:58.000Z',
+          updatedAt: '2020-06-02T15:13:58.000Z',
+          userEmail: 'Joseguerrero2588@yahoo.com',
+          jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'julio cesar perdomo',
+        email: 'julioperdomo61@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
+          createdAt: '2020-06-02T15:13:58.000Z',
+          updatedAt: '2020-06-02T15:13:58.000Z',
+          userEmail: 'julioperdomo61@hotmail.com',
+          jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'laura camila quesada vargas',
+        email: 'lc1896@outlook.es',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
+          createdAt: '2020-06-02T15:13:58.000Z',
+          updatedAt: '2020-06-02T15:13:58.000Z',
+          userEmail: 'lc1896@outlook.es',
+          jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'luis torres',
+        email: 'luchoftorres@yahoo.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
+          createdAt: '2020-06-02T15:13:58.000Z',
+          updatedAt: '2020-06-02T15:13:58.000Z',
+          userEmail: 'luchoftorres@yahoo.com',
+          jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'victoria eugenia becerra montalvo',
+        email: 'victoriamontalvo25@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
+          createdAt: '2020-06-02T15:13:58.000Z',
+          updatedAt: '2020-06-02T15:13:58.000Z',
+          userEmail: 'victoriamontalvo25@hotmail.com',
+          jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'ernesto vigil',
+        email: 'vigilernesto@gmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company: 'Te pagaremos por clase de 90 minutos del idioma inglés $25.000.',
+          createdAt: '2020-06-02T15:13:58.000Z',
+          updatedAt: '2020-06-02T15:13:58.000Z',
+          userEmail: 'vigilernesto@gmail.com',
+          jobOfferId: 'a987762b-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a987762c-a4e3-11ea-85ea-83d5a59c081e',
+    name: 'Auxiliar de Panadería',
+    createdAt: '2020-06-02T15:13:49.000Z',
+    updatedAt: '2020-06-02T15:13:49.000Z',
+    jobProviderId: 'a947ae00-a4e3-11ea-85ea-83d5a59c081e',
+    users: [
+      {
+        name: 'brayan bolaños perez',
+        email: 'alex5112010@hotmail.com',
+        createdAt: '2020-06-02T15:13:58.000Z',
+        updatedAt: '2020-06-02T15:13:58.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supermercados Olímpica, es una Importante compañía nacional del sector retail que se encuentra en la búsqueda de un Panadero con experiencia mínima de 1 año desempeñando el cargo, con excelente actitud y desempeño para elaborar todos los productos requeri',
+          createdAt: '2020-06-02T15:13:58.000Z',
+          updatedAt: '2020-06-02T15:13:58.000Z',
+          userEmail: 'alex5112010@hotmail.com',
+          jobOfferId: 'a987762c-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+      {
+        name: 'sergio andre caicedo diaz',
+        email: 'serandres745@gmail.com',
+        createdAt: '2020-06-02T15:13:50.000Z',
+        updatedAt: '2020-06-02T15:13:50.000Z',
+        user_offer: {
+          emailSentAt: null,
+          company:
+            'Supermercados Olímpica, es una Importante compañía nacional del sector retail que se encuentra en la búsqueda de un Panadero con experiencia mínima de 1 año desempeñando el cargo, con excelente actitud y desempeño para elaborar todos los productos requeri',
+          createdAt: '2020-06-02T15:13:58.000Z',
+          updatedAt: '2020-06-02T15:13:58.000Z',
+          userEmail: 'serandres745@gmail.com',
+          jobOfferId: 'a987762c-a4e3-11ea-85ea-83d5a59c081e',
+        },
+      },
+    ],
+  },
+];
