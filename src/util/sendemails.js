@@ -22,7 +22,7 @@ const main = async () => {
       const { vacancy } = jobOffer;
       for (const companyLink in jobOffer.companies) {
         if (companyLink) {
-          await sendEmail.setEmails(jobOffer.companies[companyLink]);
+          await sendEmail.setEmails(jobOffer.companies[companyLink].emails);
           const { company, quickApply, explainme } = await getCompanyNameAndLinks(companyLink);
           await sendEmail.makeMessage(
             {
@@ -33,13 +33,16 @@ const main = async () => {
             },
             'es'
           );
-          const timeSendEmails = await sendEmail.sendEmailsToAll();
-          idMessage.push(timeSendEmails.messageId);
+          const sendOk = await sendEmail.sendEmailsToAll();
+          if (sendOk.messageId) {
+            jobOffer.companies[companyLink].sentEmail = true;
+          }
+          idMessage.push(sendOk.messageId);
         }
       }
     }
   }
-  console.log(idMessage, idMessage.length);
+  console.log(idMessage, idMessage.length, JSON.stringify(allJobOffers));
 };
 
 module.exports = { main };
