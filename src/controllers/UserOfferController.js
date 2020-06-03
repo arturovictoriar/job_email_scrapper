@@ -12,6 +12,16 @@ exports.updateSentEmail = (userOffer) => {
   });
 };
 
+exports.updateSentEmailByCompany = (userOffer) => {
+  return UserOffer.update(
+    { sentEmail: Date.now() },
+    { where: { company: userOffer.company, jobOfferId: userOffer.jobOfferId } }
+  ).then((updateSentEmail) => {
+    console.log(`>> get updateSentEmailByCompany: ${JSON.stringify(updateSentEmail, null, 4)}`);
+    return updateSentEmail;
+  });
+};
+
 exports.findByUserAndOffer = (userOffer) => {
   return UserOffer.findOne({
     where: { userEmail: userOffer.userEmail, jobOfferId: userOffer.jobOfferId },

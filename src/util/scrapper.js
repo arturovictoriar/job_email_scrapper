@@ -52,6 +52,7 @@ const main = async () => {
   } while (existMorePages);
 
   console.log(JSON.stringify(allEmailsInfo));
+  await miEmpleo.closeBrowser();
   return allEmailsInfo;
 };
 

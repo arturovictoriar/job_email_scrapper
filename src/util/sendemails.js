@@ -1,5 +1,6 @@
-const jobOfferList = require('./data');
+// const jobOfferList = require('./data');
 const Mails = require('./mail');
+const controllers = require('../controllers');
 
 async function getCompanyNameAndLinks(companyLink) {
   return {
@@ -11,6 +12,7 @@ async function getCompanyNameAndLinks(companyLink) {
 
 const main = async () => {
   const sendEmail = new Mails.SendEmail();
+  const jobOfferList = await controllers.JobOffer.getAllJobOffers();
   const allJobOffers = await Mails.SendEmail.getNoSentCandidates(jobOfferList);
   await sendEmail.configureTransporter();
   const idMessage = [];
@@ -43,4 +45,4 @@ const main = async () => {
 module.exports = { main };
 
 // Comment this in production
-main();
+// main();
