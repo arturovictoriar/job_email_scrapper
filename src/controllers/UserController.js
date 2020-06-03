@@ -33,29 +33,41 @@ exports.createBulkUser = (userArray) => {
 exports.LoadUsers = async (jobOffer, allData) => {
   const newUsers = [];
   const newUserOffers = [];
+  const allCurrentUsers = await this.getAllUsers();
+  const allCurrentUserOffer = await UserOfferController.findAllByOffer(jobOffer.id);
   for (const userData of allData[jobOffer.name].emails) {
+    let existUser = false;
+    let existUserOffer = false;
     const userObj = { name: userData.name, email: userData.email };
     const userOffer = {
       userEmail: userData.email,
       jobOfferId: jobOffer.id,
       company: allData[jobOffer.name].company,
     };
-    const userFound = await this.findByEmail(userObj.email);
-    const userOfferFound = await UserOfferController.findByUserAndOffer(userOffer);
-
-    if (userFound === null) {
+    for (const users of allCurrentUsers) {
+      if (users.email === userData.email) {
+        existUser = true;
+        break;
+      }
+    }
+    if (existUser === false) {
       newUsers.push(userObj);
     }
-    if (userOfferFound === null) {
+    for (const userOff of allCurrentUserOffer) {
+      if (userOff.userEmail === userData.email) {
+        existUserOffer = true;
+        break;
+      }
+    }
+    if (existUserOffer === false) {
       newUserOffers.push(userOffer);
     }
   }
   await this.createBulkUser(newUsers);
   await UserOfferController.createBulkUserOffer(newUserOffers);
-  return 'OK';
 };
 
-exports.getAllUsers = () => {
+exports.getAllUsersWithOffers = () => {
   return User.findAll({ include: [Offer] })
     .then((allusers) => {
       console.log(`>> get allusers: ${JSON.stringify(allusers, null, 4)}`);
@@ -74,5 +86,16 @@ exports.findByEmail = (email) => {
     })
     .catch((err) => {
       console.log('>> Error findByEmail: ', err);
+    });
+};
+
+exports.getAllUsers = () => {
+  return User.findAll()
+    .then((allusers) => {
+      console.log(`>> get allusers: ${JSON.stringify(allusers, null, 4)}`);
+      return allusers;
+    })
+    .catch((err) => {
+      console.log('>> Error getAllUsers: ', err);
     });
 };

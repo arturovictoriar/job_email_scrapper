@@ -31,7 +31,7 @@ exports.createJobOfferBulk = (jobsArrays) => {
 
 exports.LoadJobOffers = async (jobProvider, jobAccount, objsJobOffer) => {
   const newJobOffers = [];
-  const allJobOffers = await this.getAllByJobProviderAndJobAccount(jobProvider, jobAccount);
+  const allCurrentJobOffers = await this.getAllByJobProviderAndJobAccount(jobProvider, jobAccount);
   for (const data of objsJobOffer) {
     let exists = false;
     const jobOffer = {
@@ -39,7 +39,7 @@ exports.LoadJobOffers = async (jobProvider, jobAccount, objsJobOffer) => {
       jobProviderId: jobProvider.id,
       jobAccountEmailId: jobAccount.emailId,
     };
-    for (const offers of allJobOffers) {
+    for (const offers of allCurrentJobOffers) {
       if (offers.name === data) {
         exists = true;
         break;
@@ -49,7 +49,7 @@ exports.LoadJobOffers = async (jobProvider, jobAccount, objsJobOffer) => {
       newJobOffers.push(jobOffer);
     }
   }
-  return this.createJobOfferBulk(newJobOffers);
+  await this.createJobOfferBulk(newJobOffers);
 };
 
 exports.getOfferByIds = (jobOffer) => {

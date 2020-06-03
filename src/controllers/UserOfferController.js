@@ -28,6 +28,15 @@ exports.findAllUserOffer = () => {
   });
 };
 
+exports.findAllByOffer = (jobOfferId) => {
+  return UserOffer.findAll({
+    where: { jobOfferId },
+  }).then((userOffer) => {
+    console.log(`>> get all users by offers: ${JSON.stringify(userOffer, null, 4)}`);
+    return userOffer;
+  });
+};
+
 exports.createUserOffer = (userOffer) => {
   return UserOffer.create({
     userEmail: userOffer.userEmail,
