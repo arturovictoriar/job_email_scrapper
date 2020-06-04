@@ -3,7 +3,7 @@ const C = require('../config/scrapper.config');
 
 const main = async () => {
   const miEmpleo = new unmejorempleo.MejorEmpleo();
-  await miEmpleo.startBrowser(true, true, false);
+  await miEmpleo.startBrowser(true, true, true);
   await miEmpleo.login(C.username, C.password);
   const isAvailable = await miEmpleo.gotoVacantesPublicadas();
   if (!isAvailable) {

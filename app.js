@@ -10,12 +10,13 @@ const app = express();
 const implementationScrapper = async () => {
   const dataScrapper = await scrapper.main();
   await save.unMejorEmpleoSave(dataScrapper);
-  await sendemail.main();
+  const allSentOffers = await sendemail.main();
+  await controllers.UserOffer.updateBulkByCompany(allSentOffers);
 };
 
-db.sequelize.sync({ force: true }).then(() => {
+db.sequelize.sync({ force: false }).then(() => {
   console.log('Drop and re-sync db.');
-  // implementationScrapper();
+  implementationScrapper();
 });
 
 app.get('/', (req, res) => {

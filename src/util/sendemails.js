@@ -43,6 +43,7 @@ const main = async () => {
     }
   }
   console.log(idMessage, idMessage.length, JSON.stringify(allJobOffers));
+  return allJobOffers;
 };
 
 module.exports = { main };

@@ -4,7 +4,7 @@ const UserOffer = db.user_offer;
 
 exports.updateSentEmail = (userOffer) => {
   return UserOffer.update(
-    { sentEmail: Date.now() },
+    { emailSentAt: Date.now() },
     { where: { userEmail: userOffer.userEmail, jobOfferId: userOffer.jobOfferId } }
   ).then((updateSentEmail) => {
     console.log(`>> get updateSentEmail: ${JSON.stringify(updateSentEmail, null, 4)}`);
@@ -14,7 +14,7 @@ exports.updateSentEmail = (userOffer) => {
 
 exports.updateSentEmailByCompany = (userOffer) => {
   return UserOffer.update(
-    { sentEmail: Date.now() },
+    { emailSentAt: Date.now() },
     { where: { company: userOffer.company, jobOfferId: userOffer.jobOfferId } }
   ).then((updateSentEmail) => {
     console.log(`>> get updateSentEmailByCompany: ${JSON.stringify(updateSentEmail, null, 4)}`);
@@ -87,7 +87,7 @@ exports.updateBulkByCompany = async (sentEmailObj) => {
       userOffer.company = company;
       console.log(offerSent.companies[company].sentEmail);
       if (offerSent.companies[company].sentEmail === true) {
-        this.updateSentEmailByCompany(userOffer);
+        await this.updateSentEmailByCompany(userOffer);
         console.log(userOffer);
       }
     }
