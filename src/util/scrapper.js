@@ -2,6 +2,7 @@ const unmejorempleo = require('./unmejorempleo');
 const C = require('../config/scrapper.config');
 
 const main = async () => {
+  console.log('Working on Un mejor empleo...');
   const miEmpleo = new unmejorempleo.MejorEmpleo();
   await miEmpleo.startBrowser(true, true, true);
   await miEmpleo.login(C.username, C.password);

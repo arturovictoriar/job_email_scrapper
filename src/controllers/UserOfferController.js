@@ -2,7 +2,7 @@ const db = require('../models');
 
 const UserOffer = db.user_offer;
 
-exports.updateSentEmail = (userOffer) => {
+exports.updateSentEmailByUserAndOffer = (userOffer) => {
   return UserOffer.update(
     { emailSentAt: Date.now() },
     { where: { userEmail: userOffer.userEmail, jobOfferId: userOffer.jobOfferId } }
@@ -75,20 +75,20 @@ exports.createBulkUserOffer = (userOfferArray) => {
     });
 };
 
-exports.updateBulkByCompany = async (sentEmailObj) => {
+exports.updateSentEmail = async (sentEmailObj) => {
   const userOffer = {
     company: null,
     jobOfferId: null,
+    userEmail: null,
   };
   for (const offerSent of sentEmailObj) {
     const companies = Object.keys(offerSent.companies);
     userOffer.jobOfferId = offerSent.jobOfferId;
     for (const company of companies) {
       userOffer.company = company;
-      console.log(offerSent.companies[company].sentEmail);
-      if (offerSent.companies[company].sentEmail === true) {
-        await this.updateSentEmailByCompany(userOffer);
-        console.log(userOffer);
+      for (const email of offerSent.companies[company].emails) {
+        userOffer.userEmail = email;
+        await this.updateSentEmailByUserAndOffer(userOffer);
       }
     }
   }

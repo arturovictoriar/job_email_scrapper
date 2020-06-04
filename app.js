@@ -11,11 +11,11 @@ const implementationScrapper = async () => {
   const dataScrapper = await scrapper.main();
   await save.unMejorEmpleoSave(dataScrapper);
   const allSentOffers = await sendemail.main();
-  await controllers.UserOffer.updateBulkByCompany(allSentOffers);
+  await controllers.UserOffer.updateSentEmail(allSentOffers);
 };
 
 db.sequelize.sync({ force: false }).then(() => {
-  console.log('Drop and re-sync db.');
+  console.log(`Database & tables created!`);
   implementationScrapper();
 });
 

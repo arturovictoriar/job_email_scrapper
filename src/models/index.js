@@ -38,8 +38,4 @@ db.job_account.hasMany(db.job_offers, {
 });
 db.job_offers.belongsTo(db.job_account);
 
-/* db.sequelize.sync().then(() => {
-  console.log(`Database & tables created!`);
-}); */
-
 module.exports = db;
