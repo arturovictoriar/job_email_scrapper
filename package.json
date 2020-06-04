@@ -2,8 +2,16 @@
   "name": "email-scrapper",
   "version": "1.0.0",
   "eslintConfig": {
-    "extends": ["airbnb/base", "prettier", "plugin:node/recommended", "plugin:jest/recommended"],
-    "plugins": ["prettier", "jest"],
+    "extends": [
+      "airbnb/base",
+      "prettier",
+      "plugin:node/recommended",
+      "plugin:jest/recommended"
+    ],
+    "plugins": [
+      "prettier",
+      "jest"
+    ],
     "rules": {
       "prettier/prettier": "error",
       "no-unused-vars": "warn",
@@ -19,9 +27,14 @@
       "no-await-in-loop": "off",
       "no-shadow": "off",
       "no-restricted-syntax": "off",
-      "node/no-unpublished-require": ["error", {
-            "allowModules": ["chrome-aws-lambda"]
-      }]
+      "node/no-unpublished-require": [
+        "error",
+        {
+          "allowModules": [
+            "chrome-aws-lambda"
+          ]
+        }
+      ]
     },
     "env": {
       "browser": true,
