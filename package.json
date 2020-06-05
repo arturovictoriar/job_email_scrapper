@@ -16,6 +16,7 @@
       "sourceType": "module"
     },
     "parser": "babel-eslint",
+    "ignorePatterns": ["components/"],
     "rules": {
       "prettier/prettier": "error",
       "no-unused-vars": "warn",
