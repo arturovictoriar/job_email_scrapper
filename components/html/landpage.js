@@ -1,5 +1,5 @@
 import Head from 'next/head';
-const Landpage = () => (
+const Landpage = (props) => (
   <div>
     <Head>
     <meta charSet="utf-8" />
@@ -266,17 +266,23 @@ const Landpage = () => (
                     </tr>
                   </thead>
                   <tbody>
+                    {
+                      props.users.map( user => (
                     <tr>
-                      <td>Arturo Victoria Rincon</td>
-                      <td>arvichan@gmail.com</td>
-
-                      <td>Software engineer</td>
+                      <td>{ user.name }</td>
+                      <td>{ user.email }</td>
+                      {/* { user.job_offers[user.job_offers.length - 1].company }
+                      { user.job_offers[user.job_offers.length - 1].emailSentAt }
+                       */}
+                      <td> Software Engineer </td>
 
                       <td>
                         <span className="badge badge-primary">Un mejor empleo</span>
                       </td>
-                      <td>Friday, June 5, 2020 at 12:00 PM</td>
+                      <td> Today </td>
                     </tr>
+                      ))
+                    }
                   </tbody>
                 </table>
               </div>
