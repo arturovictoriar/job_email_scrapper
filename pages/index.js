@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
 // eslint-disable-next-line node/no-unsupported-features/es-syntax
-import Home from './home';
+import Landpage from '../components/html/landpage';
 
 const App = () => (
   <div>
-    <Home />
+    <Landpage />
   </div>
 );
 

@@ -16,7 +16,10 @@
       "sourceType": "module"
     },
     "parser": "babel-eslint",
-    "ignorePatterns": ["components/"],
+    "ignorePatterns": [
+      "components/",
+      "public/"
+    ],
     "rules": {
       "prettier/prettier": "error",
       "no-unused-vars": "warn",
@@ -85,16 +88,17 @@
     "prettier": "^2.0.5"
   },
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "es6-promise": "^4.2.8",
     "express": "^4.17.1",
+    "isomorphic-fetch": "^2.2.1",
     "mysql2": "^2.1.0",
+    "next": "^9.4.4",
     "nodemailer": "^6.4.8",
     "puppeteer": "^3.1.0",
-    "sequelize": "^5.21.11",
-    "es6-promise": "^4.2.8",
-    "isomorphic-fetch": "^2.2.1",
-    "next": "^9.4.4",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "sequelize": "^5.21.11"
   },
   "husky": {
     "hooks": {
