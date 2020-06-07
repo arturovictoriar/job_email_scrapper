@@ -22,27 +22,7 @@ export default function PageComponent(props) {
                     <td>Sent date</td>
                   </tr>
                 </thead>
-                <tbody>
-                  {
-                    props.users.map((user, index) => (
-                      <tr key={index}>
-                        <td>{user.name}</td>
-                        <td>{user.email}</td>
-                        {/* TODO: Check if its a link */}
-                        <td>
-                          <a href={user.job_offers[user.job_offers.length - 1].user_offer.company} type="button" className="btn btn-danger waves-effect waves-light waves-round" target="_blank">
-                            <i className="icon md-link" aria-hidden="true"></i> Link
-                              </a>
-                        </td>
-
-                        <td>
-                          <span className="badge badge-primary">Un mejor empleo</span>
-                        </td>
-                        <td> {user.job_offers[user.job_offers.length - 1].user_offer.emailSentAt} </td>
-                      </tr>
-                    ))
-                  }
-                </tbody>
+                {props.users}
               </table>
             </div>
           </div>

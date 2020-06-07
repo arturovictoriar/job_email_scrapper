@@ -22,6 +22,7 @@ export default function HeadComponent() {
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="/assets/css/bootstrap-extend.min.css" />
         <link rel="stylesheet" href="/assets/css/site.min.css" />
+        <link rel="stylesheet" href="/assets/css/pagination.css" />
 
         {/* Plugins */}
         <link rel="stylesheet" href="/assets/vendor/animsition/animsition.css" />
