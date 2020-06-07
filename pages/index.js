@@ -1,12 +1,18 @@
 /* eslint-disable no-unused-vars */
-// eslint-disable-next-line node/no-unsupported-features/es-syntax
+/* eslint-disable node/no-unsupported-features/es-syntax */
 import fetch from 'isomorphic-fetch';
-// eslint-disable-next-line node/no-unsupported-features/es-syntax
-import Landpage from '../components/html/landpage';
+
+import Header from '../components/base/Header';
+import Footer from '../components/base/Footer';
+import Head from '../components/base/Head';
+import PageContent from '../components/PageContent';
 
 const App = (props) => (
   <div>
-    <Landpage users={props.users} />
+    <Head />
+    <Header />
+    <PageContent users={props.users} />
+    <Footer />
   </div>
 );
 
@@ -16,5 +22,4 @@ App.getInitialProps = async (ctx) => {
   return { users: data };
 };
 
-// eslint-disable-next-line node/no-unsupported-features/es-syntax
 export default App;
