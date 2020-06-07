@@ -35,27 +35,26 @@ export default function HeaderComponent() {
         <div className="navbar-container container-fluid">
           <div
             className="collapse navbar-collapse navbar-collapse-toolbar"
-            id="site-navbar-collapse"
-          >
+            id="site-navbar-collapse">
 
             <ul className="nav navbar-toolbar">
               <li className="nav-item dropdown dropdown-fw dropdown-mega">
               </li>
             </ul>
-            <div className="navbar-brand navbar-brand-center">
-              <a href="index.html">
-                <img
-                  className="navbar-brand-logo navbar-brand-logo-normal"
-                  src="../assets/images/logo-torre-transp.png"
-                  title="Torre"
-                />
-                <img
-                  className="navbar-brand-logo navbar-brand-logo-special"
-                  src="../assets/images/logo-torre-transp.png"
-                  title="Torre"
-                />
-              </a>
-            </div>
+          </div>
+          <div className="navbar-brand navbar-brand-center">
+            <a href="index.html">
+              <img
+                className="navbar-brand-logo navbar-brand-logo-normal"
+                src="../assets/images/logo-torre-transp.png"
+                title="Torre"
+              />
+              <img
+                className="navbar-brand-logo navbar-brand-logo-special"
+                src="../assets/images/logo-torre-transp.png"
+                title="Torre"
+              />
+            </a>
           </div>
         </div>
       </nav>

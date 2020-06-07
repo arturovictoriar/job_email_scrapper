@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const db = require('./src/models');
 const save = require('./src/util/save');
 const scrapper = require('./src/util/scrapper');
@@ -6,7 +7,7 @@ const sendemail = require('./src/util/sendemails');
 const controllers = require('./src/controllers');
 
 const app = express();
-
+app.use(cors()); // Enable cors for all origins
 // eslint-disable-next-line no-unused-vars
 const implementationScrapper = async () => {
   const dataScrapper = await scrapper.main();
