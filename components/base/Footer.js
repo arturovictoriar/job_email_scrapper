@@ -43,9 +43,9 @@ export default function FooterComponent(props) {
       {/* Config */}
       <script src="/assets/js/config/colors.js"></script>
       <script src="/assets/js/config/tour.js"></script>
-      <script>
+      {/* <script>
         Config.set("assets", "../assets");
-    </script>
+      </script> */}
 
       {/* Page */}
       <script src="/assets/js/Site.js"></script>
