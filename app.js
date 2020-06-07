@@ -7,6 +7,7 @@ const controllers = require('./src/controllers');
 
 const app = express();
 
+// eslint-disable-next-line no-unused-vars
 const implementationScrapper = async () => {
   const dataScrapper = await scrapper.main();
   await save.unMejorEmpleoSave(dataScrapper);
@@ -16,7 +17,7 @@ const implementationScrapper = async () => {
 
 db.sequelize.sync({ force: false }).then(() => {
   console.log(`Database & tables created!`);
-  implementationScrapper();
+  // implementationScrapper();
 });
 
 app.get('/', (req, res) => {
