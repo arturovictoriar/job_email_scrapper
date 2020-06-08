@@ -25,9 +25,17 @@ export default function PageComponent(props) {
                 {props.users}
               </table>
             </div>
+            <hr class="my-1" />
+            <div class="card card-shadow">
+              <div class="card-block">
+                {props.pagination}
+
+              </div>
+            </div>
           </div>
           {/*End Panel Projects Stats*/}
         </div>
+
       </div>
     </div>
 

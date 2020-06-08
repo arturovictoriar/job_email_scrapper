@@ -10,7 +10,7 @@ export default function PageComponent(props) {
         <div className="page-content container-fluid">
           <LinearChart></LinearChart>
           <PieChart></PieChart>
-          <SentEmailTable users={props.users}></SentEmailTable>
+          <SentEmailTable users={props.users} pagination={props.pagination}></SentEmailTable>
         </div>
       </div>
       {/* End Page */}

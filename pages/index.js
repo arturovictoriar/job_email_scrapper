@@ -22,7 +22,7 @@ const App = (props) => {
         }
     }, [])
 
-    const pagginationHandler = (page) => {
+    const paginationHandler = (page) => {
         const currentPath = props.router.pathname;
         const currentQuery = { ...props.router.query };
         currentQuery.page = page.selected + 1;
@@ -40,51 +40,63 @@ const App = (props) => {
     else {
         content = (
             <tbody>
-                  {
+                {
                     props.posts.map((user, index) => (
-                      <tr key={index}>
-                        <td>{user.name}</td>
-                        <td>{user.email}</td>
-                        {/* TODO: Check if its a link */}
-                        <td>
-                          <a href={user.job_offers[user.job_offers.length - 1].user_offer.company} type="button" className="btn btn-danger waves-effect waves-light waves-round" target="_blank">
-                            <i className="icon md-link" aria-hidden="true"></i> Link
+                        <tr key={index}>
+                            <td>{user.name}</td>
+                            <td>{user.email}</td>
+                            {/* TODO: Check if its a link */}
+                            <td>
+                                <a href={user.job_offers[user.job_offers.length - 1].user_offer.company} type="button" className="btn btn-danger waves-effect waves-light waves-round" target="_blank">
+                                    <i className="icon md-link" aria-hidden="true"></i> Link
                               </a>
-                        </td>
+                            </td>
 
-                        <td>
-                          <span className="badge badge-primary">Un mejor empleo</span>
-                        </td>
-                        <td> {user.job_offers[user.job_offers.length - 1].user_offer.emailSentAt} </td>
-                      </tr>
+                            <td>
+                                <span className="badge badge-primary">Un mejor empleo</span>
+                            </td>
+                            <td> {user.job_offers[user.job_offers.length - 1].user_offer.emailSentAt} </td>
+                        </tr>
                     ))
-                  }
-                </tbody>
+                }
+            </tbody>
         );
     }
 
+    let paginationContent = (
+        <div>
+            <ReactPaginate
+                previousLabel={'Previous'}
+                nextLabel={'Next'}
+                breakLabel={'...'}
+                breakClassName={'break-me page-item'}
+                breakLinkClassName={'page-link'}
+                activeClassName={'active'}
+                containerClassName={'pagination justify-content-end'}
+                subContainerClassName={'pages pagination'}
+                activeLinkClassName={'active'}
+                previousClassName={'page-item'}
+                nextClassName={'page-item'}
+                previousLinkClassName={'page-link custom-page-link'}
+                nextLinkClassName={'page-link custom-page-link'}
+                pageClassName={'page-item'}
+                pageLinkClassName={'page-link custom-page-link'}
+                initialPage={props.currentPage - 1}
+                pageCount={props.pageCount} //page count
+                marginPagesDisplayed={2}
+                pageRangeDisplayed={5}
+                onPageChange={paginationHandler}
+
+
+            />
+        </div>
+    )
+
     return (
-        <div className="container">
+        <div>
             <Head />
             <Header />
-            <PageContent users={content} />
-            <div className='prepage'>
-                <ReactPaginate
-                    previousLabel={'previous'}
-                    nextLabel={'next'}
-                    breakLabel={'...'}
-                    breakClassName={'break-me'}
-                    activeClassName={'active'}
-                    containerClassName={'pagination'}
-                    subContainerClassName={'pages pagination'}
-
-                    initialPage={props.currentPage - 1}
-                    pageCount={props.pageCount} //page count
-                    marginPagesDisplayed={2}
-                    pageRangeDisplayed={5}
-                    onPageChange={pagginationHandler}
-                />
-            </div>
+            <PageContent users={content} pagination={paginationContent} />
             <Footer />
         </div>
     );
