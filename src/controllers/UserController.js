@@ -68,7 +68,13 @@ exports.LoadUsers = async (jobOffer, allData) => {
 };
 
 exports.getAllUsersWithOffers = () => {
-  return User.findAll({ include: [Offer] })
+  return User.findAndCountAll({
+    include: [
+      {
+        model: Offer,
+      },
+    ],
+  })
     .then((allusers) => {
       console.log(`>> get allusers: ${JSON.stringify(allusers, null, 4)}`);
       return allusers;
