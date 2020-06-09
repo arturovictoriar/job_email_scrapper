@@ -6,8 +6,11 @@ const C = require('../config/scrapper.config'); // Replace with environment vari
 
 // eslint-disable-next-line no-unused-vars
 const unMejorEmpleoSave = async (data) => {
-  await controllers.JobProvider.createAllproviders();
-  const jobProvider = await controllers.JobProvider.getProviderByName('Un mejor empleo');
+  const providerName = 'Un mejor empleo';
+  let jobProvider = await controllers.JobProvider.getProviderByName(providerName);
+  if (jobProvider === null) {
+    jobProvider = await controllers.JobProvider.createJobProvider(providerName);
+  }
   const jobAccount = await controllers.JobAccount.createJobAccount(C.username);
   await controllers.JobOffer.LoadJobOffers(jobProvider, jobAccount, Object.keys(data));
   for (const jobOfferName of Object.keys(data)) {

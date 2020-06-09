@@ -93,3 +93,14 @@ exports.updateSentEmail = async (sentEmailObj) => {
     }
   }
 };
+
+exports.countSentEmails = () => {
+  return UserOffer.count({ where: { emailSentAt: { [db.Sequelize.Op.not]: null } } })
+    .then((count) => {
+      console.log(`>> Get count all Sent Emails: ${count}`);
+      return count;
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+};

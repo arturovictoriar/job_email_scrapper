@@ -31,3 +31,23 @@ exports.createJobAccount = async (emailId) => {
   }
   return jobAccountFound;
 };
+
+exports.findByEmailId = (emailId) => {
+  return JobAccount.findOne({
+    where: { emailId },
+  }).then((jobAccount) => {
+    console.log(`>> found jobAccount: ${JSON.stringify(jobAccount, null, 4)}`);
+    return jobAccount;
+  });
+};
+
+exports.countJobAccounts = async () => {
+  return JobAccount.count()
+    .then((count) => {
+      console.log(`>> Get count all Job Accounts: ${count}`);
+      return count;
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+};

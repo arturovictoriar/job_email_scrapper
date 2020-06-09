@@ -8,8 +8,8 @@ export default function PageComponent(props) {
       {/* Page */}
       <div className="page">
         <div className="page-content container-fluid">
-          <LinearChart></LinearChart>
-          <PieChart></PieChart>
+          <LinearChart counter={props.counter}></LinearChart>
+          {/* <PieChart></PieChart> */}
           <SentEmailTable users={props.users} pagination={props.pagination}></SentEmailTable>
         </div>
       </div>

@@ -105,3 +105,14 @@ exports.getAllUsers = () => {
       console.log('>> Error getAllUsers: ', err);
     });
 };
+
+exports.countUsers = () => {
+  return User.count()
+    .then((count) => {
+      console.log(`>> get count all users: ${count}`);
+      return count;
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+};

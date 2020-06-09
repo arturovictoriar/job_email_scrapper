@@ -20,11 +20,11 @@
 
     // Widget Linearea One
     // ---------------------
-    (function () {
+    /* (function () {
       //chart-linearea-one
       new Chartist.Line('#widgetLineareaOne .ct-chart', {
         labels: ['1', '2', '3', '4', '5', '6', '7', '8'],
-        series: [[0, 1, 3, 2, 3.5, 1.2, 1.5, 0]]
+        series: [[0, 1, 3, 2, 3.5, 1.2, 1.5, 8]]
       }, {
         low: 0,
         showArea: true,
@@ -48,11 +48,11 @@
           offset: 0
         }
       });
-    })();
+    })(); */
 
     // Widget Linearea Two
     // ---------------------
-    (function () {
+    /* (function () {
       //chart-linearea-two
       new Chartist.Line('#widgetLineareaTwo .ct-chart', {
         labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9'],
@@ -80,11 +80,11 @@
           offset: 0
         }
       });
-    })();
+    })(); */
 
     // Widget Linearea Three
     // ---------------------
-    (function () {
+    /* (function () {
       //chart-linearea-three
       new Chartist.Line('#widgetLineareaThree .ct-chart', {
         labels: ['1', '2', '3', '4', '5', '6', '7', '8'],
@@ -113,10 +113,10 @@
         }
       });
     })();
-
+ */
     // Widget Linearea Four
     // ---------------------
-    (function () {
+    /* (function () {
       //chart-linearea-four
       new Chartist.Line('#widgetLineareaFour .ct-chart', {
         labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9'],
@@ -144,7 +144,7 @@
           offset: 0
         }
       });
-    })();
+    })(); */
 
     // Widget VectorMap
     // ----------------

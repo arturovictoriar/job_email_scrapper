@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import fetch from 'isomorphic-fetch';
 import ReactPaginate from 'react-paginate';
 import Router, { withRouter } from 'next/router'
@@ -9,18 +9,32 @@ import PageContent from '../components/PageContent';
 
 const App = (props) => {
     const [isLoading, setLoading] = useState(false);
+    const [count, setCount] = useState({ count: {} })
     const startLoading = () => setLoading(true);
     const stopLoading = () => setLoading(false);
+
+    const fetchCounterData = useCallback(async () => {
+        const res = await fetch('http://localhost:4000/api/countdata');
+        const data = await res.json();
+        setCount(data);
+    }, [])
 
     useEffect(() => {
         Router.events.on('routeChangeStart', startLoading);
         Router.events.on('routeChangeComplete', stopLoading);
+        fetchCounterData()
 
         return () => {
             Router.events.off('routeChangeStart', startLoading);
             Router.events.off('routeChangeComplete', stopLoading);
         }
     }, [])
+
+    /* useEffect(async () => {
+        const res = await fetch('http://localhost:4000/api/users/countdata');
+        const data = await res.json();
+        setCount(data);
+    }) */
 
     const paginationHandler = (page) => {
         const currentPath = props.router.pathname;
@@ -96,7 +110,7 @@ const App = (props) => {
         <div>
             <Head />
             <Header />
-            <PageContent users={content} pagination={paginationContent} />
+            <PageContent users={content} pagination={paginationContent} counter={count} />
             <Footer />
         </div>
     );

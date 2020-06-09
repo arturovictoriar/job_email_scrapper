@@ -4,7 +4,7 @@ const C = require('../config/scrapper.config');
 const main = async () => {
   console.log('Working on Un mejor empleo...');
   const miEmpleo = new unmejorempleo.MejorEmpleo();
-  await miEmpleo.startBrowser(true, true, true);
+  await miEmpleo.startBrowser(true, true, false);
   await miEmpleo.login(C.username, C.password);
   const isAvailable = await miEmpleo.gotoVacantesPublicadas();
   if (!isAvailable) {

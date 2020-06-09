@@ -11,6 +11,10 @@ app.use(cors()); // Enable cors for all origins
   console.log(`Database & tables created!`);
 })();
 
+const asyncMiddleware = (fn) => (req, res, next) => {
+  Promise.resolve(fn(req, res, next)).catch(next);
+};
+
 app.get('/api/users/:page', (req, res) => {
   const limit = 10; // number of records per page
   let offset = 0;
@@ -50,6 +54,34 @@ app.get('/api/users/:page', (req, res) => {
       console.log(error);
     });
 });
+
+app.get(
+  '/api/countdata',
+  asyncMiddleware(async (req, res) => {
+    const users = await controllers.User.countUsers().catch((error) => {
+      res.status(500).send(`Internal Server Error: ${error}`);
+    });
+    const sentEmails = await controllers.UserOffer.countSentEmails().catch((error) => {
+      res.status(500).send(`Internal Server Error: ${error}`);
+    });
+
+    const jobAccount = await controllers.JobAccount.countJobAccounts().catch((error) => {
+      res.status(500).send(`Internal Server Error: ${error}`);
+    });
+    const jobProviders = await controllers.JobProvider.countJobProviders().catch((error) => {
+      res.status(500).send(`Internal Server Error: ${error}`);
+    });
+
+    res.status(200).json({
+      count: {
+        totalUsers: users,
+        totalSentEmails: sentEmails,
+        totalJobAccountsScrapped: jobAccount,
+        totalJobProvidersScrapped: jobProviders,
+      },
+    });
+  })
+);
 
 app.get('/userofferall', (req, res) => {
   controllers.UserOffer.findAllUserOffer().then((usersData) => {

@@ -13,13 +13,13 @@ export default function PageComponent(props) {
                   ></i>
                     Total Users
                   </div>
-                <span className="float-right grey-700 font-size-30">1,253</span>
+                <span className="float-right grey-700 font-size-30">{props.counter.count.totalUsers}</span>
               </div>
-              <div className="mb-20 grey-500">
+              {/* <div className="mb-20 grey-500">
                 <i className="icon md-long-arrow-up green-500 font-size-16"></i>
                   15% From this yesterday
                 </div>
-              <div className="ct-chart h-50"></div>
+              <div className="ct-chart h-50"></div> */}
             </div>
           </div>
           {/* End Widget Linearea One */}
@@ -33,15 +33,15 @@ export default function PageComponent(props) {
                   <i
                     className="icon md-flash grey-600 font-size-24 vertical-align-bottom mr-5"
                   ></i>
-                    Total Emails
+                    Total Sent Emails
                   </div>
-                <span className="float-right grey-700 font-size-30">2,425</span>
+                <span className="float-right grey-700 font-size-30">{props.counter.count.totalSentEmails}</span>
               </div>
-              <div className="mb-20 grey-500">
+              {/* <div className="mb-20 grey-500">
                 <i className="icon md-long-arrow-up green-500 font-size-16"></i>
                   34.2% From this week
                 </div>
-              <div className="ct-chart h-50"></div>
+              <div className="ct-chart h-50"></div> */}
             </div>
           </div>
           {/* End Widget Linearea Two */}
@@ -55,15 +55,15 @@ export default function PageComponent(props) {
                   <i
                     className="icon md-chart grey-600 font-size-24 vertical-align-bottom mr-5"
                   ></i>
-                    Total Sent Emails
+                    Total Job Accounts Used
                   </div>
-                <span className="float-right grey-700 font-size-30">1,864</span>
+                <span className="float-right grey-700 font-size-30">{props.counter.count.totalJobAccountsScrapped}</span>
               </div>
-              <div className="mb-20 grey-500">
+              {/* <div className="mb-20 grey-500">
                 <i className="icon md-long-arrow-down red-500 font-size-16"></i>
                   15% From this yesterday
                 </div>
-              <div className="ct-chart h-50"></div>
+              <div className="ct-chart h-50"></div> */}
             </div>
           </div>
           {/* End Widget Linearea Three */}
@@ -77,15 +77,15 @@ export default function PageComponent(props) {
                   <i
                     className="icon md-view-list grey-600 font-size-24 vertical-align-bottom mr-5"
                   ></i>
-                    Items
+                    Total Job Providers Used
                   </div>
-                <span className="float-right grey-700 font-size-30">845</span>
+                <span className="float-right grey-700 font-size-30">{props.counter.count.totalJobProvidersScrapped}</span>
               </div>
-              <div className="mb-20 grey-500">
+              {/* <div className="mb-20 grey-500">
                 <i className="icon md-long-arrow-up green-500 font-size-16"></i>
                   18.4% From this yesterday
                 </div>
-              <div className="ct-chart h-50"></div>
+              <div className="ct-chart h-50"></div> */}
             </div>
           </div>
           {/* End Widget Linearea Four */}

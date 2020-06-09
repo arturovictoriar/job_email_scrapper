@@ -47,3 +47,14 @@ exports.createAllproviders = async () => {
   ];
   await this.createBulkJobProvider(providers);
 };
+
+exports.countJobProviders = async () => {
+  return JobProvider.count()
+    .then((count) => {
+      console.log(`>> Get count all Job Providers: ${count}`);
+      return count;
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+};
