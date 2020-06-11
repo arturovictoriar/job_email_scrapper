@@ -25,9 +25,11 @@ COPY package*.json ./
 
 USER node
 
-RUN npm install
+RUN npm install --production
 
 COPY --chown=node:node . .
 
-#CMD [ "node", "src/index.js" ]
-CMD tail -f /dev/null
+# ENTRYPOINT ["npm"]
+#CMD ["start && npm run next"]
+# CMD tail -f /dev/null
+CMD npm run start && npm run next
