@@ -177,7 +177,7 @@ class MejorEmpleo {
   static async curriculumSelectors(result) {
     const allCurriculumSelectors = [];
     result.forEach((item) => {
-      if (item.length) {
+      if (item.length && item[item.length - 2] === 'NO') {
         allCurriculumSelectors.push({ name: item[0], email: item[item.length - 1] });
       }
     });
