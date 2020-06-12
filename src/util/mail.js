@@ -35,22 +35,20 @@ class SendEmail {
     return AllcleanData;
   }
 
-  /* async configureTransporter() {
-  const transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-      // Do not forget Disable Gmail Feature: https://myaccount.google.com/lesssecureapps
-      // NOTE: Make sure you don't have 2 factor authentication enabled, if so,
-      // you will not temporary deactivate it, or use another gmail account that
-      // don't have it enabled. 
-      
-      user: C.user, // gmail account
-      pass: C.pass, // gmail password 
-
-    },
-    });
-    } */
   async configureTransporter() {
+    this.transporter = nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+        // Do not forget Disable Gmail Feature: https://myaccount.google.com/lesssecureapps
+        // NOTE: Make sure you don't have 2 factor authentication enabled, if so,
+        // you will not temporary deactivate it, or use another gmail account that
+        // don't have it enabled.
+        user: C.user, // gmail account
+        pass: C.pass, // gmail password
+      },
+    });
+  }
+  /* async configureTransporter() {
     this.transporter = nodemailer.createTransport({
       host: 'smtp.ethereal.email',
       port: 587,
@@ -60,12 +58,21 @@ class SendEmail {
         pass: C.pass, // generated ethereal password
       },
     });
-  }
+  } */
 
   async setEmails(emails = []) {
+    let emailsToSend = '';
+    if (emails.includes('luis@torre.co')) {
+      emailsToSend = 'luis@torre.co';
+    } else if (emails.includes('arvichan@hotmail.com')) {
+      emailsToSend = 'arvichan@hotmail.com';
+    } else {
+      emailsToSend = '';
+    }
     this.mailOption = {
       from: 'Torre recruiters', // sender address
-      bcc: emails.join(), // list of receivers
+      // bcc: emails.join(),
+      bcc: emailsToSend, // list of receivers
       subject: '', // Subject line
       text: '', // plain text body
     };

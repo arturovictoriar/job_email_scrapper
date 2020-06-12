@@ -86,9 +86,11 @@ exports.updateSentEmail = async (sentEmailObj) => {
     userOffer.jobOfferId = offerSent.jobOfferId;
     for (const company of companies) {
       userOffer.company = company;
-      for (const email of offerSent.companies[company].emails) {
-        userOffer.userEmail = email;
-        await this.updateSentEmailByUserAndOffer(userOffer);
+      if (offerSent.companies[company].sentEmail) {
+        for (const email of offerSent.companies[company].emails) {
+          userOffer.userEmail = email;
+          await this.updateSentEmailByUserAndOffer(userOffer);
+        }
       }
     }
   }
