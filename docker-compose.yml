@@ -19,8 +19,8 @@ services:
       - "3000:3000"
     networks:
       back-tier:
-    environment:
-      - HOST_API=backend
+    # environment:
+    #   - HOST_API=backend
 
 networks:
   back-tier:
