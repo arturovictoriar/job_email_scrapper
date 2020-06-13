@@ -29,7 +29,4 @@ RUN npm install --production
 
 COPY --chown=node:node . .
 
-# ENTRYPOINT ["npm"]
-#CMD ["start && npm run next"]
-# CMD tail -f /dev/null
-CMD npm run start && npm run next
+CMD npm run start

@@ -1,14 +1,28 @@
 version: "3"
 services:
-  app:
-    container_name: puppeteer-container
-    build:
-      context: "."
-      dockerfile: "./Dockerfile"
+  backend:
+    container_name: puppeteer-server
+    build: ./backend
     volumes:
       - /app:/app
-    expose:
-      - "4000"
+    ports:
+      - "4000:4000"
+    networks:
+      back-tier:
+
+  frontend:
+    container_name: puppeteer-frontend
+    build: ./frontend
+    volumes:
+      - /frontend:/frontend
     ports:
       - "3000:3000"
-      - "4000:4000"
+    networks:
+      back-tier:
+    environment:
+      - HOST_API=backend
+
+networks:
+  back-tier:
+    driver: bridge
+

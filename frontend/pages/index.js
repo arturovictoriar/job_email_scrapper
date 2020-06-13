@@ -7,6 +7,8 @@ import Footer from '../components/base/Footer';
 import Head from '../components/base/Head';
 import PageContent from '../components/PageContent';
 
+const HOST_API = process.env.HOST_API || 'localhost'
+
 const App = (props) => {
     const [isLoading, setLoading] = useState(false);
     const [count, setCount] = useState({ count: {} })
@@ -14,7 +16,7 @@ const App = (props) => {
     const stopLoading = () => setLoading(false);
 
     const fetchCounterData = useCallback(async () => {
-        const res = await fetch('http://localhost:4000/api/countdata');
+        const res = await fetch(`http://${HOST_API}:4000/api/countdata`);
         const data = await res.json();
         setCount(data);
     }, [])
@@ -29,12 +31,6 @@ const App = (props) => {
             Router.events.off('routeChangeComplete', stopLoading);
         }
     }, [])
-
-    /* useEffect(async () => {
-        const res = await fetch('http://localhost:4000/api/users/countdata');
-        const data = await res.json();
-        setCount(data);
-    }) */
 
     const paginationHandler = (page) => {
         const currentPath = props.router.pathname;
@@ -118,7 +114,7 @@ const App = (props) => {
 
 App.getInitialProps = async ({ query }) => {
     const page = query.page || 1;
-    const res = await fetch(`http://localhost:4000/api/users/${page}`);
+    const res = await fetch(`http://${HOST_API}:4000/api/users/${page}`);
     const posts = await res.json();
     return {
         totalCount: posts._meta.totalCount,
