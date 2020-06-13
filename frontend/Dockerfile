@@ -18,6 +18,10 @@ RUN npm install --production
 
 COPY --chown=node:node . .
 
-RUN npm run build
+RUN chmod 755 docker-entrypoint.sh
 
-CMD [ "npm", "start" ]
+ENTRYPOINT ["docker-entrypoint.sh"]
+
+# RUN npm run build
+
+# CMD [ "npm", "start" ]
