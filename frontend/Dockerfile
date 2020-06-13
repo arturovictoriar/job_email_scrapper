@@ -1,5 +1,7 @@
 FROM node:12-slim
 
+ENV HOST_API=ec2-54-144-27-221.compute-1.amazonaws.com
+
 # Testing purposes
 RUN apt-get update \
     && apt-get install -y wget curl
@@ -15,8 +17,6 @@ USER node
 RUN npm install --production
 
 COPY --chown=node:node . .
-
-ENV HOST_API=ec2-54-144-27-221.compute-1.amazonaws.com
 
 RUN npm run build
 
