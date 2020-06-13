@@ -16,7 +16,8 @@ RUN npm install --production
 
 COPY --chown=node:node . .
 
+ENV HOST_API=ec2-54-144-27-221.compute-1.amazonaws.com
+
 RUN npm run build
 
 CMD [ "npm", "start" ]
-
