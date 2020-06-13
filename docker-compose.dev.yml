@@ -17,8 +17,8 @@ services:
       dockerfile: ./docker/Dockerfile.dev
     volumes:
       - /frontend:/frontend
-    ports:
-      - "3000:3000"
+    expose:
+      - "3000"
     networks:
       back-tier:
     environment:
