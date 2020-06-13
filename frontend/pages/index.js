@@ -7,7 +7,7 @@ import Footer from '../components/base/Footer';
 import Head from '../components/base/Head';
 import PageContent from '../components/PageContent';
 
-const HOST_API = 'localhost'
+const HOST_API = process.env.HOST_API || 'localhost'
 
 const App = (props) => {
     const [isLoading, setLoading] = useState(false);
