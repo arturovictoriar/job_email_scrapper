@@ -55,7 +55,7 @@ class MejorEmpleo {
   async getNameCompany(result) {
     for (const key in result) {
       if (key) {
-        await this.page.click(result[key]);
+        await this.page.click(result[key], { waitUntil: 'networkidle2' });
         await this.page.waitFor(1000);
         const pageList = await this.browser.pages();
         await this.page.waitFor(1000);
@@ -177,7 +177,7 @@ class MejorEmpleo {
   static async curriculumSelectors(result) {
     const allCurriculumSelectors = [];
     result.forEach((item) => {
-      if (item.length) {
+      if (item.length && item[item.length - 2] === 'NO') {
         allCurriculumSelectors.push({ name: item[0], email: item[item.length - 1] });
       }
     });
@@ -188,7 +188,7 @@ class MejorEmpleo {
     const candidateCurrriculumLink = allCurriculumSelectors[index].email;
     const selectorCorreo = 'body > div > div:nth-child(2) > div.col-xs-12.col-md-6.text-left > h4';
     this.pageCurriculum = await this.browser.newPage();
-    await this.pageCurriculum.goto(candidateCurrriculumLink);
+    await this.pageCurriculum.goto(candidateCurrriculumLink, { waitUntil: 'networkidle2' });
     await this.pageCurriculum.waitFor(1000);
     await this.pageCurriculum.bringToFront();
     await this.pageCurriculum.waitForSelector(selectorCorreo);
