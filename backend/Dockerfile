@@ -11,11 +11,10 @@ RUN  apt-get update \
     # (https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md#chrome-headless-doesnt-launch-on-unix)
     # but that seems too easy to get out of date.
     && apt-get install -y google-chrome-stable \
+    && apt-get install -y cron \
     && rm -rf /var/lib/apt/lists/* \
     && wget --quiet https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh -O /usr/sbin/wait-for-it.sh \
     && chmod +x /usr/sbin/wait-for-it.sh
-
-RUN apt-get update && apt-get install -y mysql-client && rm -rf /var/lib/apt
 
 RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
 
@@ -23,11 +22,8 @@ WORKDIR /home/node/app
 
 COPY package*.json ./
 
-USER node
+RUN npm install --production
 
-RUN npm install
+COPY . .
 
-COPY --chown=node:node . .
-
-#CMD [ "node", "src/index.js" ]
-CMD tail -f /dev/null
+CMD npm run start
