@@ -4,7 +4,7 @@
 touch /home/node/app/crontab.log
 
 # Added a cronjob in a new crontab
-echo "0 */1 * * * /usr/local/bin/node /home/node/app/app.js >> /home/node/app/crontab.log 2>&1" > /etc/crontab
+echo "*/5 * * * * /usr/local/bin/node /home/node/app/app.js >> /home/node/app/crontab.log 2>&1" > /etc/crontab
 
 # Registering the new crontab
 crontab /etc/crontab
