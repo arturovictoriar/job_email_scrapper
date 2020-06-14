@@ -3,10 +3,8 @@
 # Ensure the log file exists
 touch /home/node/app/crontab.log
 
-touch /var/log/cron.log
-
 # Added a cronjob in a new crontab
-echo "* * * * * echo "Hello world" >> /var/log/cron.log 2>&1" > /etc/crontab
+echo "0 */1 * * * /usr/local/bin/node /home/node/app/app.js >> /home/node/app/crontab.log 2>&1" > /etc/crontab
 
 # Registering the new crontab
 crontab /etc/crontab
