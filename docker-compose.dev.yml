@@ -1,0 +1,47 @@
+version: "3"
+services:
+  backend:
+    container_name: express-server
+    build: ./backend
+    volumes:
+      - /app:/app
+    ports:
+      - "4000:4000"
+    networks:
+      back-tier:
+
+  frontend:
+    container_name: nextjs-frontend
+    build:
+      context: ./frontend
+      dockerfile: ./docker/Dockerfile.dev
+    volumes:
+      - /frontend:/frontend
+    expose:
+      - "3000"
+    networks:
+      back-tier:
+    environment:
+      - HOST_API=backend
+
+  nginx:
+    image: nginx:latest
+    container_name: web_server_nginx
+    volumes:
+      - ./config/nginx.dev.conf:/etc/nginx/nginx.conf
+    ports:
+      - 80:80
+    networks:
+      back-tier:
+
+  mycron:
+    container_name: cron-service
+    build: ./backend
+    volumes:
+      - /app:/app
+    entrypoint: sh /home/node/app/crontab.sh
+
+networks:
+  back-tier:
+    driver: bridge
+
