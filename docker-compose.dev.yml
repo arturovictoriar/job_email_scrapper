@@ -20,7 +20,6 @@ services:
       dockerfile: ./docker/Dockerfile.dev
     volumes:
       - ./frontend:/home/node/frontend
-    command: npm run next
     expose:
       - "3000"
     networks:
@@ -29,10 +28,11 @@ services:
       - HOST_API=backend
 
   nginx:
-    image: nginx:latest
+    image: nginx:alpine
     container_name: web_server_nginx
     volumes:
       - ./config/nginx.dev.conf:/etc/nginx/nginx.conf
+      - ./frontend/landpage:/srv
     ports:
       - 80:80
     networks:
