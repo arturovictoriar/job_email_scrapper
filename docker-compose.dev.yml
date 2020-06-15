@@ -2,11 +2,14 @@ version: "3"
 services:
   backend:
     container_name: express-server
-    build: ./backend
+    build:
+      context: ./backend
+      dockerfile: ./docker/Dockerfile.dev
     volumes:
-      - /app:/app
+      - ./backend:/home/node/app
     ports:
       - "4000:4000"
+    command: npm run dev
     networks:
       back-tier:
 
@@ -15,8 +18,6 @@ services:
     build:
       context: ./frontend
       dockerfile: ./docker/Dockerfile.dev
-    volumes:
-      - /frontend:/frontend
     expose:
       - "3000"
     networks:
@@ -36,10 +37,12 @@ services:
 
   mycron:
     container_name: cron-service
-    build: ./backend
-    volumes:
-      - /app:/app
+    build:
+      context: ./backend
+      dockerfile: ./docker/Dockerfile.dev
     entrypoint: sh /home/node/app/crontab.sh
+    networks:
+      back-tier:
 
 networks:
   back-tier:
