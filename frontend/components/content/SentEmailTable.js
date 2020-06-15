@@ -18,6 +18,7 @@ export default function PageComponent(props) {
                     <td>Name</td>
                     <td>Email</td>
                     <td>Offer</td>
+                    <td>Offer Link</td>
                     <td>Job Board</td>
                     <td>Sent date</td>
                   </tr>
