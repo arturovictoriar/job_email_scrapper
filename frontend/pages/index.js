@@ -51,21 +51,22 @@ const App = (props) => {
         content = (
             <tbody>
                 {
-                    props.posts.map((user, index) => (
+                    props.posts.map((userObj, index) => (
                         <tr key={index}>
-                            <td>{user.name}</td>
-                            <td>{user.email}</td>
+                            <td>{userObj.user.name}</td>
+                            <td>{userObj.userEmail}</td>
+                            <td>{userObj.job_offer.name}</td>
                             {/* TODO: Check if its a link */}
                             <td>
-                                <a href={user.job_offers[user.job_offers.length - 1].user_offer.company} type="button" className="btn btn-danger waves-effect waves-light waves-round" target="_blank">
+                                <a href={userObj.company} type="button" className="btn btn-danger waves-effect waves-light waves-round" target="_blank">
                                     <i className="icon md-link" aria-hidden="true"></i> Link
                               </a>
                             </td>
 
                             <td>
-                                <span className="badge badge-primary">Un mejor empleo</span>
+                                <span className="badge badge-primary">{userObj.job_offer.job_provider.name}</span>
                             </td>
-                            <td> {user.job_offers[user.job_offers.length - 1].user_offer.emailSentAt} </td>
+                            <td> {new Date(userObj.emailSentAt).toUTCString()} </td>
                         </tr>
                     ))
                 }
@@ -114,7 +115,7 @@ const App = (props) => {
 
 App.getInitialProps = async ({ query }) => {
     const page = query.page || 1;
-    const res = await fetch(`http://${HOST_API}:4000/api/users/${page}`);
+    const res = await fetch(`http://${HOST_API}:4000/api/useroffer/${page}`);
     const posts = await res.json();
     return {
         totalCount: posts._meta.totalCount,

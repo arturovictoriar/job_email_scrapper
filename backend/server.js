@@ -25,8 +25,13 @@ app.get('/api/useroffer/:page', (req, res) => {
     limit,
     offset,
     order: [['emailSentAt', 'DESC']],
+    include: [{
+      model: db.job_offers,
+      include: [{ model: db.job_account }, { model: db.job_providers }]
+    }, {
+      model: db.users,
+    }],
     where: { emailSentAt: { [db.Sequelize.Op.not]: null } },
-    include: [db.users, db.job_offers],
   }).then((data) => {
     const pages = Math.ceil(data.count / limit);
     res.status(200).json({

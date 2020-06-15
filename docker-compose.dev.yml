@@ -18,6 +18,9 @@ services:
     build:
       context: ./frontend
       dockerfile: ./docker/Dockerfile.dev
+    volumes:
+      - ./frontend:/home/node/frontend
+    command: npm run next
     expose:
       - "3000"
     networks:
