@@ -21,31 +21,36 @@ app.get('/api/useroffer/:page', (req, res) => {
   const { page } = req.params; // page number
   offset = limit * (page - 1);
 
-  db.user_offer.findAndCountAll({
-    limit,
-    offset,
-    order: [['emailSentAt', 'DESC']],
-    include: [{
-      model: db.job_offers,
-      include: [{ model: db.job_account }, { model: db.job_providers }]
-    }, {
-      model: db.users,
-    }],
-    where: { emailSentAt: { [db.Sequelize.Op.not]: null } },
-  }).then((data) => {
-    const pages = Math.ceil(data.count / limit);
-    res.status(200).json({
-      _meta: {
-        success: true,
-        code: 200,
-        totalCount: data.count,
-        pageCount: pages,
-        currentPage: parseInt(page, 10),
-        perPage: limit,
-      },
-      result: data.rows,
+  db.user_offer
+    .findAndCountAll({
+      limit,
+      offset,
+      order: [['emailSentAt', 'DESC']],
+      include: [
+        {
+          model: db.job_offers,
+          include: [{ model: db.job_account }, { model: db.job_providers }],
+        },
+        {
+          model: db.users,
+        },
+      ],
+      where: { emailSentAt: { [db.Sequelize.Op.not]: null } },
+    })
+    .then((data) => {
+      const pages = Math.ceil(data.count / limit);
+      res.status(200).json({
+        _meta: {
+          success: true,
+          code: 200,
+          totalCount: data.count,
+          pageCount: pages,
+          currentPage: parseInt(page, 10),
+          perPage: limit,
+        },
+        result: data.rows,
+      });
     });
-  });
 });
 
 app.get('/api/users/:page', (req, res) => {
