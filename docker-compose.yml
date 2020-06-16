@@ -21,7 +21,7 @@ services:
       back-tier:
 
   nginx:
-    image: nginx:latest
+    image: nginx:alpine
     container_name: web_server_nginx
     volumes:
       - ./config/nginx.conf:/etc/nginx/nginx.conf
