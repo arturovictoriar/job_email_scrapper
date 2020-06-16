@@ -12,7 +12,7 @@ RUN npm install --production
 
 COPY --chown=node:node . .
 
-RUN sed -i "s/localhost/ec2-54-144-27-221.compute-1.amazonaws.com/g" pages/index.js
+RUN sed -i "s/localhost/ec2-54-90-206-133.compute-1.amazonaws.com/g" pages/index.js
 
 RUN npm run build
 
