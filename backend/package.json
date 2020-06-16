@@ -92,10 +92,11 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "node-fetch": "^2.6.0",
     "nodemailer": "^6.4.8",
     "puppeteer": "^3.1.0",
-    "sequelize": "^5.21.11",
-    "mysql2": "^2.1.0"
+    "sequelize": "^5.21.11"
   },
   "husky": {
     "hooks": {

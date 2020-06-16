@@ -15,8 +15,8 @@ export default function HeadComponent() {
 
         <title>Sent emails statistics</title>
 
-        <link rel="apple-touch-icon" href="/assets/images/logo-torre-transp.png" />
-        <link rel="shortcut icon" href="/assets/images/logo-torre-transp.png" />
+        <link rel="apple-touch-icon" href="/assets/images/logo-5-minutes-problem.png" />
+        <link rel="shortcut icon" href="/assets/images/logo-5-minutes-problem.png" />
 
         {/* Stylesheets */}
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />

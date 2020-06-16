@@ -15,8 +15,8 @@ export default function HeaderComponent() {
           >
             <img
               className="navbar-brand-logo"
-              src="../assets/images/logo-torre-transp.png"
-              title="Torre"
+              src="../assets/images/logo-5-minutes-problem.png"
+              title="5 minutes problem"
             />
             <span className="navbar-brand-text hidden-xs-down"> Torre</span>
           </div>
@@ -43,16 +43,16 @@ export default function HeaderComponent() {
             </ul>
           </div>
           <div className="navbar-brand navbar-brand-center">
-            <a href="index.html">
+            <a href="http://ec2-54-90-206-133.compute-1.amazonaws.com/landing/" target="_blank">
               <img
                 className="navbar-brand-logo navbar-brand-logo-normal"
-                src="../assets/images/logo-torre-transp.png"
-                title="Torre"
+                src="../assets/images/logo-5-minutes-problem.png"
+                title="5 minutes problem"
               />
               <img
                 className="navbar-brand-logo navbar-brand-logo-special"
-                src="../assets/images/logo-torre-transp.png"
-                title="Torre"
+                src="../assets/images/logo-5-minutes-problem.png"
+                title="5 minutes problem"
               />
             </a>
           </div>
