@@ -8,7 +8,7 @@ export default function FooterComponent(props) {
 
         <div className="site-footer-right">
           Crafted with <i className="red-600 icon md-favorite"></i> by
-        <a href="index.html"
+        <a href="http://ec2-54-90-206-133.compute-1.amazonaws.com/landing/" target="_blank"
           >FiveMinutesProblem Team</a
           >
         </div>

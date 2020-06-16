@@ -1,5 +1,5 @@
 .page-body{
-    height:3380px;
+    height:3350px;
     top:0
 }
 .page-content{
@@ -24,7 +24,7 @@
 ._1cbf07cd-d7b1-d33d-3140-a426ca21eb45{
     height:150px;
     left:0;
-    top:800px;
+    top:710px;
     width:960px;
     z-index:14;
     position:absolute;
@@ -59,7 +59,7 @@
 ._926ae5a2-1934-38bb-62e2-3573412500ec{
     height:150px;
     left:0;
-    top:1441px;
+    top:1401px;
     width:960px;
     z-index:22;
     position:absolute;
@@ -128,7 +128,7 @@
 ._88ba7d0e-6a6d-b12b-2bf7-5afdb11fcf1d{
     height:70px;
     left:0;
-    top:2183px;
+    top:2083px;
     width:960px;
     z-index:32;
     position:absolute;
@@ -163,7 +163,7 @@
 ._6deeb77d-5003-594c-001b-a021d3880b2d{
     height:70px;
     left:0;
-    top:2732px;
+    top:2682px;
     width:960px;
     z-index:36;
     position:absolute;
@@ -204,8 +204,8 @@
 }
 #_7ae3fcd5-758a-8c1c-6782-9d10fa4d91e2{
     position:absolute;
-    top:81px;
-    left:314px;
+    top:131px;
+    left:313px;
     width:393px;
     height:276px;
     z-index:42;
@@ -228,7 +228,7 @@
 }
 #_2050c63e-0d0b-46d6-0caf-4aad396912e3{
     position:absolute;
-    top:36px;
+    top:56px;
     left:29px;
     width:227px;
     height:130px;
@@ -241,7 +241,7 @@
 ._cf490c64-a7b0-5d24-7565-983dbad8de4a{
     height:98px;
     left:130px;
-    top:420px;
+    top:450px;
     width:726px;
     z-index:48;
     position:absolute;
@@ -263,7 +263,7 @@
 ._68bd496b-9bbf-10d7-2de4-a4165321d441{
     height:67px;
     left:217px;
-    top:525px;
+    top:555px;
     width:560px;
     z-index:50;
     position:absolute;
@@ -284,7 +284,7 @@
 }
 #_11d7ae62-b4e6-5528-48d6-ed7bda8c2472{
     position:absolute;
-    top:46px;
+    top:56px;
     left:801px;
     width:134px;
     height:134px;
@@ -296,7 +296,7 @@
 }
 #_38b0f24d-f53c-eaa9-317b-520306ad0cf8{
     position:absolute;
-    top:307px;
+    top:317px;
     left:17px;
     width:97px;
     height:50px;
@@ -308,8 +308,8 @@
 }
 #_97cac6bf-0c06-4dc7-f348-96d1af38913a{
     position:absolute;
-    top:284px;
-    left:160px;
+    top:300px;
+    left:153px;
     width:101px;
     height:88px;
     z-index:56;
@@ -320,7 +320,7 @@
 }
 #_cb81c1e2-1ffb-ff66-8d25-3a6b55985f67{
     position:absolute;
-    top:211px;
+    top:221px;
     left:14px;
     width:103px;
     height:63px;
@@ -332,7 +332,7 @@
 }
 #_49043edf-322a-da6f-dd2d-b8bbf3437bd4{
     position:absolute;
-    top:213px;
+    top:223px;
     left:152px;
     width:98px;
     height:59px;
@@ -434,7 +434,7 @@
 }
 ._b9ddf17d-5f2f-5d24-612e-ae6679be039e{
     height:44px;
-    left:390px;
+    left:405px;
     top:1198px;
     width:180px;
     z-index:72;
@@ -456,7 +456,7 @@
 }
 ._d2d95913-3ffd-82b3-3caa-46dba6e5d386{
     height:26px;
-    left:70px;
+    left:77px;
     top:1138px;
     width:180px;
     z-index:74;
@@ -478,8 +478,8 @@
 }
 ._6d3a967d-ced1-7e26-9010-293c6be7ff06{
     height:67px;
-    left:70px;
-    top:1190px;
+    left:75px;
+    top:1198px;
     width:180px;
     z-index:76;
     position:absolute;
@@ -615,7 +615,7 @@
 ._24ca3b44-5b06-37cc-d1ad-7d1b1eb1daf3{
     height:20px;
     left:264px;
-    top:3315px;
+    top:3295px;
     width:464px;
     z-index:92;
     position:absolute;
@@ -768,7 +768,7 @@
     border-bottom:1px none #000;
     border-left:1px none #000;
     position:absolute;
-    top:620px;
+    top:640px;
     left:422px;
     width:144px;
     height:30px;
@@ -1119,4 +1119,33 @@ header li a {
 
 header li a:hover {
     background-color: #111;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+  margin-bottom: 20px;
+}
+
+#_f22f14e0-97aa-8cd1-bd2a-642dd935eac9,
+#_6deeb77d-5003-594c-001b-a021d3880b2d {
+    padding-top: 50px;
+}
+
+#_3d2e27f4-e083-71c6-449f-38f8711a20bc {
+    padding-top: 90px;
+}
+
+#_6f653854-c2e3-dcb7-98ad-1217664905b4 {
+    padding-top: 40px;
+}
+
+#_88ba7d0e-6a6d-b12b-2bf7-5afdb11fcf1d {
+    padding-top: 100px;
+}
+
+#_1bebf642-a4ca-bb33-4145-1257262a2107 {
+    margin-top: 50px;
 }
