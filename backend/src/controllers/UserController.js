@@ -76,18 +76,16 @@ exports.getAllUsersWithOffers = () => {
     ],
   })
     .then((allusers) => {
-      console.log(`>> get allusers: ${JSON.stringify(allusers, null, 4)}`);
       return allusers;
     })
     .catch((err) => {
-      console.log('>> Error getAllUsers: ', err);
+      console.log('>> Error in getAllUsersWithOffers: ', err);
     });
 };
 
 exports.findByEmail = (email) => {
   return User.findOne({ where: { email } })
     .then((allusers) => {
-      console.log(`>> Search by email: ${JSON.stringify(allusers, null, 4)}`);
       return allusers;
     })
     .catch((err) => {
@@ -98,7 +96,6 @@ exports.findByEmail = (email) => {
 exports.getAllUsers = () => {
   return User.findAll()
     .then((allusers) => {
-      console.log(`>> get allusers: ${JSON.stringify(allusers, null, 4)}`);
       return allusers;
     })
     .catch((err) => {
@@ -109,10 +106,9 @@ exports.getAllUsers = () => {
 exports.countUsers = () => {
   return User.count()
     .then((count) => {
-      console.log(`>> get count all users: ${count}`);
       return count;
     })
     .catch(function (error) {
-      console.log(error);
+      console.log('>> Error in CountUsers function: ', err);
     });
 };

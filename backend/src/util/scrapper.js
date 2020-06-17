@@ -55,6 +55,7 @@ const main = async () => {
 
     console.log(JSON.stringify(allEmailsInfo));
     await miEmpleo.closeBrowser();
+    console.log('Finish Scrapper with puppeteer');
     return allEmailsInfo;
   } catch (error) {
     await miEmpleo.closeBrowser();

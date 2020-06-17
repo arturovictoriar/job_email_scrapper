@@ -19,8 +19,9 @@ exports.findByEmailId = (emailId) => {
   return JobAccount.findOne({
     where: { emailId },
   }).then((jobAccount) => {
-    console.log(`>> found jobAccount: ${JSON.stringify(jobAccount, null, 4)}`);
     return jobAccount;
+  }).catch((err) => {
+    console.log('>> Error getting JobAccount ByEmailId: ', err);
   });
 };
 

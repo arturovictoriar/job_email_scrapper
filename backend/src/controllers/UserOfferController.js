@@ -7,8 +7,9 @@ exports.updateSentEmailByUserAndOffer = (userOffer) => {
     { emailSentAt: Date.now() },
     { where: { userEmail: userOffer.userEmail, jobOfferId: userOffer.jobOfferId } }
   ).then((updateSentEmail) => {
-    console.log(`>> get updateSentEmail: ${JSON.stringify(updateSentEmail, null, 4)}`);
     return updateSentEmail;
+  }).catch((error) => {
+    console.log(`Function updateSentEmailByUserAndOffer has ${error}`)
   });
 };
 
@@ -42,8 +43,9 @@ exports.findAllByOffer = (jobOfferId) => {
   return UserOffer.findAll({
     where: { jobOfferId },
   }).then((userOffer) => {
-    console.log(`>> get all users by offers: ${JSON.stringify(userOffer, null, 4)}`);
     return userOffer;
+  }).catch((err) => {
+    console.log('>> Error in function findAllByOffer of UserOfferController: ', err);
   });
 };
 
@@ -81,6 +83,7 @@ exports.updateSentEmail = async (sentEmailObj) => {
     jobOfferId: null,
     userEmail: null,
   };
+  console.log('Loading updateSentEmail');
   for (const offerSent of sentEmailObj) {
     const companies = Object.keys(offerSent.companies);
     userOffer.jobOfferId = offerSent.jobOfferId;

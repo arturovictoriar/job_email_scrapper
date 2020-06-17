@@ -21,11 +21,10 @@ exports.createJobOffer = (joboffer) => {
 exports.createJobOfferBulk = (jobsArrays) => {
   return JobOffer.bulkCreate(jobsArrays)
     .then((jobsArrays) => {
-      console.log(`>> Created jobsArrays: ${JSON.stringify(jobsArrays, null, 4)}`);
       return jobsArrays;
     })
     .catch((err) => {
-      console.log('>> Error while creating tutorial: ', err);
+      console.log('>> Error while creating JobOfferBulk: ', err);
     });
 };
 
@@ -61,22 +60,20 @@ exports.getOfferByIds = (jobOffer) => {
     },
   })
     .then((offerName) => {
-      console.log(`>> get offerName: ${JSON.stringify(offerName, null, 4)}`);
       return offerName;
     })
     .catch((err) => {
-      console.log('>> Error while creating tutorial: ', err);
+      console.log('>> Error getting OfferByIds: ', err);
     });
 };
 
 exports.getAllJobOffers = () => {
   return JobOffer.findAll({ include: [User] })
     .then((allOffers) => {
-      console.log(`>> get allOffers: ${JSON.stringify(allOffers, null, 4)}`);
       return allOffers;
     })
     .catch((err) => {
-      console.log('>> Error allOffers: ', err);
+      console.log('>> Error getAllJobOffers: ', err);
     });
 };
 
@@ -88,10 +85,9 @@ exports.getAllByJobProviderAndJobAccount = (jobProvider, jobAccount) => {
     },
   })
     .then((allOffers) => {
-      console.log(`>> get allOffers: ${JSON.stringify(allOffers, null, 4)}`);
       return allOffers;
     })
     .catch((err) => {
-      console.log('>> Error allOffers: ', err);
+      console.log('>> Error in Function getAllByJobProviderAndJobAccount: ', err);
     });
 };
