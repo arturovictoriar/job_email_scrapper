@@ -109,6 +109,6 @@ exports.countUsers = () => {
       return count;
     })
     .catch(function (error) {
-      console.log('>> Error in CountUsers function: ', err);
+      console.log('>> Error in CountUsers function: ', error);
     });
 };

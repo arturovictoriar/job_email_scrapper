@@ -18,11 +18,13 @@ exports.create = (emailId) => {
 exports.findByEmailId = (emailId) => {
   return JobAccount.findOne({
     where: { emailId },
-  }).then((jobAccount) => {
-    return jobAccount;
-  }).catch((err) => {
-    console.log('>> Error getting JobAccount ByEmailId: ', err);
-  });
+  })
+    .then((jobAccount) => {
+      return jobAccount;
+    })
+    .catch((err) => {
+      console.log('>> Error getting JobAccount ByEmailId: ', err);
+    });
 };
 
 exports.createJobAccount = async (emailId) => {

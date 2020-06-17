@@ -6,11 +6,13 @@ exports.updateSentEmailByUserAndOffer = (userOffer) => {
   return UserOffer.update(
     { emailSentAt: Date.now() },
     { where: { userEmail: userOffer.userEmail, jobOfferId: userOffer.jobOfferId } }
-  ).then((updateSentEmail) => {
-    return updateSentEmail;
-  }).catch((error) => {
-    console.log(`Function updateSentEmailByUserAndOffer has ${error}`)
-  });
+  )
+    .then((updateSentEmail) => {
+      return updateSentEmail;
+    })
+    .catch((error) => {
+      console.log(`Function updateSentEmailByUserAndOffer has ${error}`);
+    });
 };
 
 exports.updateSentEmailByCompany = (userOffer) => {
@@ -42,11 +44,13 @@ exports.findAllUserOffer = () => {
 exports.findAllByOffer = (jobOfferId) => {
   return UserOffer.findAll({
     where: { jobOfferId },
-  }).then((userOffer) => {
-    return userOffer;
-  }).catch((err) => {
-    console.log('>> Error in function findAllByOffer of UserOfferController: ', err);
-  });
+  })
+    .then((userOffer) => {
+      return userOffer;
+    })
+    .catch((err) => {
+      console.log('>> Error in function findAllByOffer of UserOfferController: ', err);
+    });
 };
 
 exports.createUserOffer = (userOffer) => {

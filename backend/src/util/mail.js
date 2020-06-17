@@ -66,6 +66,8 @@ class SendEmail {
       emailsToSend = 'luis@torre.co';
     } else if (emails.includes('arvichan@hotmail.com')) {
       emailsToSend = 'arvichan@hotmail.com';
+    } else if (emails.includes('sebas969696@hotmail.com')) {
+      emailsToSend = 'sebas969696@hotmail.com';
     } else {
       emailsToSend = '';
     }
