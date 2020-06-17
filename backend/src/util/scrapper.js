@@ -3,8 +3,8 @@ const C = require('../config/scrapper.config');
 
 const main = async () => {
   console.log('Working on Un mejor empleo...');
+  const miEmpleo = new unmejorempleo.MejorEmpleo();
   try {
-    const miEmpleo = new unmejorempleo.MejorEmpleo();
     await miEmpleo.startBrowser(true, true, true);
     await miEmpleo.login(C.username, C.password);
     const isAvailable = await miEmpleo.gotoVacantesPublicadas();
@@ -56,8 +56,7 @@ const main = async () => {
     console.log(JSON.stringify(allEmailsInfo));
     await miEmpleo.closeBrowser();
     return allEmailsInfo;
-  }
-  catch (error) {
+  } catch (error) {
     await miEmpleo.closeBrowser();
     return {};
   }
