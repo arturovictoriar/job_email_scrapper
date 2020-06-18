@@ -52,38 +52,6 @@ class MejorEmpleo {
     );
   }
 
-  async getNameCompany(result) {
-    for (const key in result) {
-      if (key) {
-        await this.page.click(result[key], { waitUntil: 'networkidle2' });
-        await this.page.waitFor(1000);
-        const pageList = await this.browser.pages();
-        await this.page.waitFor(1000);
-        await pageList[pageList.length - 1].bringToFront();
-        await pageList[pageList.length - 1].waitForSelector(
-          'body > div.container.detalle > div > div:nth-child(2) > section > article > h4:nth-child(8)'
-        );
-        const selectorCompany =
-          'body > div.container.detalle > div > div:nth-child(2) > section > article';
-        const company = await pageList[pageList.length - 1].evaluate((selectorCompany) => {
-          const infoJob = document.querySelector(selectorCompany).innerText.split('\n');
-          if (infoJob[13] === 'Descripción de la Plaza') {
-            return infoJob[14];
-          }
-          let index = 1;
-          while (infoJob[13 + index] !== 'Descripción de la Plaza') {
-            index++;
-          }
-          return infoJob[13 + index + 1];
-        }, selectorCompany);
-        // eslint-disable-next-line no-param-reassign
-        result[key] = company;
-        pageList[pageList.length - 1].close();
-      }
-    }
-    return result;
-  }
-
   async getNamesJobs() {
     const result = await this.page.evaluate(() => {
       const rows = document.querySelectorAll(
@@ -94,36 +62,43 @@ class MejorEmpleo {
         const jobSelector = `body > div.container > div.white-container > div > section > article > div.row.padd_arriba > div > table > tbody > tr:nth-child(${
           index + 1
         }) > td:nth-child(6) > a:nth-child(2)`;
-        namesJobs[
-          row.querySelector('td:nth-child(1) > strong').innerText
-        ] = `https://www.unmejorempleo.com.co/${document
-          .querySelector(jobSelector)
-          .getAttribute('href')}`;
+        const vacancy = row.querySelector('td:nth-child(1) > strong').innerText;
+        if (!(vacancy in namesJobs)) {
+          namesJobs[vacancy] = [];
+        }
+        namesJobs[vacancy].push(
+          `https://www.unmejorempleo.com.co/${document
+            .querySelector(jobSelector)
+            .getAttribute('href')}`
+        );
       }
       return namesJobs;
     });
-    // const JobsandCompanyNames = await this.getNameCompany(result);
-    // return JobsandCompanyNames;
     return result;
   }
 
   static async appendSelectorNameJobs(nameJobsDic) {
     const nameJobs = Object.keys(nameJobsDic);
     const jobOffers = {};
+    let numLinkCompany = 0;
     for (let index = 1; index <= nameJobs.length; index++) {
-      jobOffers[nameJobs[index - 1]] = {
-        company: nameJobsDic[nameJobs[index - 1]],
-        emails: [
-          `body > div.container > div > div > section > article > div.row.padd_arriba > div > table > tbody > tr:nth-child(${index}) > td:nth-child(6) > a:nth-child(1)`,
-        ],
-      };
+      jobOffers[nameJobs[index - 1]] = [];
+      for (const linkCompany of nameJobsDic[nameJobs[index - 1]]) {
+        numLinkCompany++;
+        jobOffers[nameJobs[index - 1]].push({
+          company: linkCompany,
+          emails: [
+            `body > div.container > div > div > section > article > div.row.padd_arriba > div > table > tbody > tr:nth-child(${numLinkCompany}) > td:nth-child(6) > a:nth-child(1)`,
+          ],
+        });
+      }
     }
     return jobOffers;
   }
 
   async gotoVacantesPublicadas() {
     let isDead = false;
-    await this.page.click(VACANTES_PUBLICADAS);
+    await this.page.click(VACANTES_PUBLICADAS, { waitUntil: 'networkidle2' });
     await this.page.waitForSelector(REVIEW_APLICACIONES).catch(() => {
       isDead = true;
     });
@@ -135,13 +110,15 @@ class MejorEmpleo {
 
   async gotoReviewApplication(REVIEWAPLICACIONES) {
     await this.page.waitForSelector(REVIEWAPLICACIONES);
-    await this.page.click(REVIEWAPLICACIONES);
+    await this.page.click(REVIEWAPLICACIONES, { waitUntil: 'networkidle2' });
+    const noCandidatesSelector =
+      'body > div.container.resultados > div > div > section > article > table tr';
     let isDead = false;
-    await this.page
-      .waitForSelector('body > div.container.resultados > div > div > section > article > table tr')
-      .catch(() => {
-        isDead = true;
-      });
+    try {
+      await this.page.waitForSelector(noCandidatesSelector, { timeout: 5000 });
+    } catch {
+      isDead = true;
+    }
     if (isDead) {
       return undefined;
     }
