@@ -1055,9 +1055,7 @@
     border-width:0;
     text-decoration:none
 }
-.inner_body{
-    background-color:rgba(255,255,255,1.0);
-    background-color:#FFF;
+body {
     background-image:url(../images/backgroundcp);
     background-repeat:repeat-x;
     background-position:top center;
