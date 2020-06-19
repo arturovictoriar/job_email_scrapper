@@ -7,22 +7,20 @@ exports.createJobProvider = (name) => {
     name,
   })
     .then((jobprovider) => {
-      console.log(`>> Created jobprovider: ${JSON.stringify(jobprovider, null, 4)}`);
       return jobprovider;
     })
     .catch((err) => {
-      console.log('>> Error while creating tutorial: ', err);
+      console.log('>> Error while creating JobProvider: ', err);
     });
 };
 
 exports.getProviderByName = (providerName) => {
   return JobProvider.findOne({ where: { name: providerName } })
     .then((providerName) => {
-      console.log(`>> get providerName: ${JSON.stringify(providerName, null, 4)}`);
       return providerName;
     })
     .catch((err) => {
-      console.log('>> Error while creating tutorial: ', err);
+      console.log('>> Error in function getProviderByName: ', err);
     });
 };
 

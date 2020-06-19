@@ -15,4 +15,5 @@ const implementationScrapper = async () => {
   await db.sequelize.sync({ force: false });
   console.log(`Database & tables created!`);
   await implementationScrapper();
+  console.log('Finish All!!!');
 })();

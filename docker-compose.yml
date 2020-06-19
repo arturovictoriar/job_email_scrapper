@@ -2,9 +2,9 @@ version: "3"
 services:
   backend:
     container_name: express-server
-    build: ./backend
-    volumes:
-      - /app:/app
+    build:
+      context: ./backend
+      dockerfile: ./docker/Dockerfile
     ports:
       - "4000:4000"
     networks:
@@ -15,18 +15,17 @@ services:
     build:
       context: ./frontend
       dockerfile: ./docker/Dockerfile
-    volumes:
-      - /frontend:/frontend
     ports:
       - "3000:3000"
     networks:
       back-tier:
 
   nginx:
-    image: nginx:latest
+    image: nginx:alpine
     container_name: web_server_nginx
     volumes:
       - ./config/nginx.conf:/etc/nginx/nginx.conf
+      - ./frontend/landpage:/srv
     ports:
       - 80:80
     networks:
@@ -34,9 +33,9 @@ services:
 
   mycron:
     container_name: cron-service
-    build: ./backend
-    volumes:
-      - /app:/app
+    build:
+      context: ./backend
+      dockerfile: ./docker/Dockerfile
     entrypoint: sh /home/node/app/crontab.sh
 
 networks:

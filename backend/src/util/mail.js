@@ -66,6 +66,8 @@ class SendEmail {
       emailsToSend = 'luis@torre.co';
     } else if (emails.includes('arvichan@hotmail.com')) {
       emailsToSend = 'arvichan@hotmail.com';
+    } else if (emails.includes('sebas969696@hotmail.com')) {
+      emailsToSend = 'sebas969696@hotmail.com';
     } else {
       emailsToSend = '';
     }
@@ -74,29 +76,29 @@ class SendEmail {
       // bcc: emails.join(),
       bcc: emailsToSend, // list of receivers
       subject: '', // Subject line
-      text: '', // plain text body
+      html: '', // html text body
     };
   }
 
   async makeMessage(jobInfo = {}, lang) {
     if (jobInfo) {
       if (lang === 'en') {
-        const messageEn = `Hi, I am David, Torre.co external recruiter advisor, for the company ${jobInfo.company} a pleasure to connect with you!
-As a next step in the selection process, I would like to know more about your experience and additional information, which you can fill out on our platform by applying to the vacancy using the “Quick apply” button that you’ll find at the following link:
-${jobInfo.quickApply}
-This new profile can be used for the role of ${jobInfo.vacancy} and other vacancies.
-Also, could you please send me the link of your profile as soon as you complete it? I don’t want it to get confused among other candidates.
-If you have doubts about how to create your Bio inside Torre, we will explain it to you in the following video! ${jobInfo.explainme}`;
-        this.mailOption.text = messageEn;
+        const messageEn = `<p>Hi, I am David, <a href="https://torre.co/es">Torre.co</a> external recruiter advisor, for the ${jobInfo.company} company a pleasure to connect with you!<br><br>
+        As a next step in the selection process, I would like to know more about your experience and additional information, which you can fill out on our platform by applying to the vacancy using the “Quick apply” button that you’ll find at the following link:<br><br>
+        ${jobInfo.quickApply}<br><br>
+        This new profile can be used for the role of ${jobInfo.vacancy} and other vacancies.<br>
+        Also, could you please send me the link of your profile as soon as you complete it? I don’t want it to get confused among other candidates.<br><br>
+        If you have doubts about how to create your Bio inside Torre, we will explain it to you in the following <a href="${jobInfo.explainme}">video</a>!</p>`;
+        this.mailOption.html = messageEn;
         this.mailOption.subject = `Continue the process for the job vacancy: ${jobInfo.vacancy}`;
       } else {
-        const messageEs = `Hola, soy David, reclutador de Torre.co para la empresa ${jobInfo.company} un gusto contactar contigo!
-Como siguiente paso del proceso de selección, me gustaría conocer más de tu experiencia e información complementaria, que puedes llenar aquí en nuestra plataforma Torre aplicando a la vacante por medio del botón “Quick apply” que encontrarás en el siguiente link:
-${jobInfo.quickApply}
-Este nuevo perfil podrás usarlo para el rol de ${jobInfo.vacancy} y otras vacantes.
-Además, podrías por favor enviarme por acá el link de tu perfil apenas lo completes? No quisiera que se me confundiera entre otros candidatos.
-Si tienes dudas sobre como crear tu Bio dentro de Torre, en el siguiente video te lo explicamos aquí! ${jobInfo.explainme}`;
-        this.mailOption.text = messageEs;
+        const messageEs = `<p>Hola, soy David, reclutador de <a href="https://torre.co/es">Torre.co</a> para la empresa ${jobInfo.company} un gusto contactar contigo!<br><br>
+        Como siguiente paso del proceso de selección, me gustaría conocer más de tu experiencia e información complementaria, que puedes llenar aquí en nuestra plataforma Torre aplicando a la vacante por medio del botón “Quick apply” que encontrarás en el siguiente link:<br><br>
+        ${jobInfo.quickApply}<br><br>
+        Este nuevo perfil podrás usarlo para el rol de ${jobInfo.vacancy} y otras vacantes.<br>
+        Además, podrías por favor enviarme por acá el link de tu perfil apenas lo completes? No quisiera que se me confundiera entre otros candidatos.<br><br>
+        Si tienes dudas sobre como crear tu Bio dentro de Torre, en el siguiente video te lo explicamos <a href="${jobInfo.explainme}">aquí</a>!</p>`;
+        this.mailOption.html = messageEs;
         this.mailOption.subject = `Continua el proceso para la vacante de empleo: ${jobInfo.vacancy}`;
       }
       console.log(this.mailOption);
