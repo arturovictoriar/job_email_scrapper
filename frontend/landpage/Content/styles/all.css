@@ -1055,9 +1055,7 @@
     border-width:0;
     text-decoration:none
 }
-.inner_body{
-    background-color:rgba(255,255,255,1.0);
-    background-color:#FFF;
+body {
     background-image:url(../images/backgroundcp);
     background-repeat:repeat-x;
     background-position:top center;
@@ -1117,4 +1115,9 @@ header {
 
 #_1bebf642-a4ca-bb33-4145-1257262a2107 {
     margin-top: 50px;
+}
+
+#_d082157a-2f92-945b-2561-1e27d9074fde img,
+#_33bdbb2f-d7d2-0a7e-d4a4-87d677f5a512 img {
+    border-radius: 50%;
 }

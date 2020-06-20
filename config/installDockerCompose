@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# update ubuntu apt
+sudo apt-get update -y
+# remove docker old version
+sudo apt-get remove -y docker docker-engine docker.io containerd runc
+# install docker
+sudo apt install -y docker.io
+# install docker compuse
+sudo apt install -y docker-compose
+# docker up
+sudo service docker restart
