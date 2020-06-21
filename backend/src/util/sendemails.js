@@ -11,15 +11,14 @@ async function getCompanyNameAndLinks(companyLink) {
   const idCompanyLink = companyLink.split('/')[3];
   const companyMetaHol = await fetch(`http://3.12.74.191:3002/api/v1/post/${idCompanyLink}`);
   const companyMetaHolJson = await companyMetaHol.json();
-  console.log(companyMetaHolJson);
   if (Object.keys(companyMetaHolJson).length) {
     const companyMetaTorre = await fetch(
       `https://torre.co/api/opportunities/${companyMetaHolJson.source}`
     );
     const companyMetaTorreJson = await companyMetaTorre.json();
-    const linkJobTorre = `https://torre.co/jobs/${companyMetaHolJson.source}`;
-    const nameCompany = companyMetaTorreJson.organizations[0].name;
-    const language = companyMetaTorreJson.languages[0].language.code;
+    linkJobTorre = `https://torre.co/jobs/${companyMetaHolJson.source}`;
+    nameCompany = companyMetaTorreJson.organizations[0].name;
+    language = 'es';
     if (language === 'en') {
       explainLink =
         'https://www.youtube.com/watch?v=6_zBo6EtuWk&list=PLIQS10CfZaEWn1adIi-_loTW9BKbYEtTb&index=3';
@@ -27,20 +26,13 @@ async function getCompanyNameAndLinks(companyLink) {
       explainLink =
         'https://www.youtube.com/watch?v=r35ovTmDhEg&list=PLIQS10CfZaEWn1adIi-_loTW9BKbYEtTb&index=2';
     }
-    console.log(
-      linkJobTorre,
-      nameCompany,
-      language,
-      companyLink,
-      companyMetaHolJson.source,
-      companyMetaTorre
-    );
   } else {
     nameCompany = '';
     linkJobTorre = '';
     explainLink = '';
     language = '';
   }
+  console.log('Variables: <', nameCompany, linkJobTorre, explainLink, language, '>');
   return {
     company: nameCompany,
     quickApply: linkJobTorre,
