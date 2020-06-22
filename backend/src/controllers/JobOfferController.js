@@ -55,9 +55,7 @@ exports.LoadJobOffers = async (jobProvider, jobAccount, objsJobOffer) => {
 exports.getOfferByIds = (jobOffer) => {
   return JobOffer.findOne({
     where: {
-      name: jobOffer.name,
-      jobAccountEmailId: jobOffer.jobAccountEmailId,
-      jobProviderId: jobOffer.jobProviderId,
+      ...jobOffer,
     },
   })
     .then((offerName) => {
