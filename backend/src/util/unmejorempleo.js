@@ -1,6 +1,14 @@
+/* 
+  Class MejorEmpleo scraps emails in "un mejor empleo" job board using node js and puppeter
+*/
+
+// Import puppeter library which simulate human interaction
 const puppeteer = require('puppeteer');
 
+// Set the url of the job Board (strings)
 const BASE_URL = 'https://www.unmejorempleo.com.co/';
+
+// Set the selectors to navegate in the job Board (strings)
 const VACANTES_PUBLICADAS =
   'body > div.container.resultados > div > div > section > article > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(3) > a';
 const REVIEW_APLICACIONES =
@@ -8,12 +16,21 @@ const REVIEW_APLICACIONES =
 const RETURN_VACANTES =
   'body > div.container.resultados > div > div > section > article > div.row > div > button:nth-child(2)';
 
+// Class MejorEmpleo scraps emails in "un mejor empleo" job board
 class MejorEmpleo {
+  // Set the puppeter public variables (objects)
   constructor() {
     this.browser = null;
     this.page = null;
     this.pageCurriculum = null;
   }
+
+  /*
+  Method startBrowser: Inicialize a chromiun browser and a page with puppeter
+  showBrowser: true if you want to check the process otherwise false (boolean)
+  showDevTools: true if you want to inspect the page otherwise false (boolean)
+  isDeploy: true in production to not use the grafic card otherwise false (boolean)
+  */
 
   async startBrowser(showBrowser = false, showDevTools = false, isDeploy = true) {
     const options = [
@@ -34,23 +51,34 @@ class MejorEmpleo {
     this.page.setViewport({ width: 1366, height: 768 });
   }
 
+  /*
+  Method closeBrowser: close the chromiun browser 
+  */
+
   async closeBrowser() {
     this.browser.close();
   }
 
+  /*
+  Method login: log in into "un mejor empleo" account
+  username: user credential of "un mejor empleo" account (string)
+  password: password credential of "un mejor empleo" account (string)
+  */
+
   async login(username, password) {
-    // const { page } = await this.startBrowser();
     await this.page.goto(BASE_URL, { waitUntil: 'networkidle2' });
     await this.page.type('#form_login > div:nth-child(1) > input', username, { delay: 50 });
     await this.page.type('#form_login > div:nth-child(2) > input', password, { delay: 50 });
-
     const loginButton = await this.page.$('#form_login > div.form-group.text-right > button');
     await loginButton.click();
-    /* button of vacantes publicadas */
     await this.page.waitForSelector(
       'body > div.container.resultados > div > div > section > article > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(3) > a'
     );
   }
+
+  /*
+  Method getNamesJobs: Get the Job Name and URL using HTML selectors
+  */
 
   async getNamesJobs() {
     const result = await this.page.evaluate(() => {
@@ -77,6 +105,11 @@ class MejorEmpleo {
     return result;
   }
 
+  /*
+  Method appendSelectorNameJobs: create an object to organize the emails applicants by link and name Jobs
+  nameJobsDic: Names and Links Jobs List
+  */
+
   static async appendSelectorNameJobs(nameJobsDic) {
     const nameJobs = Object.keys(nameJobsDic);
     const jobOffers = {};
@@ -96,6 +129,10 @@ class MejorEmpleo {
     return jobOffers;
   }
 
+  /*
+  Method gotoVacantesPublicadas: go into the Job Offers published
+  */
+
   async gotoVacantesPublicadas() {
     let isDead = false;
     await this.page.click(VACANTES_PUBLICADAS, { waitUntil: 'networkidle2' });
@@ -107,6 +144,10 @@ class MejorEmpleo {
     }
     return 'Ok';
   }
+
+  /*
+  Method gotoReviewApplication: go into the Job Offers published
+  */
 
   async gotoReviewApplication(REVIEWAPLICACIONES) {
     await this.page.waitForSelector(REVIEWAPLICACIONES);
