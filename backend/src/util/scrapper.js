@@ -23,29 +23,25 @@ const main = async () => {
       let allEmails = JSON.parse(JSON.stringify(JobOffers));
       for (const jobOffer in JobOffers) {
         if (jobOffer) {
-          allEmails[jobOffer].emails.shift();
-          let noExitVacante = false;
-          const isAlive = await miEmpleo
-            .gotoReviewApplication(JobOffers[jobOffer].emails)
-            .catch(() => {
-              noExitVacante = true;
-            });
-          if (noExitVacante) {
+          let index = 0;
+          for (const company of JobOffers[jobOffer]) {
+            allEmails[jobOffer][index].emails.shift();
+            const isAlive = await miEmpleo.gotoReviewApplication(company.emails);
+            if (!isAlive) {
+              await miEmpleo.returnVacantesAplicadas();
+              index++;
+              // eslint-disable-next-line no-continue
+              continue;
+            }
+            const basicInfoCandidate = await miEmpleo.getBasicInfoCandidate();
+            const allCurriculumSelector = await unmejorempleo.MejorEmpleo.curriculumSelectors(
+              basicInfoCandidate
+            );
+            const emailOnejob = await miEmpleo.getEmails(allCurriculumSelector, [], 0);
+            allEmails[jobOffer][index].emails.push(...emailOnejob);
             await miEmpleo.returnVacantesAplicadas();
-            await miEmpleo.gotoReviewApplication(JobOffers[jobOffer].emails);
+            index++;
           }
-          if (!isAlive) {
-            await miEmpleo.returnVacantesAplicadas();
-            // eslint-disable-next-line no-continue
-            continue;
-          }
-          const basicInfoCandidate = await miEmpleo.getBasicInfoCandidate();
-          const allCurriculumSelector = await unmejorempleo.MejorEmpleo.curriculumSelectors(
-            basicInfoCandidate
-          );
-          const emailOnejob = await miEmpleo.getEmails(allCurriculumSelector, [], 0);
-          allEmails[jobOffer].emails.push(...emailOnejob);
-          await miEmpleo.returnVacantesAplicadas();
         }
       }
       // eslint-disable-next-line node/no-unsupported-features/es-syntax

@@ -30,19 +30,19 @@ exports.createBulkUser = (userArray) => {
     });
 };
 
-exports.LoadUsers = async (jobOffer, allData) => {
+exports.LoadUsers = async (jobOffer, dataObj) => {
   const newUsers = [];
   const newUserOffers = [];
   const allCurrentUsers = await this.getAllUsers();
   const allCurrentUserOffer = await UserOfferController.findAllByOffer(jobOffer.id);
-  for (const userData of allData[jobOffer.name].emails) {
+  for (const userData of dataObj.emails) {
     let existUser = false;
     let existUserOffer = false;
     const userObj = { name: userData.name, email: userData.email };
     const userOffer = {
       userEmail: userData.email,
       jobOfferId: jobOffer.id,
-      company: allData[jobOffer.name].company,
+      company: dataObj.company,
     };
     for (const users of allCurrentUsers) {
       if (users.email === userData.email) {

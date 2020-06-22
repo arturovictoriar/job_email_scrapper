@@ -34,12 +34,13 @@ exports.LoadJobOffers = async (jobProvider, jobAccount, objsJobOffer) => {
   for (const data of objsJobOffer) {
     let exists = false;
     const jobOffer = {
-      name: data,
+      name: data.name,
+      link: data.company,
       jobProviderId: jobProvider.id,
       jobAccountEmailId: jobAccount.emailId,
     };
     for (const offers of allCurrentJobOffers) {
-      if (offers.name === data) {
+      if (offers.link === data.company) {
         exists = true;
         break;
       }
@@ -54,9 +55,7 @@ exports.LoadJobOffers = async (jobProvider, jobAccount, objsJobOffer) => {
 exports.getOfferByIds = (jobOffer) => {
   return JobOffer.findOne({
     where: {
-      name: jobOffer.name,
-      jobAccountEmailId: jobOffer.jobAccountEmailId,
-      jobProviderId: jobOffer.jobProviderId,
+      ...jobOffer,
     },
   })
     .then((offerName) => {
