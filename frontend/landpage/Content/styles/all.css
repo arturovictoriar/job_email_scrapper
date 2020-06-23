@@ -1,3 +1,4 @@
+/* Set height page */
 .page-body{
     height:3350px;
     top:0
@@ -8,6 +9,7 @@
     margin:0 auto;
     position:relative
 }
+/* Set the styles to the object in all sections */
 ._389e680c-d055-a037-2fed-1079da36ad0d{
     height:51px;
     left:762px;
@@ -1063,7 +1065,7 @@ body {
     margin:0;
     padding:0
 }
-
+/* Set the nav style */
 header ul {
     list-style-type: none;
     margin: 0;
@@ -1095,7 +1097,7 @@ header {
   z-index: 200;
   margin-bottom: 20px;
 }
-
+/* Set the format of some tag */
 #_f22f14e0-97aa-8cd1-bd2a-642dd935eac9,
 #_6deeb77d-5003-594c-001b-a021d3880b2d {
     padding-top: 50px;

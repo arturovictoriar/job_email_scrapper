@@ -9,7 +9,11 @@ const C = require('../config/sendemail.config');
  * Class SendEmail contact applicants by email
  */
 class SendEmail {
-  // Initialize the nodemailer public variables (objects)
+  /**
+   * Initialize the nodemailer public variables (objects)
+   * @date 2020-06-22
+   * @returns {any}
+   */
   constructor() {
     this.transporter = null;
     this.mailOption = null;
