@@ -1,7 +1,12 @@
 import LinearChart from './content/LinearChart'
-import PieChart from './content/PieChart'
 import SentEmailTable from './content/SentEmailTable'
 
+
+/**
+ * Page Component that renders the charts and the table
+ * @date 2020-06-22
+ * @param {Object} props
+ */
 export default function PageComponent(props) {
   return (
     <div>
@@ -9,7 +14,6 @@ export default function PageComponent(props) {
       <div className="page">
         <div className="page-content container-fluid">
           <LinearChart counter={props.counter}></LinearChart>
-          {/* <PieChart></PieChart> */}
           <SentEmailTable users={props.users} pagination={props.pagination}></SentEmailTable>
         </div>
       </div>

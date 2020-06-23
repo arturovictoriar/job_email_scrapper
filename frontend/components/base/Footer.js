@@ -1,16 +1,15 @@
-import Head from "next/head";
-
-export default function FooterComponent(props) {
+/**
+ * Footer component to visualize the brand
+ * @date 2020-06-22
+ */
+export default function FooterComponent() {
   return (
     <div>
       {/* Footer */}
       <footer className="site-footer">
-
         <div className="site-footer-right">
           Crafted with <i className="red-600 icon md-favorite"></i> by
-        <a href="http://ec2-54-90-206-133.compute-1.amazonaws.com/landing/" target="_blank"
-          >FiveMinutesProblem Team</a
-          >
+        <a href="https://github.com/sebas119/job_email_scrapper" target="_blank"> FiveMinutesProblem Team</a>
         </div>
       </footer>
       {/* Core  */}

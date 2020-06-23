@@ -1,4 +1,9 @@
-export default function PageComponent(props) {
+/**
+ * LinearChart component that render the statistics
+ * @date 2020-06-22
+ * @param {Object} props
+ */
+export default function LinearChart(props) {
   return (
     <div>
       <div className="row" data-plugin="matchHeight" data-by-row="true">
@@ -15,11 +20,6 @@ export default function PageComponent(props) {
                   </div>
                 <span className="float-right grey-700 font-size-30">{props.counter.count.totalUsers}</span>
               </div>
-              {/* <div className="mb-20 grey-500">
-                <i className="icon md-long-arrow-up green-500 font-size-16"></i>
-                  15% From this yesterday
-                </div>
-              <div className="ct-chart h-50"></div> */}
             </div>
           </div>
           {/* End Widget Linearea One */}
@@ -37,11 +37,6 @@ export default function PageComponent(props) {
                   </div>
                 <span className="float-right grey-700 font-size-30">{props.counter.count.totalSentEmails}</span>
               </div>
-              {/* <div className="mb-20 grey-500">
-                <i className="icon md-long-arrow-up green-500 font-size-16"></i>
-                  34.2% From this week
-                </div>
-              <div className="ct-chart h-50"></div> */}
             </div>
           </div>
           {/* End Widget Linearea Two */}
@@ -59,11 +54,6 @@ export default function PageComponent(props) {
                   </div>
                 <span className="float-right grey-700 font-size-30">{props.counter.count.totalJobAccountsScrapped}</span>
               </div>
-              {/* <div className="mb-20 grey-500">
-                <i className="icon md-long-arrow-down red-500 font-size-16"></i>
-                  15% From this yesterday
-                </div>
-              <div className="ct-chart h-50"></div> */}
             </div>
           </div>
           {/* End Widget Linearea Three */}
@@ -81,11 +71,6 @@ export default function PageComponent(props) {
                   </div>
                 <span className="float-right grey-700 font-size-30">{props.counter.count.totalJobProvidersScrapped}</span>
               </div>
-              {/* <div className="mb-20 grey-500">
-                <i className="icon md-long-arrow-up green-500 font-size-16"></i>
-                  18.4% From this yesterday
-                </div>
-              <div className="ct-chart h-50"></div> */}
             </div>
           </div>
           {/* End Widget Linearea Four */}

@@ -9,6 +9,11 @@ import PageContent from '../components/PageContent';
 
 const HOST_API = process.env.HOST_API || 'localhost'
 
+/**
+ * Main function that renders all the components
+ * @date 2020-06-23
+ * @param {Object} props
+ */
 const App = (props) => {
     const [isLoading, setLoading] = useState(false);
     const [count, setCount] = useState({ count: {} })
@@ -56,11 +61,9 @@ const App = (props) => {
                             <td>{userObj.user.name}</td>
                             <td>{userObj.userEmail}</td>
                             <td>{userObj.job_offer.name}</td>
-                            {/* TODO: Check if its a link */}
                             <td>
                                 <a href={userObj.company} type="button" className="btn btn-danger waves-effect waves-light waves-round" target="_blank">
-                                    <i className="icon md-link" aria-hidden="true"></i> Link
-                              </a>
+                                    <i className="icon md-link" aria-hidden="true"></i> Link </a>
                             </td>
 
                             <td>
@@ -113,6 +116,12 @@ const App = (props) => {
     );
 };
 
+/**
+ * getInitialProps makes a request to the backend for info about the last sent emails
+ * @date 2020-06-23
+ * @param {string|number} {query}
+ * @returns {Object} Return an object with the last sent emails to the applicants
+ */
 App.getInitialProps = async ({ query }) => {
     const page = query.page || 1;
     const res = await fetch(`http://${HOST_API}:4000/api/useroffer/${page}`);
