@@ -65,25 +65,27 @@ const main = async () => {
     if (jobOffer) {
       const { vacancy } = jobOffer;
       for (const companyLink in jobOffer.companies) {
-        if (companyLink) {
+        if (companyLink && !jobOffer.companies[companyLink].sentEmail) {
           await sendEmail.setEmails(jobOffer.companies[companyLink].emails);
           const { company, quickApply, explainme, lang } = await getCompanyNameAndLinks(
             companyLink
           );
-          await sendEmail.makeMessage(
-            {
-              company,
-              quickApply,
-              vacancy,
-              explainme,
-            },
-            lang
-          );
-          const sendOk = await sendEmail.sendEmailsToAll();
-          if (sendOk.messageId) {
-            jobOffer.companies[companyLink].sentEmail = true;
+          if (company && quickApply && explainme && lang) {
+            await sendEmail.makeMessage(
+              {
+                company,
+                quickApply,
+                vacancy,
+                explainme,
+              },
+              lang
+            );
+            const sendOk = await sendEmail.sendEmailsToAll();
+            if (sendOk.messageId) {
+              jobOffer.companies[companyLink].sentEmail = true;
+            }
+            idMessage.push(sendOk.messageId);
           }
-          idMessage.push(sendOk.messageId);
         }
       }
     }

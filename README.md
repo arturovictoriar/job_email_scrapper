@@ -19,11 +19,11 @@ Go inside the folder job_email_scrapper:
 
 - cd job_email_scrapper
 
-Run the script installDockerCompose
+Give permissions and run the script installDockerCompose
 
 - chmod u+x installDockerCompose && ./installDockerCompose
 
-Or install Docker and Docker compose
+If you do not have Ubuntu 16, install Docker and Docker-Compose in yor machine
 
 
 ## Usage :open_file_folder:
@@ -36,9 +36,9 @@ Or install Docker and Docker compose
 
 2. Set the "Gmail" credentials in backend/src/config/sendemail.config.js
 
-3. Set the Database credentials in backend/src/config/db.config.js
+3. Set the "Mysql" credentials in backend/src/config/db.config.js
 
-4. Give permission and run the emailScrapperUp file:
+4. Give permissions and run the emailScrapperUp file:
 
 - chmod u+x emailScrapperUp && ./emailScrapperUp
 
@@ -52,10 +52,10 @@ Note: If you want to change the message go to backend/src/util/mail.js funtion "
 
 ## Support :email:
 
-Twitter:
+LinkedIn:
 
-- @arvicrin
-- @sebas119
+- [Arturo Victoria Rincon](https://www.linkedin.com/in/arvicrin/)
+- [Sebastian Lopez Herrera](https://www.linkedin.com/in/sebas119/)
 
 ## Authors and acknowledgment :school:
 
@@ -66,6 +66,10 @@ And thanks to Holberton School that taught the way to learn by ourselves.
 ## License :warning:
 
 :copyright: 2020 All rights reserved.
+
+## Related projects :grey_question:
+
+[Voici d'emploi](https://github.com/GHJ-INC)
 
 ## Project status :white_check_mark:
 
