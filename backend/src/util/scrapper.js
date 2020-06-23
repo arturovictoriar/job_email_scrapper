@@ -1,10 +1,21 @@
+/**
+ * Scrap the emails in "Un mejor empleo" job board account
+ */
+
+// import the class MejorEmpleo and the credentials' account
 const unmejorempleo = require('./unmejorempleo');
 const C = require('../config/scrapper.config');
 
+/**
+ * main: execute the scrapper
+ * @date 2020-06-22
+ * @returns {any} a objet containing the applicants' emails and the name and links of job offers
+ */
 const main = async () => {
   console.log('Working on Un mejor empleo...');
   const miEmpleo = new unmejorempleo.MejorEmpleo();
   try {
+    // start chromiun and log in "un mejor empleo"
     await miEmpleo.startBrowser(true, true, true);
     await miEmpleo.login(C.username, C.password);
     const isAvailable = await miEmpleo.gotoVacantesPublicadas();
@@ -14,6 +25,7 @@ const main = async () => {
 
     let existMorePages = false;
     let allEmailsInfo = {};
+    // get the all non read applies
     do {
       // eslint-disable-next-line prefer-const
       let jobsName = await miEmpleo.getNamesJobs();
@@ -58,7 +70,7 @@ const main = async () => {
     return {};
   }
 };
-
+// export the function
 module.exports = { main };
 
 // Comment this in production

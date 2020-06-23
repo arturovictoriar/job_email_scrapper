@@ -1,6 +1,16 @@
+/**
+ * Save the emails, jobs and links in the database
+ */
+// imports the Database controllers and the credential of email scrapper
 const controllers = require('../controllers');
 const C = require('../config/scrapper.config'); // Replace with environment variable
 
+/**
+ * formatData: change the format of the data recieved
+ * @date 2020-06-22
+ * @param {any} data objects of emails, Job name and Job link
+ * @returns {any} data formated
+ */
 const formatData = (data) => {
   return new Promise((resolve) => {
     const newData = [];
@@ -15,7 +25,12 @@ const formatData = (data) => {
   });
 };
 
-// eslint-disable-next-line no-unused-vars
+/**
+ * unMejorEmpleoSave: save the emails, jobs and links in data base
+ * @date 2020-06-22
+ * @param {any} rawData data from the scraper
+ * @returns {any}
+ */
 const unMejorEmpleoSave = async (rawData) => {
   const providerName = 'Un mejor empleo';
   console.log('Getting Job board');
@@ -41,5 +56,5 @@ const unMejorEmpleoSave = async (rawData) => {
   }
   console.log('Finish unMejorempleoSave Function');
 };
-
+// export the function
 module.exports = { unMejorEmpleoSave };

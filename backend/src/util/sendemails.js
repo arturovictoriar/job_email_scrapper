@@ -1,8 +1,17 @@
+/**
+ * Send a custom email to the applicants
+ */
+// Import class mail, the fetch and controllers methods
 const fetch = require('node-fetch');
-// const jobOfferList = require('./data');
 const Mails = require('./mail');
 const controllers = require('../controllers');
 
+/**
+ * getCompanyNameAndLinks: get the names companies and links from torre API
+ * @date 2020-06-22
+ * @param {any} companyLink company link from "un mejor empleo" job board
+ * @returns {any} the company name, the link from torre job, the torre explanation link and the language
+ */
 async function getCompanyNameAndLinks(companyLink) {
   let nameCompany = '';
   let linkJobTorre = '';
@@ -18,7 +27,7 @@ async function getCompanyNameAndLinks(companyLink) {
     const companyMetaTorreJson = await companyMetaTorre.json();
     linkJobTorre = `https://torre.co/jobs/${companyMetaHolJson.source}`;
     nameCompany = companyMetaTorreJson.organizations[0].name;
-    language = 'es';
+    language = 'es'; // companyMetaTorreJson.languages[0].language.code;
     if (language === 'en') {
       explainLink =
         'https://www.youtube.com/watch?v=6_zBo6EtuWk&list=PLIQS10CfZaEWn1adIi-_loTW9BKbYEtTb&index=3';
@@ -41,6 +50,11 @@ async function getCompanyNameAndLinks(companyLink) {
   };
 }
 
+/**
+ * main: send emails to applicants
+ * @date 2020-06-22
+ * @returns {any} a list of emails sent
+ */
 const main = async () => {
   const sendEmail = new Mails.SendEmail();
   const jobOfferList = await controllers.JobOffer.getAllJobOffers();
@@ -77,7 +91,7 @@ const main = async () => {
   console.log(idMessage, idMessage.length, JSON.stringify(allJobOffers));
   return allJobOffers;
 };
-
+// export the function
 module.exports = { main };
 
 // Comment this in production
