@@ -1,4 +1,10 @@
-export default function PageComponent(props) {
+/**
+ * SentEmailTable Component
+ * @date 2020-06-23
+ * @param {any} props
+ * @returns {any}
+ */
+export default function SentEmailTable(props) {
   return (
     <div>
       <div className="row" data-plugin="matchHeight" data-by-row="true">
@@ -8,7 +14,6 @@ export default function PageComponent(props) {
             <div className="panel-heading">
               <h3 className="panel-title">
                 Last email sent
-                  {/* <span className="badge badge-pill badge-info">5</span> */}
               </h3>
             </div>
             <div className="table-responsive">
@@ -30,15 +35,12 @@ export default function PageComponent(props) {
             <div className="card card-shadow">
               <div className="card-block">
                 {props.pagination}
-
               </div>
             </div>
           </div>
           {/*End Panel Projects Stats*/}
         </div>
-
       </div>
     </div>
-
   )
 }

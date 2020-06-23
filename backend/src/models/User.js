@@ -1,4 +1,10 @@
-/* eslint-disable no-param-reassign */
+/**
+ * User model
+ * @date 2020-06-22
+ * @param {Object} sequelize
+ * @param {Object} DataTypes
+ * @returns {Object}
+ */
 module.exports = (sequelize, DataTypes) => {
   const User = sequelize.define(
     'user',
@@ -15,11 +21,6 @@ module.exports = (sequelize, DataTypes) => {
     },
     {
       hooks: {
-        beforeCreate(user) {
-          user.name = user.name.trim().toLowerCase();
-          user.email = user.email.trim().toLowerCase();
-          return user;
-        },
         beforeBulkCreate(users) {
           for (const user of users) {
             user.name = user.name.trim().toLowerCase();

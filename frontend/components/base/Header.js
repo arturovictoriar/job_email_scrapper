@@ -1,4 +1,7 @@
-
+/**
+ * Header component to visualize the brand
+ * @date 2020-06-22
+ */
 export default function HeaderComponent() {
   return (
     <div>
@@ -43,7 +46,7 @@ export default function HeaderComponent() {
             </ul>
           </div>
           <div className="navbar-brand navbar-brand-center">
-            <a href="http://ec2-54-90-206-133.compute-1.amazonaws.com/landing/" target="_blank">
+            <a href=".">
               <img
                 className="navbar-brand-logo navbar-brand-logo-normal"
                 src="../assets/images/logo-5-minutes-problem.png"

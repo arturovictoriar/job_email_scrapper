@@ -13,15 +13,17 @@ Go to the video bellow to check the working of the project.
 
 ## Installation :floppy_disk:
 
-In linux:
+In Ubuntu 16:
 
 Go inside the folder job_email_scrapper:
 
 - cd job_email_scrapper
 
-Run the script installDockerCompose
+Give permissions and run the script installDockerCompose
 
-- sh config/installDockerCompose
+- chmod u+x installDockerCompose && ./installDockerCompose
+
+If you do not have Ubuntu 16, install Docker and Docker-Compose in yor machine
 
 
 ## Usage :open_file_folder:
@@ -34,15 +36,15 @@ Run the script installDockerCompose
 
 2. Set the "Gmail" credentials in backend/src/config/sendemail.config.js
 
-3. Set the Database credentials in backend/src/config/db.config.js
+3. Set the "Mysql" credentials in backend/src/config/db.config.js
 
-4. Give permission and run the emailScrapperUp file:
+4. Give permissions and run the emailScrapperUp file:
 
-- chmod u+x config/emailScrapperUp && sh config/emailScrapperUp
+- chmod u+x emailScrapperUp && ./emailScrapperUp
 
 5. Monitoring the emails sent in 127.0.0.1:3000 or 0.0.0.0:80
 
-6. Monitoring the API in 127.0.0.1:4000/api/users/{number} or 0.0.0.0:4000/api/users/{number}. Note: the endpoints are /api/countdata, /api/users/{number},
+6. Monitoring the API in 127.0.0.1:4000/api/useroffer/{number} or 0.0.0.0:4000/api/useroffer/{number}. Note: the endpoints are /api/countdata, /api/useroffer/{number},
 
 7. Monitoring the LandPage in 127.0.0.1:80/landing or 0.0.0.0:80/landing
 
@@ -50,10 +52,10 @@ Note: If you want to change the message go to backend/src/util/mail.js funtion "
 
 ## Support :email:
 
-Twitter:
+LinkedIn:
 
-- @arvicrin
-- @sebas119
+- [Arturo Victoria Rincon](https://www.linkedin.com/in/arvicrin/)
+- [Sebastian Lopez Herrera](https://www.linkedin.com/in/sebas119/)
 
 ## Authors and acknowledgment :school:
 
@@ -64,6 +66,10 @@ And thanks to Holberton School that taught the way to learn by ourselves.
 ## License :warning:
 
 :copyright: 2020 All rights reserved.
+
+## Related projects :grey_question:
+
+[Voici d'emploi](https://github.com/GHJ-INC)
 
 ## Project status :white_check_mark:
 

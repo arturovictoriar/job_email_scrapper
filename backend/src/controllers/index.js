@@ -1,3 +1,5 @@
+/* Module that import and export all controllers */
+
 const controllers = {};
 
 controllers.JobProvider = require('./JobProviderController');

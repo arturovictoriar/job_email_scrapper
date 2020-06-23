@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Up email scrapper
+read -p "Enter current Host Name: " HostName
+# Set the hostname
+sed -i "s/ec2-54-90-206-133.compute-1.amazonaws.com/${HostName}/g" frontend/docker/Dockerfile
+sed -i "s/ec2-54-90-206-133.compute-1.amazonaws.com/${HostName}/g" frontend/components/base/Header.js
+sed -i "s/ec2-54-90-206-133.compute-1.amazonaws.com/${HostName}/g" frontend/components/base/Footer.js
+sed -i "s/ec2-54-90-206-133.compute-1.amazonaws.com/${HostName}/g" frontend/landpage/index.html
+# Up email scraper App
+sudo docker-compose up --build -d

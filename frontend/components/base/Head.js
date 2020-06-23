@@ -1,5 +1,9 @@
 import Head from "next/head";
 
+/**
+ * Head Component that loads all the css files
+ * @date 2020-06-22
+ */
 export default function HeadComponent() {
   return (
     <div>
