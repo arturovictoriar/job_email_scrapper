@@ -1,3 +1,5 @@
+/* Credentials of mySQL Database on AWS */
+
 module.exports = {
   HOST: 'email-scrapper-rds-aws.c5uvmtx8cfbv.us-east-1.rds.amazonaws.com',
   USER: 'root',

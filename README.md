@@ -42,7 +42,7 @@ Run the script installDockerCompose
 
 5. Monitoring the emails sent in 127.0.0.1:3000 or 0.0.0.0:80
 
-6. Monitoring the API in 127.0.0.1:4000/api/users/{number} or 0.0.0.0:4000/api/users/{number}. Note: the endpoints are /api/countdata, /api/users/{number},
+6. Monitoring the API in 127.0.0.1:4000/api/useroffer/{number} or 0.0.0.0:4000/api/useroffer/{number}. Note: the endpoints are /api/countdata, /api/useroffer/{number},
 
 7. Monitoring the LandPage in 127.0.0.1:80/landing or 0.0.0.0:80/landing
 

@@ -1,3 +1,10 @@
+/**
+ * Job Offer model
+ * @date 2020-06-22
+ * @param {Object} sequelize
+ * @param {Object} DataTypes
+ * @returns {Object}
+ */
 module.exports = (sequelize, DataTypes) => {
   const JobOffer = sequelize.define('job_offer', {
     id: {
