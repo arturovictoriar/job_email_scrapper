@@ -13,7 +13,7 @@ Go to the video bellow to check the working of the project.
 
 ## Installation :floppy_disk:
 
-In linux:
+In Ubuntu 16:
 
 Go inside the folder job_email_scrapper:
 
@@ -21,7 +21,9 @@ Go inside the folder job_email_scrapper:
 
 Run the script installDockerCompose
 
-- sh config/installDockerCompose
+- chmod u+x installDockerCompose && ./installDockerCompose
+
+Or install Docker and Docker compose
 
 
 ## Usage :open_file_folder:
@@ -38,7 +40,7 @@ Run the script installDockerCompose
 
 4. Give permission and run the emailScrapperUp file:
 
-- chmod u+x config/emailScrapperUp && sh config/emailScrapperUp
+- chmod u+x emailScrapperUp && ./emailScrapperUp
 
 5. Monitoring the emails sent in 127.0.0.1:3000 or 0.0.0.0:80
 
