@@ -1,13 +1,26 @@
+/**
+ * Class SendEmail sends emails to applicants using nodemailer library
+ */
+// Import nodemailer and gmail credentials
 const nodemailer = require('nodemailer');
 const C = require('../config/sendemail.config');
 
+/**
+ * Class SendEmail contact applicants by email
+ */
 class SendEmail {
-  // create reusable transporter object using the default SMTP transport
+  // Initialize the nodemailer public variables (objects)
   constructor() {
     this.transporter = null;
     this.mailOption = null;
   }
 
+  /**
+   * getNoSentCandidates: make a list of applicant who have no been sent a email
+   * @date 2020-06-22
+   * @param {any} offers
+   * @returns {any} a list of emails order by job offer name and company
+   */
   static async getNoSentCandidates(offers) {
     const AllcleanData = [];
     for (const offer of offers) {
@@ -35,6 +48,11 @@ class SendEmail {
     return AllcleanData;
   }
 
+  /**
+   * configureTransporter: set up a SMTP transporter
+   * @date 2020-06-22
+   * @returns {any}
+   */
   async configureTransporter() {
     this.transporter = nodemailer.createTransport({
       service: 'gmail',
@@ -48,18 +66,13 @@ class SendEmail {
       },
     });
   }
-  /* async configureTransporter() {
-    this.transporter = nodemailer.createTransport({
-      host: 'smtp.ethereal.email',
-      port: 587,
-      secure: false, // true for 465, false for other ports
-      auth: {
-        user: C.user, // generated ethereal user
-        pass: C.pass, // generated ethereal password
-      },
-    });
-  } */
 
+  /**
+   * setEmails: save the email in the transporter
+   * @date 2020-06-22
+   * @param {any} emails=[] emails to be sent
+   * @returns {any}
+   */
   async setEmails(emails = []) {
     let emailsToSend = '';
     if (emails.includes('luis@torre.co')) {
@@ -80,6 +93,13 @@ class SendEmail {
     };
   }
 
+  /**
+   * makeMessage: build a custom message
+   * @date 2020-06-22
+   * @param {any} jobInfo={} torre vacancy and links
+   * @param {any} lang language
+   * @returns {any}
+   */
   async makeMessage(jobInfo = {}, lang) {
     if (jobInfo) {
       if (lang === 'en') {
@@ -105,7 +125,11 @@ class SendEmail {
     }
   }
 
-  // send mail with defined transport object
+  /**
+   * sendEmailsToAll: send emails
+   * @date 2020-06-22
+   * @returns {any} return the info of the message sent
+   */
   async sendEmailsToAll() {
     const info = this.transporter.sendMail(this.mailOption).catch(() => {
       return false;
@@ -113,5 +137,5 @@ class SendEmail {
     return info;
   }
 }
-
+// export the class
 module.exports = { SendEmail };

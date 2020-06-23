@@ -1,6 +1,6 @@
-/* 
-  Class MejorEmpleo scraps emails in "un mejor empleo" job board using node js and puppeter
-*/
+/**
+ * Class MejorEmpleo scraps emails in "un mejor empleo" job board using node js and puppeter
+ */
 
 // Import puppeter library which simulate human interaction
 const puppeteer = require('puppeteer');
@@ -16,22 +16,29 @@ const REVIEW_APLICACIONES =
 const RETURN_VACANTES =
   'body > div.container.resultados > div > div > section > article > div.row > div > button:nth-child(2)';
 
-// Class MejorEmpleo scraps emails in "un mejor empleo" job board
+/**
+ * Class MejorEmpleo scraps emails in "un mejor empleo" job board
+ */
 class MejorEmpleo {
-  // Set the puppeter public variables (objects)
+  /**
+   * Initialize the puppeter public variables (objects)
+   * @date 2020-06-22
+   * @returns {any}
+   */
   constructor() {
     this.browser = null;
     this.page = null;
     this.pageCurriculum = null;
   }
 
-  /*
-  Method startBrowser: Inicialize a chromiun browser and a page with puppeter
-  showBrowser: true if you want to check the process otherwise false (boolean)
-  showDevTools: true if you want to inspect the page otherwise false (boolean)
-  isDeploy: true in production to not use the grafic card otherwise false (boolean)
-  */
-
+  /**
+   * startBrowser: Initialize a chromiun browser and a page with puppeter
+   * @date 2020-06-22
+   * @param {any} showBrowser=false. true if you want to check the process otherwise false (boolean)
+   * @param {any} showDevTools=false. true if you want to inspect the page otherwise false (boolean)
+   * @param {any} isDeploy=true. true in production to not use the grafic card otherwise false (boolean)
+   * @returns {any}
+   */
   async startBrowser(showBrowser = false, showDevTools = false, isDeploy = true) {
     const options = [
       '--no-sandbox',
@@ -51,20 +58,22 @@ class MejorEmpleo {
     this.page.setViewport({ width: 1366, height: 768 });
   }
 
-  /*
-  Method closeBrowser: close the chromiun browser 
-  */
-
+  /**
+   * closeBrowser: close the chromiun browser
+   * @date 2020-06-22
+   * @returns {any}
+   */
   async closeBrowser() {
     this.browser.close();
   }
 
-  /*
-  Method login: log in into "un mejor empleo" account
-  username: user credential of "un mejor empleo" account (string)
-  password: password credential of "un mejor empleo" account (string)
-  */
-
+  /**
+   * login: log in into "un mejor empleo" account
+   * @date 2020-06-22
+   * @param {any} username user credential of "un mejor empleo" account (string)
+   * @param {any} password password credential of "un mejor empleo" account (string)
+   * @returns {any}
+   */
   async login(username, password) {
     await this.page.goto(BASE_URL, { waitUntil: 'networkidle2' });
     await this.page.type('#form_login > div:nth-child(1) > input', username, { delay: 50 });
@@ -76,10 +85,11 @@ class MejorEmpleo {
     );
   }
 
-  /*
-  Method getNamesJobs: Get the Job Name and URL using HTML selectors
-  */
-
+  /**
+   * getNamesJobs: Get the Job Name and URL using HTML selectors
+   * @date 2020-06-22
+   * @returns {any} a list of objects containing names and links job Offers
+   */
   async getNamesJobs() {
     const result = await this.page.evaluate(() => {
       const rows = document.querySelectorAll(
@@ -105,11 +115,12 @@ class MejorEmpleo {
     return result;
   }
 
-  /*
-  Method appendSelectorNameJobs: create an object to organize the emails applicants by link and name Jobs
-  nameJobsDic: Names and Links Jobs List
-  */
-
+  /**
+   * appendSelectorNameJobs: create an object to organize the emails applicants by link and name Jobs
+   * @date 2020-06-22
+   * @param {any} nameJobsDic Names and Links Jobs List
+   * @returns {any} Object of objects containing name, link and selector of the applicants' job
+   */
   static async appendSelectorNameJobs(nameJobsDic) {
     const nameJobs = Object.keys(nameJobsDic);
     const jobOffers = {};
@@ -129,10 +140,11 @@ class MejorEmpleo {
     return jobOffers;
   }
 
-  /*
-  Method gotoVacantesPublicadas: go into the Job Offers published
-  */
-
+  /**
+   * gotoVacantesPublicadas: go into the Job Offers published
+   * @date 2020-06-22
+   * @returns {any} Ok on success otherwise undefined
+   */
   async gotoVacantesPublicadas() {
     let isDead = false;
     await this.page.click(VACANTES_PUBLICADAS, { waitUntil: 'networkidle2' });
@@ -145,10 +157,12 @@ class MejorEmpleo {
     return 'Ok';
   }
 
-  /*
-  Method gotoReviewApplication: go into the Job Offers published
-  */
-
+  /**
+   * gotoReviewApplication: go into the Job Offer published
+   * @date 2020-06-22
+   * @param {any} REVIEWAPLICACIONES Job Offer selector
+   * @returns {any} Ok on success otherwise undefined
+   */
   async gotoReviewApplication(REVIEWAPLICACIONES) {
     await this.page.waitForSelector(REVIEWAPLICACIONES);
     await this.page.click(REVIEWAPLICACIONES, { waitUntil: 'networkidle2' });
@@ -166,11 +180,21 @@ class MejorEmpleo {
     return 'Ok';
   }
 
+  /**
+   * returnVacantesAplicadas: go back to applicants list
+   * @date 2020-06-22
+   * @returns {any}
+   */
   async returnVacantesAplicadas() {
     await this.page.waitForSelector(RETURN_VACANTES);
     await this.page.goBack();
   }
 
+  /**
+   * getBasicInfoCandidate: get
+   * @date 2020-06-22
+   * @returns {any} name, gendre, state, age, date, read and link curriculum
+   */
   async getBasicInfoCandidate() {
     const result = await this.page.evaluate(() => {
       const rows = document.querySelectorAll(
@@ -192,6 +216,12 @@ class MejorEmpleo {
     return result;
   }
 
+  /**
+   * curriculumSelectors: get the curriculum whose candidate have no been scraped
+   * @date 2020-06-22
+   * @param {any} result all applicants' curriculums
+   * @returns {any} candidates have no been scraped
+   */
   static async curriculumSelectors(result) {
     const allCurriculumSelectors = [];
     result.forEach((item) => {
@@ -202,6 +232,13 @@ class MejorEmpleo {
     return allCurriculumSelectors;
   }
 
+  /**
+   * gotoCurriculum: go to the curriculum's applicant link
+   * @date 2020-06-22
+   * @param {any} allCurriculumSelectors list of all applicants' curriculums have no been scraped
+   * @param {any} index determinate the applicant in the list
+   * @returns {any}
+   */
   async gotoCurriculum(allCurriculumSelectors, index) {
     const candidateCurrriculumLink = allCurriculumSelectors[index].email;
     const selectorCorreo = 'body > div > div:nth-child(2) > div.col-xs-12.col-md-6.text-left > h4';
@@ -212,6 +249,11 @@ class MejorEmpleo {
     await this.pageCurriculum.waitForSelector(selectorCorreo);
   }
 
+  /**
+   * getOneEmail: get the applicant's email
+   * @date 2020-06-22
+   * @returns {any} applicant's email
+   */
   async getOneEmail() {
     const selectorCorreo = 'body > div > div > div > div.dato_borde';
     const email = await this.pageCurriculum.evaluate((selectorCorreo) => {
@@ -226,10 +268,23 @@ class MejorEmpleo {
     return email;
   }
 
+  /**
+   * goBackCandidate: return to the list of applicants
+   * @date 2020-06-22
+   * @returns {any}
+   */
   async goBackCandidate() {
     await this.pageCurriculum.close();
   }
 
+  /**
+   * getEmails: get all applicants' emails of a job offer recursively
+   * @date 2020-06-22
+   * @param {any} allCurriculumSelectors list of all applicants' curriculums have no been scraped
+   * @param {any} emails all the applicants' emails
+   * @param {any} index determinate the applicant in the list
+   * @returns {any} a list of emails
+   */
   async getEmails(allCurriculumSelectors, emails, index) {
     if (index >= allCurriculumSelectors.length) {
       return emails;
@@ -246,6 +301,11 @@ class MejorEmpleo {
     return this.getEmails(allCurriculumSelectors, emails, index + 1);
   }
 
+  /**
+   * getPagesVacancies: check if exist a nex page of job offers
+   * @date 2020-06-22
+   * @returns {any} a number on succes otherwise undefined
+   */
   async getPagesVacancies() {
     const selectorPagesVacancies =
       'body > div.container > div.white-container > div > section > article > div:nth-child(6) > div > ul > li';
@@ -274,6 +334,12 @@ class MejorEmpleo {
     return pages;
   }
 
+  /**
+   * changePageVacancies: go to the next page of job offers
+   * @date 2020-06-22
+   * @param {any} nextPage number of the next page
+   * @returns {any} Ok on success otherwise undefined
+   */
   async changePageVacancies(nextPage) {
     const selectorNextPage = `body > div.container > div.white-container > div > section > article > div:nth-child(6) > div > ul > li:nth-child(${nextPage}) > a`;
     let isDead = false;
@@ -287,6 +353,11 @@ class MejorEmpleo {
     return 'Ok';
   }
 
+  /**
+   * morePageVacancies: check if are there more pages of job offers
+   * @date 2020-06-22
+   * @returns {any} true on succes otherwise false
+   */
   async morePageVacancies() {
     const nextPageChild = await this.getPagesVacancies();
     let changePageOk;
@@ -299,5 +370,5 @@ class MejorEmpleo {
     return false;
   }
 }
-
+// export the class
 module.exports = { MejorEmpleo };
