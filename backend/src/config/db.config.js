@@ -1,10 +1,10 @@
 /* Credentials of mySQL Database on AWS */
 
 module.exports = {
-  HOST: 'email-scrapper-rds-aws.c5uvmtx8cfbv.us-east-1.rds.amazonaws.com',
-  USER: 'root',
-  PASSWORD: 'holberton',
-  DB: 'un_mejor_empleo_test',
+  HOST: '',
+  USER: '',
+  PASSWORD: '',
+  DB: '',
   dialect: 'mysql',
   pool: {
     max: 5,
