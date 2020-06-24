@@ -31,7 +31,7 @@ services:
     image: nginx:alpine
     container_name: web_server_nginx
     volumes:
-      - ./config/nginx.dev.conf:/etc/nginx/nginx.conf
+      - ./backend/src/config/nginx/nginx.dev.conf:/etc/nginx/nginx.conf
       - ./frontend/landpage:/srv
     ports:
       - 80:80
