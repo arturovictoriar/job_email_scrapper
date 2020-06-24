@@ -78,8 +78,8 @@ class SendEmail {
    * @returns {any}
    */
   async setEmails(emails = []) {
-    let emailsToSend = '';
-    if (emails.includes('luis@torre.co')) {
+    const emailsToSend = emails.join();
+    /* if (emails.includes('luis@torre.co')) {
       emailsToSend = 'luis@torre.co';
     } else if (emails.includes('arvichan@hotmail.com')) {
       emailsToSend = 'arvichan@hotmail.com';
@@ -87,10 +87,9 @@ class SendEmail {
       emailsToSend = 'sebas969696@hotmail.com';
     } else {
       emailsToSend = '';
-    }
+    } */
     this.mailOption = {
       from: 'Torre recruiters', // sender address
-      // bcc: emails.join(),
       bcc: emailsToSend, // list of receivers
       subject: '', // Subject line
       html: '', // html text body
