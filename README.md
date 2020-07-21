@@ -1,5 +1,7 @@
 # EmailScrapper
 
+# ![EmailScrapper](frontend\public\assets\images\emailscraper_readme.png)
+
 ## Description :book:
 
 Email Scrapper service scraps recruiters' accounts from job boards like "Un mejor empleo" every 10 minutes and get the email addresses of the applicants to the offers published by those accounts. Once the applicants' emails have been obtained, the app will send a custom message, by email, with the following steps to the job application.
@@ -55,7 +57,7 @@ Note: If you want to change the message go to backend/src/util/mail.js funtion "
 LinkedIn:
 
 - [Arturo Victoria Rincon](https://www.linkedin.com/in/arvicrin/)
-- [Sebastian Lopez Herrera](https://www.linkedin.com/in/sebas119/)
+- [Sebastian Lopez Herrera](https://www.linkedin.com/in/sebaslherrera/)
 
 ## Authors and acknowledgment :school:
 
@@ -78,4 +80,4 @@ This project just automate the process to contact a job applicants from "Un mejo
 ## Author :black_nib:
 
 * __Arturo Victoria Rincon__ <[arvicrin](https://github.com/arvicrin)>
-* __Sebastian Lopez Herrera__ <[sebas119](https://github.com/sebas119)>
+* __Sebastian Lopez Herrera__ <[sebaslherrera](https://github.com/sebaslherrera)>
