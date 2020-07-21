@@ -1,6 +1,6 @@
 # EmailScrapper
 
-# ![EmailScrapper](frontend\public\assets\images\emailscraper_readme.png)
+# ![EmailScrapper](frontend/public/assets/images/emailscraper_readme.png)
 
 ## Description :book:
 
